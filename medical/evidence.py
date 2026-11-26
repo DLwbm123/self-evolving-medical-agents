@@ -123,3 +123,125 @@ def command_step(world, state, command, *, checks=None):
     else:
         action = Action("invalid")
     return evidence_step(world, state, action, checks=checks)
+
+
+# A layout is the ordered pair of absolute pointers (qualified, damaged) in
+# the focus field. The reserved pairs are e1/e2, e3/e4, ... in either order.
+DEFECTS = ("time_window", "encounter_match", "unit_supported")
+PANELS = ("train", "iid", "age", "encounter", "unit", "pointer")
+
+
+def evidence_panel(panel):
+    """Yield matched synthetic worlds and private scoring metadata in stable order."""
+    if panel not in PANELS:
+        raise ValueError(f"unknown panel {panel!r}")
+    case = 0
+    for calc in FIELDS:
+        for focus in range(2):
+            for mask in range(1, 8):
+                for n in (2, 3, 4):
+                    for good in range(2*n):
+                        for bad in range(2*n):
+                            if good // 2 == bad // 2:
+                                continue
+                            case += 1
+                            if panel == "unit" and calc != "6":
+                                continue
+                            rng = Random(case + (100000 if panel == "train" else 200000))
+                            yield _panel_world(panel, case, calc, focus, mask, n, good, bad, rng)
+
+
+def _panel_world(panel, case, calc, focus, mask, n, good, bad, rng):
+    # Internally use zero-based pointer indices. Reserve the good pointer's
+    # mate in the other field. Make the other field's good mate ineligible
+    # as a same-field candidate too, so no training binding leaks this layout.
+    mate = good ^ 1
+    slots = [p for p in range(2*n) if p not in (good, bad, mate)]
+    rng.shuffle(slots)
+    focus_slots = [good, bad, *slots[:n-2]]
+    other_slots = [mate, *slots[n-2:]]
+    other_good = rng.choice([p for p in other_slots if (p ^ 1) in focus_slots])
+    other_slots.remove(other_good)
+    other_slots.insert(0, other_good)
+    if panel == "pointer":
+        focus_slots[1] = mate
+        other_slots[other_slots.index(mate)] = bad
+
+    ids = rng.sample(range(2**42), 2)
+    current, different = [f"{v:013d}" if panel != "encounter" else f"{v:011x}" for v in ids]
+    day = rng.randint(100, 9999)
+    equal = bool(rng.getrandbits(1))
+    pounds = rng.randint(110, 210)
+    weight_unit = rng.choice(("kg", "lb"))
+    weight = Decimal(pounds) * Decimal(WEIGHT["lb"]) if weight_unit == "lb" else Decimal(rng.randint(50, 95))
+    height = Decimal(3*rng.randint(20, 25)) * Decimal(HEIGHT["in"])
+    height_unit = rng.choice(("m", "ft"))
+    alternate_height = rng.choice(("cm", "in"))
+    if calc == "6":
+        physical = (weight, height)
+        units = ("g", alternate_height) if panel == "unit" else (weight_unit, height_unit)
+    else:
+        physical = tuple(map(Decimal, (rng.randint(105, 169), rng.randint(60, 89))))
+        units = ("mmHg", "mmHg")
+
+    rows = []
+    good_pointers = {}
+    for i, field in enumerate(FIELDS[calc]):
+        positions = focus_slots if i == focus else other_slots
+        good_pointers[field] = f"e{positions[0]+1}"
+        for rank, position in enumerate(positions):
+            random_mask = rng.randint(1, 7)
+            defects = 0 if rank == 0 else (mask if i == focus and rank == 1 else random_mask)
+            # Draw the same random variates in every matched rendering.
+            age_draw = rng.randrange(60)
+            if defects & 1:
+                age = ((8, 30) if panel == "age" else (9, 14))[age_draw % 2]
+            else:
+                ages = (1, 2, 4, 6, 7) if panel == "age" else (0, 3, 5)
+                age = ages[age_draw % len(ages)]
+            unit = None if defects & 4 else units[i]
+            factor = Decimal(UNITS[field].get(unit, "1"))
+            # A dimensionless proportional offset preserves exact conversion for
+            # all supported encodings and does not give errors a fixed sign.
+            delta = rng.choice(("-0.2", "0.2"))
+            value = physical[i]
+            if rank and not equal:
+                value *= 1 + Decimal(delta)
+            rows.append(Record(f"e{position+1}", field, value / factor, unit,
+                               different if defects & 2 else current, day-age))
+    rng.shuffle(rows)
+    w = EvidenceWorld(calc, tuple(rows), current, day, 7)
+    key = dict(case=case, focus=FIELDS[calc][focus], faults=[flag for k, flag in enumerate(DEFECTS)
+               if mask & (1 << k)], good=good_pointers, bad=f"e{focus_slots[1]+1}",
+               equal=equal, answer=str(calculate(calc, *physical)))
+    return w, key
+
+
+def decision_states(world, key):
+    """Eight command targets per world. Only the observation is model input."""
+    state = State(world.budget)
+    for field in FIELDS[world.calculator]:
+        for role, command in (("query", f"QUERY {field}"), ("bind", f"BIND {field} {key['good'][field]}")):
+            yield role, observe(world, state), command
+            state, _, _ = command_step(world, state, command)
+    yield "natural", observe(world, state), "CALCULATE"
+    field = key["focus"]
+    correct = f"BIND {field} {key['good'][field]}"
+    for role, bind, target in (("paired_clean", correct, "CALCULATE"),
+                               ("paired_bad", f"BIND {field} {key['bad']}", correct)):
+        side, _, _ = command_step(world, state, bind)
+        yield role, observe(world, side), target
+    end, _, _ = command_step(world, state, "CALCULATE")
+    yield "submit", observe(world, end), "SUBMIT"
+
+
+def read_evidence_panel(path):
+    """Read a published JSONL shard into executable worlds and separate keys."""
+    import gzip
+
+    with gzip.open(path, "rt", encoding="utf-8") as source:
+        for line in source:
+            row = json.loads(line)
+            spec = row["world"]
+            records = tuple(Record(**dict(r, value=Decimal(r["value"]))) for r in spec["records"])
+            yield EvidenceWorld(**dict(spec, records=records)), row["key"]

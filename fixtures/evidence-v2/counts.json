@@ -1,0 +1,80 @@
+{
+  "age": {
+    "by_designated_defect": {
+      "encounter_match": 320,
+      "encounter_match+unit_supported": 320,
+      "time_window": 320,
+      "time_window+encounter_match": 320,
+      "time_window+encounter_match+unit_supported": 320,
+      "time_window+unit_supported": 320,
+      "unit_supported": 320
+    },
+    "decisions": 17920,
+    "worlds": 2240
+  },
+  "encounter": {
+    "by_designated_defect": {
+      "encounter_match": 320,
+      "encounter_match+unit_supported": 320,
+      "time_window": 320,
+      "time_window+encounter_match": 320,
+      "time_window+encounter_match+unit_supported": 320,
+      "time_window+unit_supported": 320,
+      "unit_supported": 320
+    },
+    "decisions": 17920,
+    "worlds": 2240
+  },
+  "iid": {
+    "by_designated_defect": {
+      "encounter_match": 320,
+      "encounter_match+unit_supported": 320,
+      "time_window": 320,
+      "time_window+encounter_match": 320,
+      "time_window+encounter_match+unit_supported": 320,
+      "time_window+unit_supported": 320,
+      "unit_supported": 320
+    },
+    "decisions": 17920,
+    "worlds": 2240
+  },
+  "pointer": {
+    "by_designated_defect": {
+      "encounter_match": 320,
+      "encounter_match+unit_supported": 320,
+      "time_window": 320,
+      "time_window+encounter_match": 320,
+      "time_window+encounter_match+unit_supported": 320,
+      "time_window+unit_supported": 320,
+      "unit_supported": 320
+    },
+    "decisions": 17920,
+    "worlds": 2240
+  },
+  "train": {
+    "by_designated_defect": {
+      "encounter_match": 320,
+      "encounter_match+unit_supported": 320,
+      "time_window": 320,
+      "time_window+encounter_match": 320,
+      "time_window+encounter_match+unit_supported": 320,
+      "time_window+unit_supported": 320,
+      "unit_supported": 320
+    },
+    "decisions": 17920,
+    "worlds": 2240
+  },
+  "unit": {
+    "by_designated_defect": {
+      "encounter_match": 160,
+      "encounter_match+unit_supported": 160,
+      "time_window": 160,
+      "time_window+encounter_match": 160,
+      "time_window+encounter_match+unit_supported": 160,
+      "time_window+unit_supported": 160,
+      "unit_supported": 160
+    },
+    "decisions": 8960,
+    "worlds": 1120
+  }
+}

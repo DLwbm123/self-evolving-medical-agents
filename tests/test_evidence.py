@@ -38,3 +38,22 @@ class EvidenceTests(unittest.TestCase):
             left,right=json.loads(observe(w,a)),json.loads(observe(w,b))
             self.assertNotEqual(left.pop('bindings'),right.pop('bindings'))
             self.assertEqual(left,right)
+
+    def test_published_panel_replays_natural_and_matched_decisions(self):
+        import json
+        from pathlib import Path
+        from medical.evidence import PANELS, decision_states, read_evidence_panel
+        fixtures = Path(__file__).resolve().parents[1] / "fixtures" / "evidence-v2"
+        for panel in PANELS:
+            world, key = next(read_evidence_panel(fixtures / f"{panel}.jsonl.gz"))
+            decisions = {role: (json.loads(prompt), target)
+                         for role, prompt, target in decision_states(world, key)}
+            natural, _ = decisions["natural"]
+            clean, next_clean = decisions["paired_clean"]
+            bad, repair = decisions["paired_bad"]
+            self.assertEqual(natural["remaining"], clean["remaining"] + 1)
+            self.assertEqual(natural["bindings"], clean["bindings"])
+            self.assertEqual(next_clean, "CALCULATE")
+            self.assertEqual(repair, f"BIND {key['focus']} {key['good'][key['focus']]}")
+            self.assertNotEqual(clean.pop("bindings"), bad.pop("bindings"))
+            self.assertEqual(clean, bad)
