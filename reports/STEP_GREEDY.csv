@@ -1,0 +1,865 @@
+recovery,mode,seed,case,success,action_types
+0,fixed,0,11/MAP-1,1,query bind query bind bind calculate finish
+0,fixed,0,11/MAP-2,1,query bind query bind calculate finish
+0,fixed,0,11/MAP-3,0,query bind query bind bind bind bind bind bind
+0,fixed,0,11/MAP-4,1,query bind query bind calculate bind calculate bind finish
+0,fixed,0,11/MAP-5,0,query bind query bind calculate calculate calculate calculate calculate
+0,fixed,0,11/MAP-6,0,query bind query bind calculate calculate calculate calculate calculate
+0,fixed,0,11/BMI-1,1,query bind calculate query bind calculate finish
+0,fixed,0,11/BMI-2,1,query bind calculate query bind calculate finish
+0,fixed,0,11/BMI-3,0,query bind query calculate query calculate query calculate query
+0,fixed,0,11/BMI-4,0,query bind query bind query bind query bind query
+0,fixed,0,11/BMI-5,0,query bind calculate query bind calculate calculate calculate calculate
+0,fixed,0,11/BMI-6,1,query bind query bind bind calculate finish
+0,fixed,0,12/MAP-1,1,query bind query bind calculate finish
+0,fixed,0,12/MAP-2,1,query bind query bind calculate bind calculate query finish
+0,fixed,0,12/MAP-3,1,query bind query bind calculate finish
+0,fixed,0,12/MAP-4,1,query bind query bind calculate finish
+0,fixed,0,12/MAP-5,0,query bind query bind calculate calculate calculate calculate calculate
+0,fixed,0,12/MAP-6,0,query query bind bind bind bind bind bind bind
+0,fixed,0,12/BMI-1,1,query bind query bind calculate calculate finish
+0,fixed,0,12/BMI-2,1,query bind query bind calculate finish
+0,fixed,0,12/BMI-3,1,query bind query bind calculate finish
+0,fixed,0,12/BMI-4,1,query bind query bind calculate finish
+0,fixed,0,12/BMI-5,1,query bind query bind calculate finish
+0,fixed,0,12/BMI-6,0,query bind query bind calculate calculate calculate calculate calculate
+0,fixed,0,13/MAP-1,1,query bind query bind calculate finish
+0,fixed,0,13/MAP-2,1,query bind query bind calculate bind calculate finish
+0,fixed,0,13/MAP-3,0,query bind query bind calculate calculate calculate calculate calculate
+0,fixed,0,13/MAP-4,1,query bind query bind calculate finish
+0,fixed,0,13/MAP-5,0,query bind query calculate query calculate query calculate query
+0,fixed,0,13/MAP-6,1,query query bind bind calculate finish
+0,fixed,0,13/BMI-1,0,query bind bind bind bind bind bind bind bind
+0,fixed,0,13/BMI-2,1,query bind query bind bind calculate finish
+0,fixed,0,13/BMI-3,1,query bind query bind bind calculate finish
+0,fixed,0,13/BMI-4,0,query bind calculate query query query query query query
+0,fixed,0,13/BMI-5,1,query bind query bind calculate finish
+0,fixed,0,13/BMI-6,1,query bind query bind calculate finish
+0,fixed,1,11/MAP-1,0,query bind query query query query query query query
+0,fixed,1,11/MAP-2,0,query query query query query query query query query
+0,fixed,1,11/MAP-3,0,query bind query query query query query query query
+0,fixed,1,11/MAP-4,0,query bind bind query calculate calculate calculate calculate calculate
+0,fixed,1,11/MAP-5,0,query bind query bind query query query query query
+0,fixed,1,11/MAP-6,0,query bind query bind calculate query bind calculate query
+0,fixed,1,11/BMI-1,0,query bind bind query calculate bind query bind calculate
+0,fixed,1,11/BMI-2,0,query bind bind query bind query bind bind bind
+0,fixed,1,11/BMI-3,0,query bind query bind query bind query bind query
+0,fixed,1,11/BMI-4,0,query bind query bind query bind query bind query
+0,fixed,1,11/BMI-5,0,query bind bind query bind calculate calculate calculate calculate
+0,fixed,1,11/BMI-6,0,query query query query query calculate query bind bind
+0,fixed,1,12/MAP-1,0,query bind query bind query bind query bind query
+0,fixed,1,12/MAP-2,1,query bind query bind query bind calculate finish
+0,fixed,1,12/MAP-3,0,query bind query calculate query bind query calculate query
+0,fixed,1,12/MAP-4,0,query bind query query calculate query bind bind bind
+0,fixed,1,12/MAP-5,0,query bind query query bind bind query bind query
+0,fixed,1,12/MAP-6,0,query bind query bind query bind query bind query
+0,fixed,1,12/BMI-1,0,query calculate query calculate query calculate query calculate query
+0,fixed,1,12/BMI-2,0,query bind calculate query bind bind query query bind
+0,fixed,1,12/BMI-3,0,query bind query calculate bind query bind calculate query
+0,fixed,1,12/BMI-4,0,query bind query bind query bind query bind query
+0,fixed,1,12/BMI-5,0,query bind query bind query bind bind bind bind
+0,fixed,1,12/BMI-6,0,query bind query bind query bind query bind query
+0,fixed,1,13/MAP-1,0,query bind query bind query bind query bind query
+0,fixed,1,13/MAP-2,0,query bind query bind bind bind bind bind bind
+0,fixed,1,13/MAP-3,0,query bind bind bind bind bind bind bind bind
+0,fixed,1,13/MAP-4,0,query bind bind bind bind bind bind bind bind
+0,fixed,1,13/MAP-5,0,query bind query bind query bind query bind query
+0,fixed,1,13/MAP-6,0,query bind query bind query query query query query
+0,fixed,1,13/BMI-1,0,query bind query query query query bind bind query
+0,fixed,1,13/BMI-2,0,query bind query bind query bind query bind query
+0,fixed,1,13/BMI-3,0,query bind query query bind bind bind bind bind
+0,fixed,1,13/BMI-4,0,query bind bind query query query query query query
+0,fixed,1,13/BMI-5,1,query bind query bind query bind calculate finish
+0,fixed,1,13/BMI-6,0,query bind query bind query bind query bind query
+0,fixed,2,11/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,fixed,2,11/MAP-2,0,query query query query query query query query query
+0,fixed,2,11/MAP-3,0,query bind query bind bind bind bind bind bind
+0,fixed,2,11/MAP-4,1,query bind query bind calculate finish
+0,fixed,2,11/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,fixed,2,11/MAP-6,0,query bind query bind query bind bind query bind
+0,fixed,2,11/BMI-1,0,query bind query bind query bind query bind query
+0,fixed,2,11/BMI-2,0,query bind query bind query bind query bind query
+0,fixed,2,11/BMI-3,0,query bind query bind calculate query bind bind bind
+0,fixed,2,11/BMI-4,0,query bind query bind query bind query bind query
+0,fixed,2,11/BMI-5,0,query bind query bind query bind query bind query
+0,fixed,2,11/BMI-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,fixed,2,12/MAP-1,0,query bind query bind query bind query bind query
+0,fixed,2,12/MAP-2,0,query bind query bind bind bind bind query calculate
+0,fixed,2,12/MAP-3,0,query bind calculate query bind calculate query bind calculate
+0,fixed,2,12/MAP-4,0,query bind query bind query bind bind bind bind
+0,fixed,2,12/MAP-5,0,query bind query bind bind bind bind bind bind
+0,fixed,2,12/MAP-6,0,query query bind bind bind bind bind bind query
+0,fixed,2,12/BMI-1,0,query query bind bind bind bind bind bind bind
+0,fixed,2,12/BMI-2,0,query bind query query query query query query query
+0,fixed,2,12/BMI-3,0,query bind query bind query bind query calculate bind
+0,fixed,2,12/BMI-4,0,query query bind calculate bind query bind calculate bind
+0,fixed,2,12/BMI-5,0,query query query query query query query query query
+0,fixed,2,12/BMI-6,0,query bind query bind query bind query bind query
+0,fixed,2,13/MAP-1,0,query bind query bind bind query bind query bind
+0,fixed,2,13/MAP-2,0,query bind query bind calculate bind query bind query
+0,fixed,2,13/MAP-3,0,query bind bind bind bind query query query bind
+0,fixed,2,13/MAP-4,0,query bind bind bind bind query query bind bind
+0,fixed,2,13/MAP-5,0,query bind query bind query bind query bind query
+0,fixed,2,13/MAP-6,0,query query query bind bind bind query bind bind
+0,fixed,2,13/BMI-1,0,query bind query bind query bind query bind query
+0,fixed,2,13/BMI-2,0,query query query query query query query query query
+0,fixed,2,13/BMI-3,0,query bind query bind query bind query bind query
+0,fixed,2,13/BMI-4,0,query bind query bind query bind query bind query
+0,fixed,2,13/BMI-5,0,query query query query query query query query query
+0,fixed,2,13/BMI-6,0,query bind query bind query bind calculate bind bind
+0,hidden,0,11/MAP-1,0,query bind bind query bind query bind query bind
+0,hidden,0,11/MAP-2,0,query bind query bind query bind query bind bind
+0,hidden,0,11/MAP-3,0,query bind query bind bind bind bind bind bind
+0,hidden,0,11/MAP-4,0,query bind query query bind bind bind bind bind
+0,hidden,0,11/MAP-5,0,query bind bind query bind query bind query bind
+0,hidden,0,11/MAP-6,0,query bind query bind bind bind bind bind bind
+0,hidden,0,11/BMI-1,0,query bind query bind query bind query bind query
+0,hidden,0,11/BMI-2,0,query bind query bind query bind query bind query
+0,hidden,0,11/BMI-3,0,query bind bind bind bind bind bind bind bind
+0,hidden,0,11/BMI-4,0,query bind calculate bind query bind bind query bind
+0,hidden,0,11/BMI-5,0,query bind query bind query bind query bind query
+0,hidden,0,11/BMI-6,0,query query query query query query query query query
+0,hidden,0,12/MAP-1,0,query bind query bind query bind query bind query
+0,hidden,0,12/MAP-2,0,query bind query bind query bind query bind query
+0,hidden,0,12/MAP-3,0,query bind bind bind query bind bind query bind
+0,hidden,0,12/MAP-4,0,query bind query calculate query calculate query calculate query
+0,hidden,0,12/MAP-5,0,query bind bind query bind query bind query bind
+0,hidden,0,12/MAP-6,0,query bind query bind bind bind bind bind bind
+0,hidden,0,12/BMI-1,0,query bind query bind bind bind bind bind bind
+0,hidden,0,12/BMI-2,0,query bind query bind calculate calculate calculate calculate calculate
+0,hidden,0,12/BMI-3,0,query query query query query query query query query
+0,hidden,0,12/BMI-4,0,query bind query query query query query query query
+0,hidden,0,12/BMI-5,0,query bind calculate query bind query bind query bind
+0,hidden,0,12/BMI-6,0,query bind query bind query bind query bind query
+0,hidden,0,13/MAP-1,0,query bind bind query query query query query query
+0,hidden,0,13/MAP-2,0,query bind query bind bind bind bind bind bind
+0,hidden,0,13/MAP-3,0,query bind bind bind bind bind bind bind bind
+0,hidden,0,13/MAP-4,0,query bind bind bind bind bind bind bind bind
+0,hidden,0,13/MAP-5,1,query bind query bind calculate finish
+0,hidden,0,13/MAP-6,0,query bind query bind bind bind bind bind bind
+0,hidden,0,13/BMI-1,0,query bind query bind bind query bind query bind
+0,hidden,0,13/BMI-2,0,query bind query bind query bind query bind query
+0,hidden,0,13/BMI-3,1,query bind query query bind bind bind calculate finish
+0,hidden,0,13/BMI-4,0,query bind query bind query bind query bind query
+0,hidden,0,13/BMI-5,1,query bind query bind bind calculate finish
+0,hidden,0,13/BMI-6,0,query bind query query query query query query query
+0,hidden,1,11/MAP-1,0,query bind query bind bind query bind query bind
+0,hidden,1,11/MAP-2,0,query bind query query query query query query query
+0,hidden,1,11/MAP-3,1,query bind query bind calculate finish
+0,hidden,1,11/MAP-4,1,query bind query bind calculate finish
+0,hidden,1,11/MAP-5,1,query bind query bind calculate finish
+0,hidden,1,11/MAP-6,0,query bind query bind bind bind bind bind bind
+0,hidden,1,11/BMI-1,0,query query query query query query query query query
+0,hidden,1,11/BMI-2,0,query query query query query query query query query
+0,hidden,1,11/BMI-3,0,query bind query bind calculate query bind calculate query
+0,hidden,1,11/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,1,11/BMI-5,0,query query query query query query query query query
+0,hidden,1,11/BMI-6,0,query query query query query query query query query
+0,hidden,1,12/MAP-1,1,query bind query bind calculate finish
+0,hidden,1,12/MAP-2,0,query bind query query query query query query query
+0,hidden,1,12/MAP-3,0,query bind query bind calculate query bind calculate query
+0,hidden,1,12/MAP-4,0,query bind query calculate query bind query bind query
+0,hidden,1,12/MAP-5,0,query bind query bind bind bind bind bind bind
+0,hidden,1,12/MAP-6,0,query bind calculate query bind query bind query query
+0,hidden,1,12/BMI-1,0,query bind query query query query query query query
+0,hidden,1,12/BMI-2,1,query bind calculate query bind calculate finish
+0,hidden,1,12/BMI-3,0,query bind query bind query bind query bind calculate
+0,hidden,1,12/BMI-4,1,query bind calculate query bind calculate finish
+0,hidden,1,12/BMI-5,1,query bind calculate query bind calculate finish
+0,hidden,1,12/BMI-6,0,query bind bind query query query query query query
+0,hidden,1,13/MAP-1,1,query bind query bind calculate finish
+0,hidden,1,13/MAP-2,0,query bind calculate query bind query bind query bind
+0,hidden,1,13/MAP-3,1,query bind query bind query bind calculate finish
+0,hidden,1,13/MAP-4,0,query bind query bind query bind query bind calculate
+0,hidden,1,13/MAP-5,1,query bind query bind calculate finish
+0,hidden,1,13/MAP-6,1,query bind query bind calculate finish
+0,hidden,1,13/BMI-1,0,query bind query bind query bind query bind query
+0,hidden,1,13/BMI-2,1,query bind query bind calculate finish
+0,hidden,1,13/BMI-3,1,query bind query bind calculate finish
+0,hidden,1,13/BMI-4,0,query query query query query query query query query
+0,hidden,1,13/BMI-5,1,query bind query bind calculate finish
+0,hidden,1,13/BMI-6,0,query bind query calculate query calculate query calculate query
+0,hidden,2,11/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/MAP-2,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/MAP-3,0,query bind calculate calculate calculate calculate query bind calculate
+0,hidden,2,11/MAP-4,1,query bind query bind calculate finish
+0,hidden,2,11/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/MAP-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/BMI-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/BMI-3,0,query bind query bind calculate calculate calculate calculate calculate
+0,hidden,2,11/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/BMI-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,11/BMI-6,0,query bind query bind calculate calculate calculate calculate calculate
+0,hidden,2,12/MAP-1,1,query bind query bind calculate finish
+0,hidden,2,12/MAP-2,0,query bind query bind bind bind bind bind bind
+0,hidden,2,12/MAP-3,0,query bind calculate query bind calculate bind calculate bind
+0,hidden,2,12/MAP-4,0,query bind query calculate calculate calculate calculate calculate calculate
+0,hidden,2,12/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,12/MAP-6,0,query bind query bind query bind query bind query
+0,hidden,2,12/BMI-1,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,12/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,12/BMI-3,0,query bind calculate query calculate calculate calculate calculate calculate
+0,hidden,2,12/BMI-4,0,query bind calculate query calculate query calculate query calculate
+0,hidden,2,12/BMI-5,1,query bind calculate query bind calculate finish
+0,hidden,2,12/BMI-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/MAP-2,1,query bind calculate query bind calculate finish
+0,hidden,2,13/MAP-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/MAP-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/MAP-5,1,query bind query bind calculate finish
+0,hidden,2,13/MAP-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/BMI-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/BMI-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/BMI-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,hidden,2,13/BMI-6,0,query bind calculate query query query query query query
+0,legacy,0,11/MAP-1,0,query bind query bind calculate bind query query calculate
+0,legacy,0,11/MAP-2,0,query bind bind query bind calculate bind query bind
+0,legacy,0,11/MAP-3,0,query calculate calculate calculate calculate query query bind bind
+0,legacy,0,11/MAP-4,0,query query query bind bind bind calculate bind bind
+0,legacy,0,11/MAP-5,0,query bind query bind calculate bind bind bind bind
+0,legacy,0,11/MAP-6,0,query calculate calculate query query bind bind bind bind
+0,legacy,0,11/BMI-1,0,query bind bind calculate bind calculate bind calculate bind
+0,legacy,0,11/BMI-2,0,query bind bind calculate bind calculate bind calculate bind
+0,legacy,0,11/BMI-3,0,query bind query bind bind bind calculate bind query
+0,legacy,0,11/BMI-4,0,query bind bind query bind bind bind query bind
+0,legacy,0,11/BMI-5,0,query bind bind calculate bind calculate bind query query
+0,legacy,0,11/BMI-6,0,query bind bind query bind bind bind bind calculate
+0,legacy,0,12/MAP-1,0,query query calculate query query bind bind bind calculate
+0,legacy,0,12/MAP-2,0,query bind bind query query query query bind bind
+0,legacy,0,12/MAP-3,0,query query bind bind bind bind calculate bind query
+0,legacy,0,12/MAP-4,0,query bind bind bind query query query bind bind
+0,legacy,0,12/MAP-5,0,query calculate query bind calculate calculate query bind bind
+0,legacy,0,12/MAP-6,0,query calculate bind query bind query bind calculate query
+0,legacy,0,12/BMI-1,0,query query query bind query bind bind query bind
+0,legacy,0,12/BMI-2,0,query bind bind query bind bind query bind bind
+0,legacy,0,12/BMI-3,0,query bind bind bind bind bind query bind bind
+0,legacy,0,12/BMI-4,0,query query bind query query bind bind query query
+0,legacy,0,12/BMI-5,0,query query bind bind bind bind query bind bind
+0,legacy,0,12/BMI-6,0,query bind bind query bind query calculate query bind
+0,legacy,0,13/MAP-1,0,query query query calculate bind calculate calculate query query
+0,legacy,0,13/MAP-2,0,query query calculate bind bind query calculate bind query
+0,legacy,0,13/MAP-3,0,query calculate bind query bind calculate calculate bind calculate
+0,legacy,0,13/MAP-4,0,query calculate bind query bind calculate calculate bind calculate
+0,legacy,0,13/MAP-5,0,query query query bind bind query query query bind
+0,legacy,0,13/MAP-6,0,query bind bind calculate query calculate query query bind
+0,legacy,0,13/BMI-1,0,query bind query bind bind query query calculate bind
+0,legacy,0,13/BMI-2,0,query bind bind calculate query bind bind query bind
+0,legacy,0,13/BMI-3,0,query bind query bind bind bind query query calculate
+0,legacy,0,13/BMI-4,0,query query calculate bind query query bind bind query
+0,legacy,0,13/BMI-5,0,query query bind query bind bind query query query
+0,legacy,0,13/BMI-6,0,query bind bind query bind bind bind query calculate
+0,legacy,1,11/MAP-1,0,query bind query bind calculate bind query query calculate
+0,legacy,1,11/MAP-2,0,query bind bind query bind calculate bind query bind
+0,legacy,1,11/MAP-3,0,query query bind calculate query query query calculate bind
+0,legacy,1,11/MAP-4,0,query query query bind bind bind calculate bind bind
+0,legacy,1,11/MAP-5,0,query bind query bind calculate bind bind bind bind
+0,legacy,1,11/MAP-6,0,query calculate calculate query query calculate query bind query
+0,legacy,1,11/BMI-1,0,query bind query query bind query calculate bind bind
+0,legacy,1,11/BMI-2,0,query bind query query bind query calculate bind bind
+0,legacy,1,11/BMI-3,0,query bind bind bind calculate bind query query bind
+0,legacy,1,11/BMI-4,0,query bind bind bind bind query calculate calculate bind
+0,legacy,1,11/BMI-5,0,query bind query query bind query calculate bind bind
+0,legacy,1,11/BMI-6,0,query bind calculate query query bind bind query bind
+0,legacy,1,12/MAP-1,0,query query calculate bind query calculate bind query calculate
+0,legacy,1,12/MAP-2,0,query bind bind query query query query bind bind
+0,legacy,1,12/MAP-3,0,query query bind bind bind bind calculate bind query
+0,legacy,1,12/MAP-4,0,query bind bind bind query query query bind bind
+0,legacy,1,12/MAP-5,0,query bind calculate query query bind calculate query query
+0,legacy,1,12/MAP-6,0,query bind calculate bind query calculate bind bind bind
+0,legacy,1,12/BMI-1,0,query calculate bind query query bind query query calculate
+0,legacy,1,12/BMI-2,1,query bind bind query bind calculate finish
+0,legacy,1,12/BMI-3,0,query bind bind query query bind query calculate calculate
+0,legacy,1,12/BMI-4,0,query query bind bind bind query bind calculate query
+0,legacy,1,12/BMI-5,0,query query bind bind bind bind query bind bind
+0,legacy,1,12/BMI-6,0,query bind bind query bind query calculate query bind
+0,legacy,1,13/MAP-1,0,query query bind calculate calculate query query bind calculate
+0,legacy,1,13/MAP-2,0,query query calculate bind bind query calculate bind query
+0,legacy,1,13/MAP-3,0,query calculate bind query bind calculate calculate bind calculate
+0,legacy,1,13/MAP-4,0,query calculate bind query bind calculate calculate bind calculate
+0,legacy,1,13/MAP-5,0,query query query bind bind query query query bind
+0,legacy,1,13/MAP-6,0,query bind bind calculate query calculate query query query
+0,legacy,1,13/BMI-1,0,query bind query bind bind query query bind bind
+0,legacy,1,13/BMI-2,0,query bind calculate bind calculate calculate query calculate query
+0,legacy,1,13/BMI-3,0,query bind query bind bind bind query query calculate
+0,legacy,1,13/BMI-4,0,query bind query query bind query calculate bind query
+0,legacy,1,13/BMI-5,0,query query bind query calculate bind query calculate bind
+0,legacy,1,13/BMI-6,0,query bind bind calculate bind query calculate query calculate
+0,legacy,2,11/MAP-1,0,query bind query bind calculate bind query query calculate
+0,legacy,2,11/MAP-2,0,query bind bind query bind calculate bind query bind
+0,legacy,2,11/MAP-3,0,query calculate calculate calculate calculate query query bind bind
+0,legacy,2,11/MAP-4,0,query query query bind bind bind calculate bind bind
+0,legacy,2,11/MAP-5,0,query bind query bind calculate bind bind bind bind
+0,legacy,2,11/MAP-6,0,query calculate calculate query query calculate query bind query
+0,legacy,2,11/BMI-1,0,query bind bind bind query calculate bind calculate query
+0,legacy,2,11/BMI-2,0,query bind bind bind query calculate bind calculate query
+0,legacy,2,11/BMI-3,0,query bind bind bind calculate query bind calculate bind
+0,legacy,2,11/BMI-4,0,query bind bind bind bind bind bind bind bind
+0,legacy,2,11/BMI-5,0,query bind bind bind query calculate bind calculate query
+0,legacy,2,11/BMI-6,0,query bind calculate query query bind bind query bind
+0,legacy,2,12/MAP-1,0,query query calculate query query bind bind bind calculate
+0,legacy,2,12/MAP-2,0,query bind bind query query query query bind bind
+0,legacy,2,12/MAP-3,0,query query bind bind bind bind calculate bind calculate
+0,legacy,2,12/MAP-4,0,query bind bind bind query query query bind bind
+0,legacy,2,12/MAP-5,0,query calculate query bind calculate calculate query bind bind
+0,legacy,2,12/MAP-6,0,query calculate bind query bind query bind calculate query
+0,legacy,2,12/BMI-1,0,query calculate bind bind bind bind bind bind bind
+0,legacy,2,12/BMI-2,0,query bind query calculate bind calculate query bind bind
+0,legacy,2,12/BMI-3,0,query bind bind bind calculate calculate calculate query query
+0,legacy,2,12/BMI-4,0,query query bind bind bind query bind calculate query
+0,legacy,2,12/BMI-5,0,query calculate calculate query calculate query query bind calculate
+0,legacy,2,12/BMI-6,0,query bind bind bind query calculate query query bind
+0,legacy,2,13/MAP-1,0,query query query calculate bind calculate bind bind bind
+0,legacy,2,13/MAP-2,0,query query calculate bind bind query calculate bind query
+0,legacy,2,13/MAP-3,0,query calculate bind query bind calculate calculate bind calculate
+0,legacy,2,13/MAP-4,0,query calculate bind query bind calculate calculate bind calculate
+0,legacy,2,13/MAP-5,0,query query query bind bind query query query bind
+0,legacy,2,13/MAP-6,0,query bind bind calculate query calculate query query query
+0,legacy,2,13/BMI-1,0,query query bind bind bind calculate query query calculate
+0,legacy,2,13/BMI-2,0,query query bind calculate calculate query query bind query
+0,legacy,2,13/BMI-3,0,query query bind bind bind calculate query query calculate
+0,legacy,2,13/BMI-4,0,query bind bind bind query calculate bind calculate query
+0,legacy,2,13/BMI-5,0,query bind bind calculate query bind query calculate bind
+0,legacy,2,13/BMI-6,0,query bind bind calculate bind bind query calculate calculate
+0,random,0,11/MAP-1,0,query bind calculate query bind query bind query bind
+0,random,0,11/MAP-2,0,query bind calculate bind calculate bind calculate bind calculate
+0,random,0,11/MAP-3,0,query bind query bind query bind query bind query
+0,random,0,11/MAP-4,0,query bind bind bind query bind query calculate calculate
+0,random,0,11/MAP-5,0,query bind calculate query bind query bind query bind
+0,random,0,11/MAP-6,0,query bind query query bind calculate bind calculate bind
+0,random,0,11/BMI-1,0,query query query query query query query query query
+0,random,0,11/BMI-2,0,query query query query query query query query query
+0,random,0,11/BMI-3,0,query bind query bind bind bind bind bind bind
+0,random,0,11/BMI-4,0,query bind query bind query bind query bind query
+0,random,0,11/BMI-5,0,query query query query query query query query query
+0,random,0,11/BMI-6,0,query bind query bind query bind query bind bind
+0,random,0,12/MAP-1,0,query bind query bind calculate calculate calculate calculate calculate
+0,random,0,12/MAP-2,0,query bind bind query bind query bind query bind
+0,random,0,12/MAP-3,0,query calculate bind query bind calculate bind calculate bind
+0,random,0,12/MAP-4,0,query bind query query bind calculate bind bind calculate
+0,random,0,12/MAP-5,0,query query query query query query query query query
+0,random,0,12/MAP-6,0,query bind calculate query bind bind calculate query bind
+0,random,0,12/BMI-1,0,query bind query bind calculate query bind calculate query
+0,random,0,12/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,random,0,12/BMI-3,0,query bind calculate query bind query bind calculate bind
+0,random,0,12/BMI-4,0,query bind query bind calculate calculate calculate calculate calculate
+0,random,0,12/BMI-5,0,query bind query bind query bind query bind query
+0,random,0,12/BMI-6,0,query bind bind bind bind bind bind bind bind
+0,random,0,13/MAP-1,0,query bind calculate bind calculate bind calculate bind calculate
+0,random,0,13/MAP-2,0,query bind bind bind bind bind bind bind bind
+0,random,0,13/MAP-3,0,query bind query query query bind bind bind bind
+0,random,0,13/MAP-4,0,query bind query query query query query query query
+0,random,0,13/MAP-5,0,query bind bind calculate bind calculate bind query bind
+0,random,0,13/MAP-6,0,query bind bind calculate calculate calculate calculate query bind
+0,random,0,13/BMI-1,0,query bind calculate query query query query query query
+0,random,0,13/BMI-2,1,query bind query bind calculate finish
+0,random,0,13/BMI-3,0,query bind calculate query query query query query query
+0,random,0,13/BMI-4,0,query query query query query query query query query
+0,random,0,13/BMI-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,random,0,13/BMI-6,0,query bind calculate bind calculate bind query bind query
+0,random,1,11/MAP-1,0,query bind query bind query bind bind bind bind
+0,random,1,11/MAP-2,0,query bind query bind query bind query bind query
+0,random,1,11/MAP-3,1,query bind query bind calculate finish
+0,random,1,11/MAP-4,0,query bind bind bind bind bind bind bind bind
+0,random,1,11/MAP-5,0,query bind query bind query bind bind bind bind
+0,random,1,11/MAP-6,0,query bind query bind query bind query bind query
+0,random,1,11/BMI-1,0,query bind query bind query bind query bind query
+0,random,1,11/BMI-2,0,query bind query bind query bind query bind query
+0,random,1,11/BMI-3,0,query bind bind bind bind bind bind bind bind
+0,random,1,11/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+0,random,1,11/BMI-5,0,query bind query bind query bind query bind query
+0,random,1,11/BMI-6,0,query query query query query query query query query
+0,random,1,12/MAP-1,0,query bind query bind calculate bind calculate bind calculate
+0,random,1,12/MAP-2,0,query bind bind bind bind bind bind bind bind
+0,random,1,12/MAP-3,0,query bind bind query bind calculate bind calculate bind
+0,random,1,12/MAP-4,0,query bind bind bind bind bind bind bind bind
+0,random,1,12/MAP-5,0,query bind bind bind bind bind bind bind bind
+0,random,1,12/MAP-6,0,query bind query bind query bind query bind query
+0,random,1,12/BMI-1,0,query bind query bind query query bind query query
+0,random,1,12/BMI-2,0,query bind bind bind bind bind bind bind bind
+0,random,1,12/BMI-3,0,query bind query bind query bind bind calculate bind
+0,random,1,12/BMI-4,0,query bind bind bind bind bind bind bind bind
+0,random,1,12/BMI-5,1,query bind calculate query bind calculate finish
+0,random,1,12/BMI-6,0,query bind bind bind bind bind bind bind bind
+0,random,1,13/MAP-1,0,query bind query bind query bind query bind query
+0,random,1,13/MAP-2,0,query bind query bind calculate calculate calculate calculate calculate
+0,random,1,13/MAP-3,0,query bind bind bind bind bind bind bind bind
+0,random,1,13/MAP-4,0,query bind bind bind bind bind bind bind bind
+0,random,1,13/MAP-5,1,query bind query bind calculate finish
+0,random,1,13/MAP-6,0,query bind query bind calculate calculate calculate calculate calculate
+0,random,1,13/BMI-1,0,query bind query bind bind bind bind bind bind
+0,random,1,13/BMI-2,0,query bind bind bind bind bind bind bind bind
+0,random,1,13/BMI-3,0,query bind query bind query bind query bind query
+0,random,1,13/BMI-4,0,query bind query bind query bind query bind query
+0,random,1,13/BMI-5,0,query bind calculate bind query bind query bind query
+0,random,1,13/BMI-6,1,query bind query bind calculate finish
+0,random,2,11/MAP-1,0,query bind bind bind bind bind bind bind bind
+0,random,2,11/MAP-2,0,query query calculate query bind query bind calculate bind
+0,random,2,11/MAP-3,0,query bind query bind calculate bind calculate query calculate
+0,random,2,11/MAP-4,0,query calculate query calculate bind bind bind bind bind
+0,random,2,11/MAP-5,0,query bind bind bind bind bind bind bind bind
+0,random,2,11/MAP-6,0,query query query query query query query query query
+0,random,2,11/BMI-1,0,query bind bind calculate calculate calculate calculate calculate calculate
+0,random,2,11/BMI-2,0,query bind bind calculate calculate calculate calculate calculate calculate
+0,random,2,11/BMI-3,0,query bind query bind bind bind query bind query
+0,random,2,11/BMI-4,0,query query bind query bind bind bind bind bind
+0,random,2,11/BMI-5,0,query bind bind calculate calculate calculate calculate calculate calculate
+0,random,2,11/BMI-6,0,query query query query query query query query query
+0,random,2,12/MAP-1,0,query bind bind bind bind bind bind bind bind
+0,random,2,12/MAP-2,0,query bind bind calculate bind bind calculate bind calculate
+0,random,2,12/MAP-3,0,query bind calculate query calculate query bind calculate query
+0,random,2,12/MAP-4,0,query bind calculate bind calculate bind calculate bind calculate
+0,random,2,12/MAP-5,0,query bind query query bind query query query query
+0,random,2,12/MAP-6,0,query bind query bind bind bind bind bind bind
+0,random,2,12/BMI-1,0,query bind query calculate bind query query query query
+0,random,2,12/BMI-2,0,query calculate query bind query query bind calculate calculate
+0,random,2,12/BMI-3,0,query query calculate bind query query query query query
+0,random,2,12/BMI-4,0,query query query query query query query query query
+0,random,2,12/BMI-5,0,query bind query query query query query query query
+0,random,2,12/BMI-6,0,query bind query query query query query query query
+0,random,2,13/MAP-1,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+0,random,2,13/MAP-2,0,query bind calculate query bind query bind query bind
+0,random,2,13/MAP-3,0,query bind calculate query bind calculate query bind calculate
+0,random,2,13/MAP-4,0,query bind calculate query bind calculate query bind calculate
+0,random,2,13/MAP-5,0,query calculate query bind bind bind bind bind bind
+0,random,2,13/MAP-6,0,query bind query calculate calculate bind bind bind bind
+0,random,2,13/BMI-1,0,query bind bind query query query query query query
+0,random,2,13/BMI-2,0,query query query query query query query query query
+0,random,2,13/BMI-3,0,query bind bind bind query query query query query
+0,random,2,13/BMI-4,0,query bind bind calculate calculate calculate calculate calculate calculate
+0,random,2,13/BMI-5,0,query query query query query query query query query
+0,random,2,13/BMI-6,0,query calculate query calculate query calculate query calculate query
+1,fixed,0,11/MAP-1,0,query bind bind query query query query query query
+1,fixed,0,11/MAP-2,0,query query query query query query query query query
+1,fixed,0,11/MAP-3,0,query query query query query query query query query
+1,fixed,0,11/MAP-4,0,query query query query query query query query query
+1,fixed,0,11/MAP-5,0,query bind bind query bind bind bind bind bind
+1,fixed,0,11/MAP-6,0,query calculate query calculate bind bind bind bind bind
+1,fixed,0,11/BMI-1,0,query bind bind query bind bind bind bind bind
+1,fixed,0,11/BMI-2,0,query bind bind query bind calculate bind calculate bind
+1,fixed,0,11/BMI-3,0,query calculate calculate calculate bind query bind bind query
+1,fixed,0,11/BMI-4,0,query query bind bind bind bind bind bind bind
+1,fixed,0,11/BMI-5,0,query bind bind query bind bind bind bind bind
+1,fixed,0,11/BMI-6,0,query calculate query bind query bind query bind query
+1,fixed,0,12/MAP-1,0,query bind calculate query bind query query query bind
+1,fixed,0,12/MAP-2,0,query query query query query query query query query
+1,fixed,0,12/MAP-3,0,query calculate query bind calculate bind bind bind bind
+1,fixed,0,12/MAP-4,0,query bind query bind bind bind bind bind bind
+1,fixed,0,12/MAP-5,0,query bind bind query bind query bind query bind
+1,fixed,0,12/MAP-6,0,query bind query query bind query bind query bind
+1,fixed,0,12/BMI-1,0,query query query query query query query query query
+1,fixed,0,12/BMI-2,0,query bind query bind query bind query bind query
+1,fixed,0,12/BMI-3,0,query query query query query query query query query
+1,fixed,0,12/BMI-4,0,query query query query query query query query query
+1,fixed,0,12/BMI-5,0,query query query query query query query query query
+1,fixed,0,12/BMI-6,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+1,fixed,0,13/MAP-1,0,query query bind bind bind bind bind bind bind
+1,fixed,0,13/MAP-2,0,query bind calculate query calculate calculate bind query query
+1,fixed,0,13/MAP-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,0,13/MAP-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,0,13/MAP-5,0,query bind query bind query bind query bind query
+1,fixed,0,13/MAP-6,0,query bind query bind query bind query bind query
+1,fixed,0,13/BMI-1,0,query calculate query bind query query calculate bind bind
+1,fixed,0,13/BMI-2,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+1,fixed,0,13/BMI-3,0,query calculate query bind query bind query bind query
+1,fixed,0,13/BMI-4,0,query bind bind query bind bind bind bind bind
+1,fixed,0,13/BMI-5,0,query calculate query calculate query calculate query calculate query
+1,fixed,0,13/BMI-6,0,query bind query bind query bind query bind bind
+1,fixed,1,11/MAP-1,0,query bind calculate calculate bind bind bind bind bind
+1,fixed,1,11/MAP-2,1,query query query bind calculate bind calculate finish
+1,fixed,1,11/MAP-3,0,query query query query query query query query query
+1,fixed,1,11/MAP-4,0,query bind query query bind calculate calculate calculate calculate
+1,fixed,1,11/MAP-5,0,query bind calculate calculate bind bind bind bind bind
+1,fixed,1,11/MAP-6,0,query bind query bind query bind query bind query
+1,fixed,1,11/BMI-1,0,query bind bind query calculate bind calculate bind calculate
+1,fixed,1,11/BMI-2,0,query bind bind query bind calculate bind bind bind
+1,fixed,1,11/BMI-3,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+1,fixed,1,11/BMI-4,0,query query bind calculate bind query bind query calculate
+1,fixed,1,11/BMI-5,0,query bind bind query calculate bind calculate calculate calculate
+1,fixed,1,11/BMI-6,0,query calculate bind bind query bind query query query
+1,fixed,1,12/MAP-1,0,query bind bind bind bind bind bind bind bind
+1,fixed,1,12/MAP-2,0,query query bind bind bind bind bind bind bind
+1,fixed,1,12/MAP-3,0,query query bind bind query bind query bind query
+1,fixed,1,12/MAP-4,0,query bind bind query calculate query query calculate query
+1,fixed,1,12/MAP-5,0,query bind bind bind bind bind bind bind bind
+1,fixed,1,12/MAP-6,0,query query bind bind bind bind bind bind bind
+1,fixed,1,12/BMI-1,0,query query query query query query query query query
+1,fixed,1,12/BMI-2,0,query bind bind bind bind bind bind bind bind
+1,fixed,1,12/BMI-3,0,query bind query calculate bind query calculate bind calculate
+1,fixed,1,12/BMI-4,0,query query query query query query query query query
+1,fixed,1,12/BMI-5,0,query query bind query bind query bind query bind
+1,fixed,1,12/BMI-6,0,query calculate bind query calculate calculate calculate bind query
+1,fixed,1,13/MAP-1,0,query bind query bind query bind query bind query
+1,fixed,1,13/MAP-2,0,query query query query query bind bind query query
+1,fixed,1,13/MAP-3,0,query bind bind bind bind bind bind bind bind
+1,fixed,1,13/MAP-4,0,query bind bind bind bind bind bind bind bind
+1,fixed,1,13/MAP-5,0,query bind query bind query bind bind query calculate
+1,fixed,1,13/MAP-6,1,query query bind bind calculate finish
+1,fixed,1,13/BMI-1,0,query calculate query bind bind query calculate calculate calculate
+1,fixed,1,13/BMI-2,0,query query calculate query calculate query calculate query calculate
+1,fixed,1,13/BMI-3,0,query query bind calculate bind calculate calculate calculate calculate
+1,fixed,1,13/BMI-4,0,query bind query bind bind query query query query
+1,fixed,1,13/BMI-5,0,query query bind query calculate calculate calculate calculate calculate
+1,fixed,1,13/BMI-6,0,query query bind bind bind bind bind bind bind
+1,fixed,2,11/MAP-1,0,query bind calculate query query query query query query
+1,fixed,2,11/MAP-2,1,query calculate query bind calculate bind calculate finish
+1,fixed,2,11/MAP-3,1,query bind query bind calculate finish
+1,fixed,2,11/MAP-4,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,11/MAP-5,1,query bind calculate query bind calculate finish
+1,fixed,2,11/MAP-6,0,query bind query calculate query calculate query calculate query
+1,fixed,2,11/BMI-1,0,query query query bind calculate calculate calculate calculate calculate
+1,fixed,2,11/BMI-2,0,query query query bind calculate calculate calculate calculate calculate
+1,fixed,2,11/BMI-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,11/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,11/BMI-5,0,query query query query query bind calculate calculate calculate
+1,fixed,2,11/BMI-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/MAP-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/MAP-3,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/MAP-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/MAP-5,0,query query query query query query query query query
+1,fixed,2,12/MAP-6,0,query bind calculate query query query query query query
+1,fixed,2,12/BMI-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/BMI-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/BMI-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,12/BMI-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/MAP-1,1,query bind calculate query query bind calculate finish
+1,fixed,2,13/MAP-2,1,query bind query bind calculate finish
+1,fixed,2,13/MAP-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/MAP-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/MAP-5,0,query bind query query query query query query query
+1,fixed,2,13/MAP-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/BMI-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/BMI-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/BMI-4,0,query query bind calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/BMI-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,fixed,2,13/BMI-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,0,11/MAP-1,0,query bind query query query query query query query
+1,hidden,0,11/MAP-2,0,query query bind query bind query bind query bind
+1,hidden,0,11/MAP-3,0,query bind query query query query query query query
+1,hidden,0,11/MAP-4,1,query bind query bind calculate finish
+1,hidden,0,11/MAP-5,1,query bind query bind calculate finish
+1,hidden,0,11/MAP-6,0,query bind query bind query bind query bind query
+1,hidden,0,11/BMI-1,0,query bind bind query query query query query query
+1,hidden,0,11/BMI-2,1,query bind query bind bind calculate finish
+1,hidden,0,11/BMI-3,1,query bind query bind calculate finish
+1,hidden,0,11/BMI-4,0,query bind query bind query bind query query query
+1,hidden,0,11/BMI-5,0,query bind query bind query bind query bind query
+1,hidden,0,11/BMI-6,0,query bind query bind query bind query bind query
+1,hidden,0,12/MAP-1,0,query bind query query query query query query query
+1,hidden,0,12/MAP-2,1,query bind query bind calculate finish
+1,hidden,0,12/MAP-3,1,query bind bind query bind calculate finish
+1,hidden,0,12/MAP-4,0,query bind query query query query query query query
+1,hidden,0,12/MAP-5,0,query bind query bind calculate query query query query
+1,hidden,0,12/MAP-6,1,query bind query bind query bind calculate finish
+1,hidden,0,12/BMI-1,1,query bind query bind calculate finish
+1,hidden,0,12/BMI-2,0,query bind query bind query bind query bind query
+1,hidden,0,12/BMI-3,1,query bind query bind calculate query bind calculate finish
+1,hidden,0,12/BMI-4,0,query bind query bind query query query query query
+1,hidden,0,12/BMI-5,0,query bind bind query query query query query query
+1,hidden,0,12/BMI-6,0,query bind query bind query bind query bind query
+1,hidden,0,13/MAP-1,0,query bind query bind query bind query bind query
+1,hidden,0,13/MAP-2,0,query query query query query query query query query
+1,hidden,0,13/MAP-3,0,query bind query bind query bind query bind query
+1,hidden,0,13/MAP-4,0,query bind query bind query query query query query
+1,hidden,0,13/MAP-5,1,query bind query bind calculate finish
+1,hidden,0,13/MAP-6,0,query bind query query query query query query query
+1,hidden,0,13/BMI-1,1,query bind query bind query calculate finish
+1,hidden,0,13/BMI-2,1,query bind query bind query bind calculate finish
+1,hidden,0,13/BMI-3,1,query bind query bind query query bind calculate finish
+1,hidden,0,13/BMI-4,1,query bind query bind calculate finish
+1,hidden,0,13/BMI-5,0,query bind query bind query bind query bind query
+1,hidden,0,13/BMI-6,0,query bind query bind query bind query bind query
+1,hidden,1,11/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,11/MAP-2,0,query calculate query calculate query calculate query calculate query
+1,hidden,1,11/MAP-3,0,query query query query query query query query query
+1,hidden,1,11/MAP-4,0,query query bind bind calculate calculate calculate calculate calculate
+1,hidden,1,11/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,11/MAP-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,11/BMI-1,0,query query query query query query query query query
+1,hidden,1,11/BMI-2,0,query query query query query query query query query
+1,hidden,1,11/BMI-3,0,query bind query bind bind bind bind bind bind
+1,hidden,1,11/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,11/BMI-5,0,query query query query query query query query query
+1,hidden,1,11/BMI-6,0,query query query query query query query query query
+1,hidden,1,12/MAP-1,0,query bind bind bind bind bind bind bind bind
+1,hidden,1,12/MAP-2,1,query query bind query bind calculate finish
+1,hidden,1,12/MAP-3,0,query calculate calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,12/MAP-4,0,query bind query calculate calculate calculate calculate calculate calculate
+1,hidden,1,12/MAP-5,0,query query query query query query query query query
+1,hidden,1,12/MAP-6,0,query bind bind bind bind bind bind bind bind
+1,hidden,1,12/BMI-1,0,query calculate query calculate query calculate query calculate query
+1,hidden,1,12/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,12/BMI-3,0,query bind bind calculate calculate calculate calculate calculate calculate
+1,hidden,1,12/BMI-4,0,query bind calculate query bind calculate query bind calculate
+1,hidden,1,12/BMI-5,0,query bind calculate query bind bind calculate query bind
+1,hidden,1,12/BMI-6,0,query bind query bind query bind query bind query
+1,hidden,1,13/MAP-1,0,query bind query bind bind bind bind bind bind
+1,hidden,1,13/MAP-2,1,query bind calculate query bind calculate finish
+1,hidden,1,13/MAP-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,13/MAP-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,13/MAP-5,0,query bind bind bind bind bind bind bind bind
+1,hidden,1,13/MAP-6,0,query bind calculate bind calculate bind calculate bind calculate
+1,hidden,1,13/BMI-1,0,query bind calculate calculate query bind calculate calculate calculate
+1,hidden,1,13/BMI-2,1,query bind bind bind query bind calculate finish
+1,hidden,1,13/BMI-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,13/BMI-4,0,query query query query query query query query query
+1,hidden,1,13/BMI-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,1,13/BMI-6,0,query bind bind bind calculate bind calculate bind calculate
+1,hidden,2,11/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,2,11/MAP-2,0,query query bind bind bind bind bind bind bind
+1,hidden,2,11/MAP-3,0,query bind query bind calculate query bind bind bind
+1,hidden,2,11/MAP-4,0,query bind query query bind bind bind bind bind
+1,hidden,2,11/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,hidden,2,11/MAP-6,0,query bind bind bind bind bind bind bind bind
+1,hidden,2,11/BMI-1,0,query bind query bind query bind query bind query
+1,hidden,2,11/BMI-2,0,query bind query bind query bind query bind query
+1,hidden,2,11/BMI-3,0,query bind bind bind bind bind bind bind bind
+1,hidden,2,11/BMI-4,0,query bind bind bind bind bind calculate bind bind
+1,hidden,2,11/BMI-5,0,query bind query bind query bind query bind query
+1,hidden,2,11/BMI-6,0,query calculate bind bind query bind query bind bind
+1,hidden,2,12/MAP-1,1,query bind bind query bind calculate finish
+1,hidden,2,12/MAP-2,0,query bind query bind query bind query bind calculate
+1,hidden,2,12/MAP-3,0,query bind bind bind query bind query bind query
+1,hidden,2,12/MAP-4,1,query bind query calculate bind calculate finish
+1,hidden,2,12/MAP-5,0,query bind bind query bind bind query bind bind
+1,hidden,2,12/MAP-6,0,query query bind calculate query calculate query calculate query
+1,hidden,2,12/BMI-1,0,query bind query query query query query query query
+1,hidden,2,12/BMI-2,1,query bind bind query query bind calculate finish
+1,hidden,2,12/BMI-3,1,query bind query bind query bind bind calculate finish
+1,hidden,2,12/BMI-4,0,query query query query query query query query query
+1,hidden,2,12/BMI-5,0,query bind bind bind bind bind bind bind bind
+1,hidden,2,12/BMI-6,0,query bind bind bind bind bind bind bind bind
+1,hidden,2,13/MAP-1,0,query bind bind query bind bind bind bind bind
+1,hidden,2,13/MAP-2,0,query bind query query query query query query query
+1,hidden,2,13/MAP-3,0,query bind bind query query bind bind bind bind
+1,hidden,2,13/MAP-4,1,query bind bind query query bind bind calculate finish
+1,hidden,2,13/MAP-5,1,query bind query bind calculate finish
+1,hidden,2,13/MAP-6,0,query query bind bind calculate calculate calculate query bind
+1,hidden,2,13/BMI-1,0,query bind bind bind bind bind bind bind bind
+1,hidden,2,13/BMI-2,1,query bind query bind calculate finish
+1,hidden,2,13/BMI-3,0,query bind calculate query query query query query query
+1,hidden,2,13/BMI-4,0,query bind query bind query bind query bind query
+1,hidden,2,13/BMI-5,1,query bind query bind bind calculate finish
+1,hidden,2,13/BMI-6,0,query bind bind bind bind bind bind bind bind
+1,legacy,0,11/MAP-1,1,query bind query bind bind calculate finish
+1,legacy,0,11/MAP-2,1,query bind query bind query bind calculate finish
+1,legacy,0,11/MAP-3,1,query bind query bind calculate bind calculate finish
+1,legacy,0,11/MAP-4,1,query bind query bind calculate calculate finish
+1,legacy,0,11/MAP-5,0,query bind query bind calculate calculate calculate query bind
+1,legacy,0,11/MAP-6,1,query bind query bind calculate finish
+1,legacy,0,11/BMI-1,1,query bind query bind calculate finish
+1,legacy,0,11/BMI-2,1,query bind query query bind bind calculate finish
+1,legacy,0,11/BMI-3,1,query bind query bind calculate finish
+1,legacy,0,11/BMI-4,1,query bind query bind calculate finish
+1,legacy,0,11/BMI-5,1,query bind query bind calculate finish
+1,legacy,0,11/BMI-6,1,query bind query bind bind calculate finish
+1,legacy,0,12/MAP-1,1,query bind query bind calculate calculate finish
+1,legacy,0,12/MAP-2,1,query bind query bind calculate finish
+1,legacy,0,12/MAP-3,1,query bind query bind calculate finish
+1,legacy,0,12/MAP-4,1,query bind query bind calculate finish
+1,legacy,0,12/MAP-5,1,query bind query bind calculate finish
+1,legacy,0,12/MAP-6,1,query bind query bind calculate finish
+1,legacy,0,12/BMI-1,0,query bind query calculate bind calculate bind calculate bind
+1,legacy,0,12/BMI-2,0,query bind query bind query bind calculate query bind
+1,legacy,0,12/BMI-3,1,query bind query bind calculate finish
+1,legacy,0,12/BMI-4,1,query bind query bind calculate calculate finish
+1,legacy,0,12/BMI-5,1,query bind query bind calculate finish
+1,legacy,0,12/BMI-6,1,query bind bind query bind calculate finish
+1,legacy,0,13/MAP-1,1,query bind query bind calculate finish
+1,legacy,0,13/MAP-2,1,query bind query bind calculate finish
+1,legacy,0,13/MAP-3,0,query bind query bind calculate calculate query bind calculate
+1,legacy,0,13/MAP-4,1,query bind query bind calculate finish
+1,legacy,0,13/MAP-5,1,query bind query bind calculate finish
+1,legacy,0,13/MAP-6,0,query bind calculate query bind calculate calculate query bind
+1,legacy,0,13/BMI-1,1,query bind query bind calculate finish
+1,legacy,0,13/BMI-2,1,query bind query bind calculate finish
+1,legacy,0,13/BMI-3,1,query bind query bind calculate finish
+1,legacy,0,13/BMI-4,1,query bind query bind calculate calculate finish
+1,legacy,0,13/BMI-5,1,query bind query bind query bind calculate finish
+1,legacy,0,13/BMI-6,1,query bind query bind calculate finish
+1,legacy,1,11/MAP-1,0,query bind query calculate calculate calculate calculate calculate calculate
+1,legacy,1,11/MAP-2,1,query bind query bind calculate finish
+1,legacy,1,11/MAP-3,1,query bind query query bind calculate finish
+1,legacy,1,11/MAP-4,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,11/MAP-5,1,query bind query bind calculate finish
+1,legacy,1,11/MAP-6,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,11/BMI-1,1,query bind query bind calculate finish
+1,legacy,1,11/BMI-2,1,query bind query bind calculate finish
+1,legacy,1,11/BMI-3,1,query bind query bind calculate finish
+1,legacy,1,11/BMI-4,1,query bind query query bind calculate finish
+1,legacy,1,11/BMI-5,0,query bind query bind query bind query query bind
+1,legacy,1,11/BMI-6,1,query bind query bind calculate finish
+1,legacy,1,12/MAP-1,0,query bind query query query calculate calculate calculate calculate
+1,legacy,1,12/MAP-2,0,query bind query calculate calculate calculate calculate calculate calculate
+1,legacy,1,12/MAP-3,1,query bind query bind calculate bind calculate finish
+1,legacy,1,12/MAP-4,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,12/MAP-5,1,query bind query query bind calculate finish
+1,legacy,1,12/MAP-6,1,query bind query bind calculate finish
+1,legacy,1,12/BMI-1,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,12/BMI-2,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,12/BMI-3,1,query bind query bind query bind calculate finish
+1,legacy,1,12/BMI-4,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,12/BMI-5,1,query bind query bind calculate finish
+1,legacy,1,12/BMI-6,0,query bind query bind calculate calculate calculate calculate query
+1,legacy,1,13/MAP-1,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,13/MAP-2,1,query bind query bind calculate finish
+1,legacy,1,13/MAP-3,1,query bind query query bind calculate finish
+1,legacy,1,13/MAP-4,1,query bind query bind calculate finish
+1,legacy,1,13/MAP-5,1,query bind query bind calculate finish
+1,legacy,1,13/MAP-6,1,query bind query bind calculate finish
+1,legacy,1,13/BMI-1,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,13/BMI-2,1,query bind query query bind calculate finish
+1,legacy,1,13/BMI-3,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,1,13/BMI-4,1,query bind query query bind calculate finish
+1,legacy,1,13/BMI-5,1,query bind query bind calculate query bind calculate finish
+1,legacy,1,13/BMI-6,1,query bind query calculate query bind calculate finish
+1,legacy,2,11/MAP-1,0,query bind query calculate calculate calculate query bind calculate
+1,legacy,2,11/MAP-2,1,query bind query bind query calculate finish
+1,legacy,2,11/MAP-3,0,query bind query bind calculate calculate query bind query
+1,legacy,2,11/MAP-4,0,query bind query bind calculate calculate bind calculate calculate
+1,legacy,2,11/MAP-5,0,query bind query query calculate calculate query bind calculate
+1,legacy,2,11/MAP-6,1,query bind query bind calculate finish
+1,legacy,2,11/BMI-1,0,query bind calculate query calculate calculate calculate calculate calculate
+1,legacy,2,11/BMI-2,0,query bind calculate query calculate calculate calculate calculate calculate
+1,legacy,2,11/BMI-3,0,query query bind calculate calculate calculate calculate calculate calculate
+1,legacy,2,11/BMI-4,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,2,11/BMI-5,0,query bind calculate query bind calculate calculate calculate bind
+1,legacy,2,11/BMI-6,0,query bind query calculate calculate calculate calculate calculate bind
+1,legacy,2,12/MAP-1,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,2,12/MAP-2,0,query bind query bind calculate calculate bind calculate calculate
+1,legacy,2,12/MAP-3,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,2,12/MAP-4,1,query bind query bind calculate query bind calculate finish
+1,legacy,2,12/MAP-5,1,query bind query bind query bind calculate finish
+1,legacy,2,12/MAP-6,1,query bind query bind calculate finish
+1,legacy,2,12/BMI-1,0,query bind query bind calculate calculate calculate bind calculate
+1,legacy,2,12/BMI-2,0,query bind query bind calculate calculate bind calculate calculate
+1,legacy,2,12/BMI-3,1,query bind calculate query bind calculate finish
+1,legacy,2,12/BMI-4,0,query bind calculate query bind calculate calculate calculate calculate
+1,legacy,2,12/BMI-5,1,query bind query bind calculate finish
+1,legacy,2,12/BMI-6,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,2,13/MAP-1,0,query bind query bind calculate calculate calculate calculate calculate
+1,legacy,2,13/MAP-2,1,query bind query bind calculate finish
+1,legacy,2,13/MAP-3,0,query bind calculate query bind calculate calculate calculate calculate
+1,legacy,2,13/MAP-4,0,query bind calculate query bind calculate query bind calculate
+1,legacy,2,13/MAP-5,0,query bind query bind calculate query bind calculate bind
+1,legacy,2,13/MAP-6,0,query bind calculate query query bind calculate calculate calculate
+1,legacy,2,13/BMI-1,1,query bind calculate query bind calculate calculate finish
+1,legacy,2,13/BMI-2,0,query bind bind calculate calculate calculate query bind calculate
+1,legacy,2,13/BMI-3,0,query bind calculate query bind calculate calculate calculate calculate
+1,legacy,2,13/BMI-4,1,query bind calculate query bind calculate finish
+1,legacy,2,13/BMI-5,1,query bind query bind calculate finish
+1,legacy,2,13/BMI-6,1,query bind calculate query bind calculate finish
+1,random,0,11/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,0,11/MAP-2,0,query bind query bind query bind query bind query
+1,random,0,11/MAP-3,0,query bind query query query query query query query
+1,random,0,11/MAP-4,0,query bind query bind query bind query bind query
+1,random,0,11/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,0,11/MAP-6,0,query bind query bind query bind query bind query
+1,random,0,11/BMI-1,0,query bind query bind calculate calculate calculate calculate calculate
+1,random,0,11/BMI-2,0,query bind query bind calculate calculate calculate calculate calculate
+1,random,0,11/BMI-3,0,query bind bind bind bind bind bind bind bind
+1,random,0,11/BMI-4,0,query bind calculate bind calculate bind calculate bind calculate
+1,random,0,11/BMI-5,0,query bind query bind bind bind bind bind bind
+1,random,0,11/BMI-6,0,query bind query bind calculate calculate calculate calculate calculate
+1,random,0,12/MAP-1,0,query bind bind query bind calculate bind calculate bind
+1,random,0,12/MAP-2,0,query bind bind bind bind bind bind bind bind
+1,random,0,12/MAP-3,0,query bind bind query bind calculate calculate calculate calculate
+1,random,0,12/MAP-4,0,query bind query bind bind bind bind bind bind
+1,random,0,12/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,0,12/MAP-6,0,query bind query bind query bind query bind query
+1,random,0,12/BMI-1,0,query bind query query query query query query query
+1,random,0,12/BMI-2,0,query bind query bind bind calculate calculate calculate calculate
+1,random,0,12/BMI-3,0,query bind query bind bind calculate query bind calculate
+1,random,0,12/BMI-4,0,query bind calculate query bind calculate query bind calculate
+1,random,0,12/BMI-5,1,query bind calculate query bind calculate finish
+1,random,0,12/BMI-6,0,query bind query bind query bind query bind query
+1,random,0,13/MAP-1,0,query bind query bind query bind query bind query
+1,random,0,13/MAP-2,0,query bind query bind bind bind bind bind bind
+1,random,0,13/MAP-3,0,query bind bind bind bind bind bind bind bind
+1,random,0,13/MAP-4,0,query bind bind bind bind bind bind bind bind
+1,random,0,13/MAP-5,1,query bind query bind calculate finish
+1,random,0,13/MAP-6,0,query bind query bind query bind query bind query
+1,random,0,13/BMI-1,1,query bind query bind calculate finish
+1,random,0,13/BMI-2,0,query bind query bind bind bind query bind query
+1,random,0,13/BMI-3,0,query bind query query query bind query bind query
+1,random,0,13/BMI-4,1,query bind query bind bind query bind calculate finish
+1,random,0,13/BMI-5,1,query bind query bind calculate finish
+1,random,0,13/BMI-6,1,query bind query bind calculate finish
+1,random,1,11/MAP-1,1,query bind query bind calculate finish
+1,random,1,11/MAP-2,0,query query bind bind query bind bind query bind
+1,random,1,11/MAP-3,0,query bind query bind query bind bind bind bind
+1,random,1,11/MAP-4,1,query bind query bind query bind calculate finish
+1,random,1,11/MAP-5,0,query bind query bind query bind query bind query
+1,random,1,11/MAP-6,0,query bind query bind query bind query bind query
+1,random,1,11/BMI-1,1,query bind query query bind query bind calculate finish
+1,random,1,11/BMI-2,1,query bind query bind query bind calculate finish
+1,random,1,11/BMI-3,0,query bind query query bind query bind query query
+1,random,1,11/BMI-4,0,query bind query query query query bind query query
+1,random,1,11/BMI-5,0,query bind query bind query bind query bind query
+1,random,1,11/BMI-6,0,query query bind query query bind query query bind
+1,random,1,12/MAP-1,1,query bind query bind calculate finish
+1,random,1,12/MAP-2,1,query bind query bind query bind calculate finish
+1,random,1,12/MAP-3,0,query bind query bind bind bind bind bind bind
+1,random,1,12/MAP-4,1,query bind query bind bind bind calculate finish
+1,random,1,12/MAP-5,0,query bind bind query bind bind query bind bind
+1,random,1,12/MAP-6,1,query query bind bind bind calculate calculate finish
+1,random,1,12/BMI-1,1,query query bind query bind calculate finish
+1,random,1,12/BMI-2,0,query bind query query query query query query query
+1,random,1,12/BMI-3,0,query bind query bind query bind query bind bind
+1,random,1,12/BMI-4,0,query query query query query query query query query
+1,random,1,12/BMI-5,0,query query bind bind bind query bind bind bind
+1,random,1,12/BMI-6,0,query bind query bind query bind query bind query
+1,random,1,13/MAP-1,0,query bind query query bind bind bind bind bind
+1,random,1,13/MAP-2,0,query query query query query query query query query
+1,random,1,13/MAP-3,1,query bind query bind calculate finish
+1,random,1,13/MAP-4,0,query bind query bind query bind query bind query
+1,random,1,13/MAP-5,0,query bind query bind query bind query bind query
+1,random,1,13/MAP-6,0,query query bind query bind query bind query bind
+1,random,1,13/BMI-1,1,query bind query bind calculate finish
+1,random,1,13/BMI-2,0,query query bind query bind query bind query bind
+1,random,1,13/BMI-3,0,query bind query query query query query query query
+1,random,1,13/BMI-4,0,query bind query bind query bind query query query
+1,random,1,13/BMI-5,1,query query bind query query bind calculate finish
+1,random,1,13/BMI-6,0,query bind query bind query bind query bind query
+1,random,2,11/MAP-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,11/MAP-2,0,query query query query query query query query query
+1,random,2,11/MAP-3,1,query bind query bind calculate finish
+1,random,2,11/MAP-4,1,query bind query bind calculate finish
+1,random,2,11/MAP-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,11/MAP-6,1,query bind query bind calculate bind calculate finish
+1,random,2,11/BMI-1,0,query query query query query bind calculate calculate calculate
+1,random,2,11/BMI-2,0,query query query query query bind calculate calculate calculate
+1,random,2,11/BMI-3,0,query query query query query query query query query
+1,random,2,11/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,11/BMI-5,0,query query query query query bind calculate calculate calculate
+1,random,2,11/BMI-6,0,query query query query query query query query query
+1,random,2,12/MAP-1,0,query bind query bind query bind query bind query
+1,random,2,12/MAP-2,0,query bind query bind calculate calculate calculate calculate calculate
+1,random,2,12/MAP-3,0,query bind query bind calculate query query query query
+1,random,2,12/MAP-4,0,query bind query bind bind bind bind bind bind
+1,random,2,12/MAP-5,0,query bind query bind bind bind bind bind bind
+1,random,2,12/MAP-6,0,query bind query bind query bind query bind query
+1,random,2,12/BMI-1,0,query bind query query query query query query query
+1,random,2,12/BMI-2,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,12/BMI-3,0,query query query query query query query query query
+1,random,2,12/BMI-4,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,12/BMI-5,1,query bind calculate query bind calculate finish
+1,random,2,12/BMI-6,0,query query query query query query query query query
+1,random,2,13/MAP-1,0,query bind bind calculate calculate calculate calculate calculate calculate
+1,random,2,13/MAP-2,0,query bind query bind query bind query bind query
+1,random,2,13/MAP-3,0,query bind query bind query bind query bind query
+1,random,2,13/MAP-4,0,query bind query bind query bind query bind query
+1,random,2,13/MAP-5,1,query bind query bind calculate finish
+1,random,2,13/MAP-6,0,query bind query bind calculate calculate calculate calculate calculate
+1,random,2,13/BMI-1,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,13/BMI-2,1,query bind query bind calculate finish
+1,random,2,13/BMI-3,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,13/BMI-4,0,query query query query query query bind calculate calculate
+1,random,2,13/BMI-5,0,query bind calculate calculate calculate calculate calculate calculate calculate
+1,random,2,13/BMI-6,0,query bind calculate calculate calculate calculate calculate calculate calculate
