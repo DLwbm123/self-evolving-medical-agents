@@ -1,5 +1,6 @@
 """Materialize and audit the synthetic evidence panels using the standard library."""
 import argparse
+import csv
 from collections import Counter
 from dataclasses import asdict, replace
 from decimal import Decimal
@@ -76,21 +77,47 @@ def reward_control(w, key):
     assert (one[3], two[3]) == (0, 1)
 
 
+def audit_shortcuts(world, key, scores):
+    # Score the actual displayed strings. Ties choose the first displayed
+    # record, exactly as a stable min/argmin on the policy input would.
+    for field in FIELDS[world.calculator]:
+        records = [r for r in world.records if r.field == field]
+        decimals = [len(str(r.value).partition(".")[2]) for r in records]
+        if set(decimals) != {8}:
+            raise ValueError("numeric precision leaks a candidate distinction")
+        choices = (records[decimals.index(min(decimals))], max(records, key=lambda r: r.day),
+                   min(records, key=lambda r: int(r.pointer[1:])), records[0])
+        for scope in ("all_fields", "focus"):
+            if scope == "focus" and field != key["focus"]:
+                continue
+            counts = scores[scope, key["equal"]]
+            counts["n"] += 1
+            counts["chance"] += 1/len(records)
+            for name, record in zip(("fewest_decimals", "latest", "min_pointer", "first"), choices):
+                counts[name] += int(record.pointer == key["good"][field])
+
+
 def build(output):
     output.mkdir(parents=True, exist_ok=True)
     train_prompts = set()
     reference = {}
     layout_support = {}
     summary = {}
+    audit_rows = []
     for panel in PANELS:
         worlds = prompts = 0
         layouts = Counter()
         positions = Counter()
         for_worlds = Counter()
         held_prompts = set()
+        scores = {}
+        for scope in ("all_fields", "focus"):
+            for equal in (False, True):
+                scores[scope, equal] = Counter()
         with gzip.GzipFile(str(output / f"{panel}.jsonl.gz"), "wb", mtime=0) as stream:
             for w, key in evidence_panel(panel):
                 audit_world(w, key, panel)
+                audit_shortcuts(w, key, scores)
                 if panel == "iid":
                     reference[key["case"]] = (w, key)
                 elif panel != "train":
@@ -122,10 +149,24 @@ def build(output):
             block = [count for (width, _, _), count in layouts.items() if width == n]
             assert len(set(block)) == 1
             assert len(block) == (2*n if panel == "pointer" else 2*n*(2*n-2))
+        for (scope, equal), counts in scores.items():
+            n = counts["n"]
+            for name in ("fewest_decimals", "latest", "min_pointer", "first"):
+                gap = (counts[name] - counts["chance"])/n
+                # Fixed design tolerance in percentage points; recency is a
+                # real verifier feature, so it is reported without this gate.
+                if name != "latest" and abs(gap) > 0.05:
+                    raise ValueError(f"shortcut exceeds 5pp: {panel}/{scope}/{equal}/{name} {gap:.4f}")
+                audit_rows.append((panel, scope, equal, name, n, counts[name],
+                                   counts["chance"]/n, counts[name]/n, gap))
         layout_support[panel] = {(g, b) for _, g, b in layouts}
         summary[panel] = dict(worlds=worlds, decisions=prompts, by_designated_defect=for_worlds)
     assert layout_support["train"].isdisjoint(layout_support["pointer"])
     (output/"counts.json").write_text(json.dumps(summary, indent=2, sort_keys=True)+"\n")
+    with (output/"shortcuts.csv").open("w", newline="") as f:
+        writer = csv.writer(f, lineterminator="\n")
+        writer.writerow(("panel", "scope", "equal", "rule", "n", "correct", "chance", "accuracy", "gap"))
+        writer.writerows(audit_rows)
     return {name: data["worlds"] for name, data in summary.items()}
 
 
