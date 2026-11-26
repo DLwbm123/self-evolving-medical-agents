@@ -1,5 +1,6 @@
 """Fit calibration for the synthetic evidence environment; no treatment comparison."""
 import argparse
+from collections import defaultdict
 import json
 from pathlib import Path
 from random import Random
@@ -8,7 +9,7 @@ import torch
 from peft import LoraConfig, TaskType, get_peft_model
 from transformers import AutoModelForCausalLM, AutoTokenizer
 from medical.calculation import Action, FIELDS, State
-from medical.evidence import eligibility, evidence_step, observe, synthetic_world
+from medical.evidence import decision_states, eligibility, evidence_step, observe, read_evidence_panel, synthetic_world
 
 RULE = ("Return one tool command. Query and bind each required field in listed order. Use records "
         "from the current encounter, within the inclusive time window, with a documented supported unit. "
@@ -40,15 +41,34 @@ def demonstrations():
     return rows
 
 
+def panel_demonstrations(directory):
+    strata = defaultdict(list)
+    for world, key in read_evidence_panel(directory / "train.jsonl.gz"):
+        group = (world.calculator, key["focus"], tuple(key["faults"]), len(world.records), key["equal"])
+        strata[group].append((world, key))
+    rng = Random(413)
+    selected = [rng.choice(strata[group]) for group in sorted(strata)]
+    rows = [(obs, target) for world, key in selected for _, obs, target in decision_states(world, key)]
+    return rows, [key["case"] for _, key in selected]
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("model", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--seeds", type=int, nargs="+", default=[0,1,2])
+    parser.add_argument("--training-panel", type=Path, help="Use one train world per v2 design stratum for fit calibration")
     args = parser.parse_args()
     tok = AutoTokenizer.from_pretrained(args.model, local_files_only=True)
     examples = []
-    for observation, command in demonstrations():
+    if args.training_panel:
+        rows, cases = panel_demonstrations(args.training_panel)
+        args.output.mkdir(parents=True, exist_ok=True)
+        (args.output/"train_cases.json").write_text(json.dumps(cases)+"\n")
+        print(json.dumps(dict(training_worlds=len(cases), commands=len(rows))), flush=True)
+    else:
+        rows = demonstrations()
+    for observation, command in rows:
         prefix = tok.apply_chat_template([dict(role="system",content=RULE),
                                           dict(role="user",content=observation)],
                                          tokenize=True,add_generation_prompt=True)
