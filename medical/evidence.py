@@ -27,12 +27,16 @@ class EvidenceWorld:
     day: int
     max_age: int
     budget: int = 8
+    feed_units: tuple[str, ...] = ()
 
     def __post_init__(self):
         if len({r.pointer for r in self.records}) != len(self.records):
             raise ValueError("record identifiers must be unique")
         if self.max_age < 0 or self.budget < 0:
             raise ValueError("invalid task limits")
+        if self.feed_units and (len(self.feed_units) != len(FIELDS[self.calculator]) or
+                                any(u not in UNITS[f] for f, u in zip(FIELDS[self.calculator], self.feed_units))):
+            raise ValueError("invalid source feed units")
         for record in self.records:
             if record.field not in FIELDS[self.calculator] or not record.value.is_finite() or record.value <= 0:
                 raise ValueError("invalid record")
@@ -53,11 +57,19 @@ def observe(world, state):
                       default=str, sort_keys=True, separators=(",", ":"))
 
 
+def backend_value(world, record):
+    if record.unit in UNITS[record.field]:
+        scale = UNITS[record.field][record.unit]
+    elif world.feed_units:
+        feed_unit = world.feed_units[FIELDS[world.calculator].index(record.field)]
+        scale = UNITS[record.field][feed_unit]
+    else:
+        scale = "1"  # Historical worlds defaulted to canonical units.
+    return record.value * Decimal(scale)
+
+
 def arithmetic_world(world):
-    # The simulated permissive backend assumes canonical units for an unknown unit.
-    # Only the verifier checks whether that assumption has evidence.
-    facts = tuple((r.pointer, r.field, r.value * Decimal(UNITS[r.field].get(r.unit, "1")))
-                  for r in world.records)
+    facts = tuple((r.pointer, r.field, backend_value(world, r)) for r in world.records)
     return World(world.calculator, facts, world.budget)
 
 
@@ -200,7 +212,7 @@ def _panel_world(panel, case, calc, focus, mask, n, good, bad, rng):
                 ages = (1, 2, 4, 6, 7) if panel == "age" else (0, 3, 5)
                 age = ages[age_draw % len(ages)]
             unit = None if defects & 4 else units[i]
-            factor = Decimal(UNITS[field].get(unit, "1"))
+            factor = Decimal(UNITS[field][units[i]])
             value = samples[i][0 if equal else rank] / factor
             displayed = value.quantize(Decimal("0.00000001"))
             if displayed != value:
@@ -208,7 +220,7 @@ def _panel_world(panel, case, calc, focus, mask, n, good, bad, rng):
             rows.append(Record(f"e{position+1}", field, displayed, unit,
                                different if defects & 2 else current, day-age))
     rng.shuffle(rows)
-    w = EvidenceWorld(calc, tuple(rows), current, day, 7)
+    w = EvidenceWorld(calc, tuple(rows), current, day, 7, feed_units=units)
     key = dict(case=case, focus=FIELDS[calc][focus], faults=[flag for k, flag in enumerate(DEFECTS)
                if mask & (1 << k)], good=good_pointers, bad=f"e{focus_slots[1]+1}",
                equal=equal, answer=str(calculate(calc, *physical)))
@@ -242,4 +254,4 @@ def read_evidence_panel(path):
             row = json.loads(line)
             spec = row["world"]
             records = tuple(Record(**dict(r, value=Decimal(r["value"]))) for r in spec["records"])
-            yield EvidenceWorld(**dict(spec, records=records)), row["key"]
+            yield EvidenceWorld(**dict(spec, records=records, feed_units=tuple(spec.get("feed_units", ())))), row["key"]

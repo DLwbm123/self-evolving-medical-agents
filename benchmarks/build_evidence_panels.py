@@ -9,12 +9,8 @@ import json
 from pathlib import Path
 
 from medical.calculation import FIELDS, State, calculate
-from medical.evidence import (PANELS, UNITS, command_step, decision_states, eligibility,
+from medical.evidence import (PANELS, backend_value, command_step, decision_states, eligibility,
                               evidence_panel)
-
-
-def normalized(r):
-    return r.value * Decimal(UNITS[r.field].get(r.unit, "1"))
 
 
 def audit_world(w, key, panel):
@@ -28,16 +24,16 @@ def audit_world(w, key, panel):
             assert r.field == key["focus"] and failures == set(key["faults"])
         if panel == "train" and failures:
             assert (int(r.pointer[1:])-1)//2 != (int(good[r.field][1:])-1)//2
-    a, b = [normalized(by_pointer[good[f]]) for f in fields]
+    a, b = [backend_value(w, by_pointer[good[f]]) for f in fields]
     assert calculate(w.calculator, a, b) == Decimal(key["answer"])
     bad = by_pointer[key["bad"]]
-    assert (normalized(bad) == normalized(by_pointer[good[bad.field]])) == key["equal"]
+    assert (backend_value(w, bad) == backend_value(w, by_pointer[good[bad.field]])) == key["equal"]
 
 
 def audit_pair(reference, variant, panel):
     original, k0 = reference
     w, k = variant
-    assert replace(w, records=(), encounter=original.encounter) == replace(original, records=())
+    assert replace(w, records=(), encounter=original.encounter, feed_units=original.feed_units) == replace(original, records=())
     assert k == (dict(k0, good=k["good"], bad=k["bad"]) if panel == "pointer" else k0)
     for a, b in zip(original.records, w.records, strict=True):
         if panel == "age":
@@ -46,9 +42,11 @@ def audit_pair(reference, variant, panel):
             assert (b.encounter == w.encounter) == (a.encounter == original.encounter)
             assert replace(b, encounter=a.encounter) == a
         elif panel == "unit":
-            assert normalized(a) == normalized(b) and replace(b, value=a.value, unit=a.unit) == a
+            assert backend_value(original, a) == backend_value(w, b) and replace(b, value=a.value, unit=a.unit) == a
         elif panel == "pointer":
             assert replace(b, pointer=a.pointer) == a
+    if panel != "unit":
+        assert w.feed_units == original.feed_units
     if panel != "encounter":
         assert w.encounter == original.encounter
 
@@ -77,6 +75,9 @@ def reward_control(w, key):
     assert (one[3], two[3]) == (0, 1)
 
 
+SHORTCUTS = ("fewest_decimals", "latest", "min_pointer", "first", "fewest_significant_decimals", "min_value", "max_value")
+
+
 def audit_shortcuts(world, key, scores):
     # Score the actual displayed strings. Ties choose the first displayed
     # record, exactly as a stable min/argmin on the policy input would.
@@ -86,14 +87,16 @@ def audit_shortcuts(world, key, scores):
         if set(decimals) != {8}:
             raise ValueError("numeric precision leaks a candidate distinction")
         choices = (records[decimals.index(min(decimals))], max(records, key=lambda r: r.day),
-                   min(records, key=lambda r: int(r.pointer[1:])), records[0])
+                   min(records, key=lambda r: int(r.pointer[1:])), records[0],
+                   min(records, key=lambda r: len(str(r.value).partition(".")[2].rstrip("0"))),
+                   min(records, key=lambda r: r.value), max(records, key=lambda r: r.value))
         for scope in ("all_fields", "focus"):
             if scope == "focus" and field != key["focus"]:
                 continue
             counts = scores[scope, key["equal"]]
             counts["n"] += 1
             counts["chance"] += 1/len(records)
-            for name, record in zip(("fewest_decimals", "latest", "min_pointer", "first"), choices):
+            for name, record in zip(SHORTCUTS, choices, strict=True):
                 counts[name] += int(record.pointer == key["good"][field])
 
 
@@ -151,7 +154,7 @@ def build(output):
             assert len(block) == (2*n if panel == "pointer" else 2*n*(2*n-2))
         for (scope, equal), counts in scores.items():
             n = counts["n"]
-            for name in ("fewest_decimals", "latest", "min_pointer", "first"):
+            for name in SHORTCUTS:
                 gap = (counts[name] - counts["chance"])/n
                 # Fixed design tolerance in percentage points; recency is a
                 # real verifier feature, so it is reported without this gate.
