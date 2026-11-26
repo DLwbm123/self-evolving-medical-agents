@@ -1,0 +1,7 @@
+designated_time_defect,recency,worlds,latest_correct,chance
+False,older,469,0,0.28962331201137176
+False,tied_latest,207,104,0.3051529790660225
+False,unique_latest,284,284,0.31338028169014087
+True,older,279,0,0.26971326164874554
+True,tied_latest,148,77,0.2685810810810811
+True,unique_latest,853,853,0.31535756154747946

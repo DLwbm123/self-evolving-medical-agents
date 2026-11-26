@@ -1,0 +1,2241 @@
+case,focus,faults,equal,recency,n_latest,candidates,good_age,latest_age,latest_correct
+1,Systolic Blood Pressure,time_window,True,unique_latest,1,2,6,6,1
+2,Systolic Blood Pressure,time_window,True,unique_latest,1,2,2,2,1
+3,Systolic Blood Pressure,time_window,True,unique_latest,1,2,7,7,1
+4,Systolic Blood Pressure,time_window,False,unique_latest,1,2,4,4,1
+5,Systolic Blood Pressure,time_window,True,unique_latest,1,2,4,4,1
+6,Systolic Blood Pressure,time_window,False,unique_latest,1,2,2,2,1
+7,Systolic Blood Pressure,time_window,False,unique_latest,1,2,6,6,1
+8,Systolic Blood Pressure,time_window,True,unique_latest,1,2,6,6,1
+9,Systolic Blood Pressure,time_window,True,older,1,3,7,4,0
+10,Systolic Blood Pressure,time_window,True,unique_latest,1,3,4,4,1
+11,Systolic Blood Pressure,time_window,True,older,1,3,4,2,0
+12,Systolic Blood Pressure,time_window,False,unique_latest,1,3,2,2,1
+13,Systolic Blood Pressure,time_window,True,unique_latest,1,3,7,7,1
+14,Systolic Blood Pressure,time_window,True,older,1,3,6,1,0
+15,Systolic Blood Pressure,time_window,False,tied_latest,2,3,1,1,1
+16,Systolic Blood Pressure,time_window,True,unique_latest,1,3,4,4,1
+17,Systolic Blood Pressure,time_window,False,unique_latest,1,3,1,1,1
+18,Systolic Blood Pressure,time_window,False,older,1,3,6,4,0
+19,Systolic Blood Pressure,time_window,False,unique_latest,1,3,2,2,1
+20,Systolic Blood Pressure,time_window,False,unique_latest,1,3,6,6,1
+21,Systolic Blood Pressure,time_window,False,unique_latest,1,3,1,1,1
+22,Systolic Blood Pressure,time_window,False,unique_latest,1,3,6,6,1
+23,Systolic Blood Pressure,time_window,False,unique_latest,1,3,4,4,1
+24,Systolic Blood Pressure,time_window,True,older,1,3,4,2,0
+25,Systolic Blood Pressure,time_window,False,unique_latest,1,3,2,2,1
+26,Systolic Blood Pressure,time_window,True,unique_latest,1,3,2,2,1
+27,Systolic Blood Pressure,time_window,False,unique_latest,1,3,4,4,1
+28,Systolic Blood Pressure,time_window,False,unique_latest,1,3,2,2,1
+29,Systolic Blood Pressure,time_window,False,older,1,3,7,2,0
+30,Systolic Blood Pressure,time_window,True,unique_latest,1,3,4,4,1
+31,Systolic Blood Pressure,time_window,True,unique_latest,1,3,2,2,1
+32,Systolic Blood Pressure,time_window,False,tied_latest,2,3,6,6,0
+33,Systolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+34,Systolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+35,Systolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+36,Systolic Blood Pressure,time_window,True,tied_latest,2,4,4,4,0
+37,Systolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+38,Systolic Blood Pressure,time_window,True,unique_latest,1,4,1,1,1
+39,Systolic Blood Pressure,time_window,True,tied_latest,2,4,4,4,0
+40,Systolic Blood Pressure,time_window,False,unique_latest,1,4,2,2,1
+41,Systolic Blood Pressure,time_window,False,tied_latest,2,4,4,4,1
+42,Systolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+43,Systolic Blood Pressure,time_window,False,older,1,4,7,6,0
+44,Systolic Blood Pressure,time_window,False,older,1,4,6,2,0
+45,Systolic Blood Pressure,time_window,True,older,1,4,6,1,0
+46,Systolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+47,Systolic Blood Pressure,time_window,False,unique_latest,1,4,1,1,1
+48,Systolic Blood Pressure,time_window,True,older,1,4,7,6,0
+49,Systolic Blood Pressure,time_window,False,unique_latest,1,4,1,1,1
+50,Systolic Blood Pressure,time_window,False,older,2,4,6,4,0
+51,Systolic Blood Pressure,time_window,True,tied_latest,2,4,7,7,1
+52,Systolic Blood Pressure,time_window,True,older,1,4,7,1,0
+53,Systolic Blood Pressure,time_window,False,unique_latest,1,4,2,2,1
+54,Systolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+55,Systolic Blood Pressure,time_window,True,older,1,4,4,1,0
+56,Systolic Blood Pressure,time_window,True,unique_latest,1,4,4,4,1
+57,Systolic Blood Pressure,time_window,False,older,1,4,6,4,0
+58,Systolic Blood Pressure,time_window,True,older,1,4,2,1,0
+59,Systolic Blood Pressure,time_window,False,unique_latest,1,4,7,7,1
+60,Systolic Blood Pressure,time_window,True,unique_latest,1,4,4,4,1
+61,Systolic Blood Pressure,time_window,True,unique_latest,1,4,1,1,1
+62,Systolic Blood Pressure,time_window,False,older,1,4,6,1,0
+63,Systolic Blood Pressure,time_window,False,older,1,4,7,1,0
+64,Systolic Blood Pressure,time_window,True,tied_latest,2,4,1,1,1
+65,Systolic Blood Pressure,time_window,True,older,1,4,7,4,0
+66,Systolic Blood Pressure,time_window,True,tied_latest,2,4,4,4,1
+67,Systolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+68,Systolic Blood Pressure,time_window,True,tied_latest,2,4,4,4,0
+69,Systolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+70,Systolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+71,Systolic Blood Pressure,time_window,False,tied_latest,2,4,4,4,0
+72,Systolic Blood Pressure,time_window,True,unique_latest,1,4,6,6,1
+73,Systolic Blood Pressure,time_window,True,tied_latest,2,4,1,1,1
+74,Systolic Blood Pressure,time_window,False,unique_latest,1,4,2,2,1
+75,Systolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+76,Systolic Blood Pressure,time_window,True,unique_latest,1,4,1,1,1
+77,Systolic Blood Pressure,time_window,True,unique_latest,1,4,1,1,1
+78,Systolic Blood Pressure,time_window,True,unique_latest,1,4,4,4,1
+79,Systolic Blood Pressure,time_window,False,older,1,4,7,1,0
+80,Systolic Blood Pressure,time_window,True,unique_latest,1,4,1,1,1
+81,Systolic Blood Pressure,encounter_match,True,tied_latest,2,2,4,4,1
+82,Systolic Blood Pressure,encounter_match,True,older,1,2,4,1,0
+83,Systolic Blood Pressure,encounter_match,False,older,1,2,7,6,0
+84,Systolic Blood Pressure,encounter_match,True,unique_latest,1,2,1,1,1
+85,Systolic Blood Pressure,encounter_match,True,tied_latest,2,2,6,6,0
+86,Systolic Blood Pressure,encounter_match,False,tied_latest,2,2,7,7,0
+87,Systolic Blood Pressure,encounter_match,True,older,1,2,6,4,0
+88,Systolic Blood Pressure,encounter_match,True,unique_latest,1,2,2,2,1
+89,Systolic Blood Pressure,encounter_match,False,tied_latest,2,3,4,4,1
+90,Systolic Blood Pressure,encounter_match,True,unique_latest,1,3,2,2,1
+91,Systolic Blood Pressure,encounter_match,False,older,2,3,7,6,0
+92,Systolic Blood Pressure,encounter_match,True,older,1,3,7,2,0
+93,Systolic Blood Pressure,encounter_match,False,older,1,3,7,6,0
+94,Systolic Blood Pressure,encounter_match,False,tied_latest,2,3,6,6,1
+95,Systolic Blood Pressure,encounter_match,False,older,1,3,6,1,0
+96,Systolic Blood Pressure,encounter_match,True,tied_latest,2,3,1,1,1
+97,Systolic Blood Pressure,encounter_match,True,unique_latest,1,3,4,4,1
+98,Systolic Blood Pressure,encounter_match,True,unique_latest,1,3,4,4,1
+99,Systolic Blood Pressure,encounter_match,False,older,1,3,7,1,0
+100,Systolic Blood Pressure,encounter_match,False,tied_latest,2,3,1,1,1
+101,Systolic Blood Pressure,encounter_match,True,older,1,3,4,1,0
+102,Systolic Blood Pressure,encounter_match,False,tied_latest,2,3,4,4,0
+103,Systolic Blood Pressure,encounter_match,False,unique_latest,1,3,6,6,1
+104,Systolic Blood Pressure,encounter_match,False,tied_latest,2,3,1,1,0
+105,Systolic Blood Pressure,encounter_match,False,unique_latest,1,3,4,4,1
+106,Systolic Blood Pressure,encounter_match,True,unique_latest,1,3,2,2,1
+107,Systolic Blood Pressure,encounter_match,False,unique_latest,1,3,6,6,1
+108,Systolic Blood Pressure,encounter_match,True,unique_latest,1,3,4,4,1
+109,Systolic Blood Pressure,encounter_match,False,unique_latest,1,3,1,1,1
+110,Systolic Blood Pressure,encounter_match,False,older,2,3,7,6,0
+111,Systolic Blood Pressure,encounter_match,False,older,1,3,7,1,0
+112,Systolic Blood Pressure,encounter_match,True,tied_latest,2,3,1,1,1
+113,Systolic Blood Pressure,encounter_match,True,older,1,4,6,2,0
+114,Systolic Blood Pressure,encounter_match,True,tied_latest,2,4,2,2,1
+115,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,6,6,1
+116,Systolic Blood Pressure,encounter_match,False,unique_latest,1,4,2,2,1
+117,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,2,2,1
+118,Systolic Blood Pressure,encounter_match,True,older,2,4,4,2,0
+119,Systolic Blood Pressure,encounter_match,True,older,1,4,6,4,0
+120,Systolic Blood Pressure,encounter_match,True,older,1,4,7,1,0
+121,Systolic Blood Pressure,encounter_match,False,tied_latest,3,4,1,1,0
+122,Systolic Blood Pressure,encounter_match,False,unique_latest,1,4,1,1,1
+123,Systolic Blood Pressure,encounter_match,True,older,1,4,4,1,0
+124,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,4,4,1
+125,Systolic Blood Pressure,encounter_match,False,unique_latest,1,4,2,2,1
+126,Systolic Blood Pressure,encounter_match,True,tied_latest,2,4,4,4,1
+127,Systolic Blood Pressure,encounter_match,True,tied_latest,2,4,1,1,1
+128,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,2,2,1
+129,Systolic Blood Pressure,encounter_match,True,older,1,4,2,1,0
+130,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,1,1,1
+131,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,1,1,1
+132,Systolic Blood Pressure,encounter_match,False,older,1,4,4,1,0
+133,Systolic Blood Pressure,encounter_match,False,older,1,4,4,1,0
+134,Systolic Blood Pressure,encounter_match,False,older,1,4,6,4,0
+135,Systolic Blood Pressure,encounter_match,True,tied_latest,3,4,4,4,0
+136,Systolic Blood Pressure,encounter_match,True,older,1,4,7,1,0
+137,Systolic Blood Pressure,encounter_match,True,older,1,4,6,1,0
+138,Systolic Blood Pressure,encounter_match,True,older,1,4,7,4,0
+139,Systolic Blood Pressure,encounter_match,False,older,1,4,4,1,0
+140,Systolic Blood Pressure,encounter_match,False,unique_latest,1,4,4,4,1
+141,Systolic Blood Pressure,encounter_match,False,older,1,4,6,4,0
+142,Systolic Blood Pressure,encounter_match,False,older,1,4,7,4,0
+143,Systolic Blood Pressure,encounter_match,True,tied_latest,2,4,1,1,0
+144,Systolic Blood Pressure,encounter_match,False,unique_latest,1,4,1,1,1
+145,Systolic Blood Pressure,encounter_match,True,older,1,4,6,1,0
+146,Systolic Blood Pressure,encounter_match,True,older,1,4,6,1,0
+147,Systolic Blood Pressure,encounter_match,False,tied_latest,3,4,7,7,1
+148,Systolic Blood Pressure,encounter_match,False,tied_latest,2,4,7,7,1
+149,Systolic Blood Pressure,encounter_match,True,older,1,4,4,1,0
+150,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,6,6,1
+151,Systolic Blood Pressure,encounter_match,False,older,1,4,6,1,0
+152,Systolic Blood Pressure,encounter_match,True,older,1,4,4,1,0
+153,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,2,2,1
+154,Systolic Blood Pressure,encounter_match,True,older,1,4,7,2,0
+155,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,2,2,1
+156,Systolic Blood Pressure,encounter_match,False,older,1,4,7,1,0
+157,Systolic Blood Pressure,encounter_match,False,older,2,4,6,2,0
+158,Systolic Blood Pressure,encounter_match,True,tied_latest,2,4,1,1,0
+159,Systolic Blood Pressure,encounter_match,True,unique_latest,1,4,6,6,1
+160,Systolic Blood Pressure,encounter_match,False,tied_latest,2,4,1,1,1
+161,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,4,4,1
+162,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,2,1,1,1
+163,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,6,6,1
+164,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,2,2,1
+165,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,2,7,7,1
+166,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,1,1,1
+167,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,2,2,1
+168,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,2,1,1,1
+169,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,1,1,1
+170,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,4,4,1
+171,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,4,4,1
+172,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,7,7,1
+173,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,1,1,1
+174,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,1,1,1
+175,Systolic Blood Pressure,time_window+encounter_match,False,older,1,3,4,1,0
+176,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,4,4,1
+177,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,7,7,1
+178,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,2,2,1
+179,Systolic Blood Pressure,time_window+encounter_match,True,tied_latest,2,3,7,7,0
+180,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,4,4,1
+181,Systolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,3,7,7,1
+182,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,1,1,1
+183,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+184,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+185,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+186,Systolic Blood Pressure,time_window+encounter_match,True,older,1,3,7,6,0
+187,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+188,Systolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,3,7,7,0
+189,Systolic Blood Pressure,time_window+encounter_match,False,older,1,3,4,1,0
+190,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+191,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+192,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+193,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+194,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,6,6,1
+195,Systolic Blood Pressure,time_window+encounter_match,True,older,1,4,4,2,0
+196,Systolic Blood Pressure,time_window+encounter_match,False,older,1,4,4,1,0
+197,Systolic Blood Pressure,time_window+encounter_match,False,older,1,4,4,1,0
+198,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+199,Systolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,1,1,1
+200,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+201,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+202,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+203,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+204,Systolic Blood Pressure,time_window+encounter_match,False,tied_latest,3,4,6,6,1
+205,Systolic Blood Pressure,time_window+encounter_match,False,older,1,4,2,1,0
+206,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+207,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+208,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+209,Systolic Blood Pressure,time_window+encounter_match,True,tied_latest,2,4,1,1,0
+210,Systolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,6,6,0
+211,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+212,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+213,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+214,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,6,6,1
+215,Systolic Blood Pressure,time_window+encounter_match,True,tied_latest,2,4,1,1,0
+216,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,6,6,1
+217,Systolic Blood Pressure,time_window+encounter_match,True,tied_latest,3,4,2,2,0
+218,Systolic Blood Pressure,time_window+encounter_match,False,older,1,4,4,2,0
+219,Systolic Blood Pressure,time_window+encounter_match,True,tied_latest,2,4,7,7,1
+220,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+221,Systolic Blood Pressure,time_window+encounter_match,True,tied_latest,2,4,2,2,1
+222,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+223,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+224,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,6,6,1
+225,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+226,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,6,6,1
+227,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+228,Systolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,7,7,0
+229,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+230,Systolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,2,0
+231,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+232,Systolic Blood Pressure,time_window+encounter_match,True,older,1,4,7,4,0
+233,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+234,Systolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,2,0
+235,Systolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+236,Systolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,6,0
+237,Systolic Blood Pressure,time_window+encounter_match,True,older,1,4,7,6,0
+238,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+239,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+240,Systolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,6,6,1
+241,Systolic Blood Pressure,unit_supported,True,older,1,2,4,1,0
+242,Systolic Blood Pressure,unit_supported,False,unique_latest,1,2,2,2,1
+243,Systolic Blood Pressure,unit_supported,False,unique_latest,1,2,4,4,1
+244,Systolic Blood Pressure,unit_supported,False,unique_latest,1,2,1,1,1
+245,Systolic Blood Pressure,unit_supported,True,older,1,2,7,6,0
+246,Systolic Blood Pressure,unit_supported,True,unique_latest,1,2,1,1,1
+247,Systolic Blood Pressure,unit_supported,False,unique_latest,1,2,2,2,1
+248,Systolic Blood Pressure,unit_supported,False,tied_latest,2,2,6,6,0
+249,Systolic Blood Pressure,unit_supported,True,tied_latest,2,3,6,6,1
+250,Systolic Blood Pressure,unit_supported,False,older,1,3,6,4,0
+251,Systolic Blood Pressure,unit_supported,False,older,1,3,4,2,0
+252,Systolic Blood Pressure,unit_supported,False,unique_latest,1,3,6,6,1
+253,Systolic Blood Pressure,unit_supported,False,older,1,3,4,1,0
+254,Systolic Blood Pressure,unit_supported,True,tied_latest,2,3,7,7,0
+255,Systolic Blood Pressure,unit_supported,False,older,1,3,7,1,0
+256,Systolic Blood Pressure,unit_supported,False,tied_latest,2,3,7,7,0
+257,Systolic Blood Pressure,unit_supported,False,older,1,3,4,2,0
+258,Systolic Blood Pressure,unit_supported,True,unique_latest,1,3,1,1,1
+259,Systolic Blood Pressure,unit_supported,False,older,1,3,7,6,0
+260,Systolic Blood Pressure,unit_supported,False,tied_latest,2,3,4,4,0
+261,Systolic Blood Pressure,unit_supported,True,older,1,3,4,1,0
+262,Systolic Blood Pressure,unit_supported,True,older,1,3,7,1,0
+263,Systolic Blood Pressure,unit_supported,True,older,2,3,7,2,0
+264,Systolic Blood Pressure,unit_supported,True,tied_latest,3,3,2,2,1
+265,Systolic Blood Pressure,unit_supported,True,older,1,3,6,1,0
+266,Systolic Blood Pressure,unit_supported,False,older,1,3,6,1,0
+267,Systolic Blood Pressure,unit_supported,True,unique_latest,1,3,6,6,1
+268,Systolic Blood Pressure,unit_supported,True,tied_latest,2,3,4,4,1
+269,Systolic Blood Pressure,unit_supported,True,older,1,3,4,1,0
+270,Systolic Blood Pressure,unit_supported,False,unique_latest,1,3,2,2,1
+271,Systolic Blood Pressure,unit_supported,True,unique_latest,1,3,1,1,1
+272,Systolic Blood Pressure,unit_supported,True,tied_latest,2,3,1,1,1
+273,Systolic Blood Pressure,unit_supported,False,older,1,4,7,2,0
+274,Systolic Blood Pressure,unit_supported,True,unique_latest,1,4,2,2,1
+275,Systolic Blood Pressure,unit_supported,True,tied_latest,2,4,4,4,1
+276,Systolic Blood Pressure,unit_supported,True,unique_latest,1,4,2,2,1
+277,Systolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+278,Systolic Blood Pressure,unit_supported,False,older,1,4,7,1,0
+279,Systolic Blood Pressure,unit_supported,False,tied_latest,2,4,2,2,0
+280,Systolic Blood Pressure,unit_supported,True,older,1,4,7,1,0
+281,Systolic Blood Pressure,unit_supported,True,unique_latest,1,4,2,2,1
+282,Systolic Blood Pressure,unit_supported,False,unique_latest,1,4,2,2,1
+283,Systolic Blood Pressure,unit_supported,True,older,1,4,7,2,0
+284,Systolic Blood Pressure,unit_supported,False,tied_latest,2,4,1,1,1
+285,Systolic Blood Pressure,unit_supported,True,older,1,4,6,1,0
+286,Systolic Blood Pressure,unit_supported,True,unique_latest,1,4,2,2,1
+287,Systolic Blood Pressure,unit_supported,False,tied_latest,2,4,1,1,0
+288,Systolic Blood Pressure,unit_supported,False,older,1,4,4,2,0
+289,Systolic Blood Pressure,unit_supported,True,tied_latest,2,4,2,2,1
+290,Systolic Blood Pressure,unit_supported,True,tied_latest,2,4,1,1,0
+291,Systolic Blood Pressure,unit_supported,True,older,2,4,7,2,0
+292,Systolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+293,Systolic Blood Pressure,unit_supported,True,unique_latest,1,4,1,1,1
+294,Systolic Blood Pressure,unit_supported,True,older,1,4,4,2,0
+295,Systolic Blood Pressure,unit_supported,False,older,1,4,7,2,0
+296,Systolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+297,Systolic Blood Pressure,unit_supported,True,older,1,4,6,4,0
+298,Systolic Blood Pressure,unit_supported,True,tied_latest,2,4,1,1,0
+299,Systolic Blood Pressure,unit_supported,False,unique_latest,1,4,1,1,1
+300,Systolic Blood Pressure,unit_supported,True,older,2,4,6,1,0
+301,Systolic Blood Pressure,unit_supported,False,older,2,4,7,2,0
+302,Systolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+303,Systolic Blood Pressure,unit_supported,False,older,1,4,6,2,0
+304,Systolic Blood Pressure,unit_supported,False,older,1,4,7,6,0
+305,Systolic Blood Pressure,unit_supported,True,unique_latest,1,4,4,4,1
+306,Systolic Blood Pressure,unit_supported,False,older,1,4,4,1,0
+307,Systolic Blood Pressure,unit_supported,False,older,1,4,6,1,0
+308,Systolic Blood Pressure,unit_supported,False,older,1,4,7,2,0
+309,Systolic Blood Pressure,unit_supported,False,unique_latest,1,4,1,1,1
+310,Systolic Blood Pressure,unit_supported,False,tied_latest,2,4,6,6,1
+311,Systolic Blood Pressure,unit_supported,True,older,1,4,7,2,0
+312,Systolic Blood Pressure,unit_supported,True,unique_latest,1,4,4,4,1
+313,Systolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+314,Systolic Blood Pressure,unit_supported,False,older,1,4,4,1,0
+315,Systolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+316,Systolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+317,Systolic Blood Pressure,unit_supported,False,older,1,4,2,1,0
+318,Systolic Blood Pressure,unit_supported,False,older,1,4,7,2,0
+319,Systolic Blood Pressure,unit_supported,False,unique_latest,1,4,4,4,1
+320,Systolic Blood Pressure,unit_supported,True,older,1,4,7,6,0
+321,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,2,4,4,1
+322,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,2,7,7,1
+323,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,2,2,2,1
+324,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,2,2,2,1
+325,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,2,4,4,1
+326,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,1,1,1
+327,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,2,2,2,1
+328,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,2,1,1,1
+329,Systolic Blood Pressure,time_window+unit_supported,True,older,1,3,6,4,0
+330,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+331,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+332,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+333,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,6,6,1
+334,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,2,2,1
+335,Systolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,3,1,1,0
+336,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+337,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,6,6,1
+338,Systolic Blood Pressure,time_window+unit_supported,True,older,1,3,7,6,0
+339,Systolic Blood Pressure,time_window+unit_supported,True,older,1,3,6,1,0
+340,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+341,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,4,4,1
+342,Systolic Blood Pressure,time_window+unit_supported,False,older,1,3,7,4,0
+343,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+344,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+345,Systolic Blood Pressure,time_window+unit_supported,True,older,1,3,2,1,0
+346,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+347,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,2,2,1
+348,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,4,4,1
+349,Systolic Blood Pressure,time_window+unit_supported,False,older,1,3,6,2,0
+350,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,7,7,1
+351,Systolic Blood Pressure,time_window+unit_supported,True,older,1,3,6,2,0
+352,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+353,Systolic Blood Pressure,time_window+unit_supported,False,older,1,4,7,1,0
+354,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,7,7,1
+355,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,7,7,1
+356,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+357,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,7,7,1
+358,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+359,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+360,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,7,7,1
+361,Systolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,7,7,1
+362,Systolic Blood Pressure,time_window+unit_supported,False,older,1,4,6,1,0
+363,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+364,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,7,7,1
+365,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+366,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,6,6,1
+367,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+368,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+369,Systolic Blood Pressure,time_window+unit_supported,False,older,1,4,7,6,0
+370,Systolic Blood Pressure,time_window+unit_supported,True,older,2,4,7,1,0
+371,Systolic Blood Pressure,time_window+unit_supported,True,older,2,4,4,1,0
+372,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+373,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,2,2,1
+374,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+375,Systolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,6,6,1
+376,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+377,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+378,Systolic Blood Pressure,time_window+unit_supported,True,older,1,4,2,1,0
+379,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+380,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+381,Systolic Blood Pressure,time_window+unit_supported,True,older,1,4,7,2,0
+382,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+383,Systolic Blood Pressure,time_window+unit_supported,True,older,1,4,7,4,0
+384,Systolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,4,4,0
+385,Systolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,2,2,1
+386,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+387,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+388,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+389,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+390,Systolic Blood Pressure,time_window+unit_supported,False,older,1,4,7,4,0
+391,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+392,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,7,7,1
+393,Systolic Blood Pressure,time_window+unit_supported,True,older,1,4,2,1,0
+394,Systolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,6,6,1
+395,Systolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,6,6,1
+396,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+397,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+398,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+399,Systolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,6,6,1
+400,Systolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+401,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,2,2,2,1
+402,Systolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,2,7,7,1
+403,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,2,7,1,0
+404,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,2,2,1,0
+405,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,2,6,4,0
+406,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,2,4,2,0
+407,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,2,7,7,0
+408,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,2,1,1,1
+409,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,4,2,0
+410,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,3,4,4,1
+411,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,7,4,0
+412,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+413,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,4,1,0
+414,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,7,2,0
+415,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,6,1,0
+416,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,2,1,0
+417,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+418,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,3,2,2,0
+419,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+420,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+421,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+422,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,7,2,0
+423,Systolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,3,2,2,1
+424,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+425,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+426,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+427,Systolic Blood Pressure,encounter_match+unit_supported,True,older,2,3,2,1,0
+428,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,6,2,0
+429,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,7,2,0
+430,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+431,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,7,6,0
+432,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,4,1,0
+433,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+434,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+435,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,2,1,0
+436,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+437,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,4,1,0
+438,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+439,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+440,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,4,1,0
+441,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+442,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,1,0
+443,Systolic Blood Pressure,encounter_match+unit_supported,False,older,2,4,7,6,0
+444,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,7,2,0
+445,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+446,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,4,0
+447,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+448,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,1,0
+449,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+450,Systolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,4,7,7,0
+451,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+452,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,2,0
+453,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,2,0
+454,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,4,0
+455,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,7,7,0
+456,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,7,1,0
+457,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,1,1,0
+458,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,2,0
+459,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,6,6,1
+460,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,2,0
+461,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+462,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,4,4,1
+463,Systolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,3,4,4,4,0
+464,Systolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+465,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+466,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,2,0
+467,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+468,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,2,2,1
+469,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,4,4,0
+470,Systolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,2,0
+471,Systolic Blood Pressure,encounter_match+unit_supported,True,older,2,4,4,1,0
+472,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+473,Systolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,4,2,2,1
+474,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,4,2,0
+475,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,2,0
+476,Systolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+477,Systolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,1,1,1
+478,Systolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,4,1,0
+479,Systolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,4,4,4,1
+480,Systolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,3,4,2,2,1
+481,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,2,1,1,1
+482,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,1,1,1
+483,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+484,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,2,6,6,1
+485,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,1,1,1
+486,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,2,7,7,1
+487,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+488,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,7,7,1
+489,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,3,6,2,0
+490,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,3,7,6,0
+491,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,2,3,7,7,1
+492,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+493,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,3,4,2,0
+494,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+495,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+496,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,7,7,1
+497,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+498,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,7,7,1
+499,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+500,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,3,6,2,0
+501,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+502,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+503,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+504,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+505,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,2,3,2,2,0
+506,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,2,3,7,7,1
+507,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,7,7,1
+508,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+509,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,7,7,1
+510,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,7,7,1
+511,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+512,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+513,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,4,2,0
+514,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,7,7,1
+515,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+516,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,6,6,1
+517,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,7,2,0
+518,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+519,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,7,7,1
+520,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+521,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,7,7,1
+522,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+523,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,2,1,0
+524,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+525,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+526,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+527,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+528,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+529,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+530,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,6,6,1
+531,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,2,4,1,1,0
+532,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,2,4,1,1,0
+533,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+534,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,7,6,0
+535,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+536,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,7,7,1
+537,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+538,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,4,2,0
+539,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+540,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+541,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+542,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,3,4,7,7,1
+543,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,6,2,0
+544,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+545,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+546,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,2,4,1,1,1
+547,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+548,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,7,2,0
+549,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+550,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,6,6,1
+551,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+552,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+553,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,7,1,0
+554,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+555,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,2,4,7,1,0
+556,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,6,1,0
+557,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,2,4,1,1,0
+558,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,6,1,0
+559,Systolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+560,Systolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,3,4,2,2,0
+561,Diastolic Blood Pressure,time_window,True,unique_latest,1,2,6,6,1
+562,Diastolic Blood Pressure,time_window,True,unique_latest,1,2,6,6,1
+563,Diastolic Blood Pressure,time_window,True,unique_latest,1,2,1,1,1
+564,Diastolic Blood Pressure,time_window,False,unique_latest,1,2,4,4,1
+565,Diastolic Blood Pressure,time_window,False,unique_latest,1,2,7,7,1
+566,Diastolic Blood Pressure,time_window,False,unique_latest,1,2,6,6,1
+567,Diastolic Blood Pressure,time_window,True,unique_latest,1,2,6,6,1
+568,Diastolic Blood Pressure,time_window,False,unique_latest,1,2,1,1,1
+569,Diastolic Blood Pressure,time_window,True,older,1,3,4,2,0
+570,Diastolic Blood Pressure,time_window,False,older,1,3,7,6,0
+571,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,1,1,1
+572,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,1,1,1
+573,Diastolic Blood Pressure,time_window,False,older,1,3,6,1,0
+574,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,1,1,1
+575,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,7,7,1
+576,Diastolic Blood Pressure,time_window,True,tied_latest,2,3,2,2,1
+577,Diastolic Blood Pressure,time_window,False,older,1,3,2,1,0
+578,Diastolic Blood Pressure,time_window,False,unique_latest,1,3,2,2,1
+579,Diastolic Blood Pressure,time_window,True,older,1,3,6,1,0
+580,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,2,2,1
+581,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,4,4,1
+582,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,2,2,1
+583,Diastolic Blood Pressure,time_window,True,tied_latest,2,3,6,6,0
+584,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,7,7,1
+585,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,1,1,1
+586,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,1,1,1
+587,Diastolic Blood Pressure,time_window,True,older,1,3,4,1,0
+588,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,6,6,1
+589,Diastolic Blood Pressure,time_window,False,unique_latest,1,3,2,2,1
+590,Diastolic Blood Pressure,time_window,True,tied_latest,2,3,7,7,1
+591,Diastolic Blood Pressure,time_window,False,unique_latest,1,3,7,7,1
+592,Diastolic Blood Pressure,time_window,True,unique_latest,1,3,2,2,1
+593,Diastolic Blood Pressure,time_window,False,tied_latest,2,4,2,2,0
+594,Diastolic Blood Pressure,time_window,True,older,1,4,6,1,0
+595,Diastolic Blood Pressure,time_window,True,older,2,4,7,4,0
+596,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+597,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+598,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,6,6,1
+599,Diastolic Blood Pressure,time_window,False,tied_latest,3,4,2,2,1
+600,Diastolic Blood Pressure,time_window,False,older,1,4,7,4,0
+601,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+602,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+603,Diastolic Blood Pressure,time_window,True,older,1,4,4,1,0
+604,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,7,7,1
+605,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,2,2,1
+606,Diastolic Blood Pressure,time_window,False,tied_latest,2,4,4,4,0
+607,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,4,4,1
+608,Diastolic Blood Pressure,time_window,False,older,2,4,4,2,0
+609,Diastolic Blood Pressure,time_window,True,tied_latest,2,4,2,2,0
+610,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,4,4,1
+611,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+612,Diastolic Blood Pressure,time_window,True,older,1,4,4,1,0
+613,Diastolic Blood Pressure,time_window,True,older,1,4,6,1,0
+614,Diastolic Blood Pressure,time_window,True,tied_latest,3,4,7,7,0
+615,Diastolic Blood Pressure,time_window,False,older,1,4,4,2,0
+616,Diastolic Blood Pressure,time_window,True,tied_latest,2,4,7,7,1
+617,Diastolic Blood Pressure,time_window,False,tied_latest,2,4,4,4,0
+618,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,7,7,1
+619,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,1,1,1
+620,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,7,7,1
+621,Diastolic Blood Pressure,time_window,False,older,1,4,7,4,0
+622,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,6,6,1
+623,Diastolic Blood Pressure,time_window,True,older,1,4,7,1,0
+624,Diastolic Blood Pressure,time_window,True,tied_latest,3,4,4,4,0
+625,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,2,2,1
+626,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,1,1,1
+627,Diastolic Blood Pressure,time_window,False,older,1,4,7,1,0
+628,Diastolic Blood Pressure,time_window,True,older,1,4,7,1,0
+629,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,7,7,1
+630,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,7,7,1
+631,Diastolic Blood Pressure,time_window,False,older,1,4,7,6,0
+632,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,2,2,1
+633,Diastolic Blood Pressure,time_window,True,older,1,4,6,1,0
+634,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,7,7,1
+635,Diastolic Blood Pressure,time_window,False,older,1,4,7,1,0
+636,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,1,1,1
+637,Diastolic Blood Pressure,time_window,False,tied_latest,2,4,6,6,0
+638,Diastolic Blood Pressure,time_window,True,older,1,4,4,1,0
+639,Diastolic Blood Pressure,time_window,True,unique_latest,1,4,1,1,1
+640,Diastolic Blood Pressure,time_window,False,unique_latest,1,4,1,1,1
+641,Diastolic Blood Pressure,encounter_match,False,older,1,2,6,4,0
+642,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,2,1,1,0
+643,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,2,1,1,1
+644,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,2,2,2,1
+645,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,2,1,1,1
+646,Diastolic Blood Pressure,encounter_match,True,tied_latest,2,2,2,2,0
+647,Diastolic Blood Pressure,encounter_match,False,older,1,2,4,2,0
+648,Diastolic Blood Pressure,encounter_match,True,older,1,2,7,4,0
+649,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,3,2,2,1
+650,Diastolic Blood Pressure,encounter_match,False,older,1,3,4,1,0
+651,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,3,2,2,1
+652,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,3,1,1,1
+653,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,3,2,2,1
+654,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,3,1,1,0
+655,Diastolic Blood Pressure,encounter_match,True,older,1,3,7,4,0
+656,Diastolic Blood Pressure,encounter_match,False,older,1,3,7,4,0
+657,Diastolic Blood Pressure,encounter_match,False,older,1,3,6,4,0
+658,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,3,4,4,1
+659,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,3,2,2,1
+660,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,3,1,1,0
+661,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,3,1,1,1
+662,Diastolic Blood Pressure,encounter_match,False,older,1,3,6,4,0
+663,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,3,2,2,1
+664,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,3,1,1,1
+665,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,3,2,2,1
+666,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,3,4,4,1
+667,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,3,1,1,1
+668,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,3,7,7,1
+669,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,3,1,1,1
+670,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,3,6,6,1
+671,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,3,4,4,1
+672,Diastolic Blood Pressure,encounter_match,True,older,1,3,7,1,0
+673,Diastolic Blood Pressure,encounter_match,False,older,1,4,7,1,0
+674,Diastolic Blood Pressure,encounter_match,True,older,1,4,4,2,0
+675,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,4,2,2,1
+676,Diastolic Blood Pressure,encounter_match,True,tied_latest,2,4,4,4,1
+677,Diastolic Blood Pressure,encounter_match,False,tied_latest,3,4,7,7,0
+678,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,4,2,2,1
+679,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,4,4,4,1
+680,Diastolic Blood Pressure,encounter_match,False,older,1,4,7,2,0
+681,Diastolic Blood Pressure,encounter_match,False,older,2,4,7,4,0
+682,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,4,1,1,1
+683,Diastolic Blood Pressure,encounter_match,True,tied_latest,2,4,6,6,0
+684,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,4,1,1,1
+685,Diastolic Blood Pressure,encounter_match,True,older,1,4,4,2,0
+686,Diastolic Blood Pressure,encounter_match,True,older,1,4,2,1,0
+687,Diastolic Blood Pressure,encounter_match,True,older,1,4,7,1,0
+688,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,4,1,1,1
+689,Diastolic Blood Pressure,encounter_match,False,older,2,4,6,4,0
+690,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,4,2,2,1
+691,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,4,1,1,0
+692,Diastolic Blood Pressure,encounter_match,False,older,1,4,7,1,0
+693,Diastolic Blood Pressure,encounter_match,False,tied_latest,3,4,2,2,0
+694,Diastolic Blood Pressure,encounter_match,True,unique_latest,1,4,1,1,1
+695,Diastolic Blood Pressure,encounter_match,False,older,1,4,7,2,0
+696,Diastolic Blood Pressure,encounter_match,False,older,1,4,6,1,0
+697,Diastolic Blood Pressure,encounter_match,True,older,1,4,2,1,0
+698,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,4,2,2,1
+699,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,4,2,2,1
+700,Diastolic Blood Pressure,encounter_match,False,older,1,4,7,1,0
+701,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,4,1,1,1
+702,Diastolic Blood Pressure,encounter_match,False,older,1,4,6,2,0
+703,Diastolic Blood Pressure,encounter_match,True,older,1,4,2,1,0
+704,Diastolic Blood Pressure,encounter_match,True,older,1,4,6,2,0
+705,Diastolic Blood Pressure,encounter_match,True,tied_latest,2,4,4,4,0
+706,Diastolic Blood Pressure,encounter_match,True,older,1,4,6,1,0
+707,Diastolic Blood Pressure,encounter_match,True,tied_latest,2,4,4,4,1
+708,Diastolic Blood Pressure,encounter_match,False,older,2,4,6,1,0
+709,Diastolic Blood Pressure,encounter_match,False,older,1,4,2,1,0
+710,Diastolic Blood Pressure,encounter_match,True,older,1,4,2,1,0
+711,Diastolic Blood Pressure,encounter_match,True,tied_latest,2,4,1,1,0
+712,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,4,2,2,1
+713,Diastolic Blood Pressure,encounter_match,True,older,1,4,7,2,0
+714,Diastolic Blood Pressure,encounter_match,False,older,1,4,2,1,0
+715,Diastolic Blood Pressure,encounter_match,False,tied_latest,2,4,2,2,1
+716,Diastolic Blood Pressure,encounter_match,False,older,1,4,2,1,0
+717,Diastolic Blood Pressure,encounter_match,True,older,1,4,7,2,0
+718,Diastolic Blood Pressure,encounter_match,True,older,1,4,6,1,0
+719,Diastolic Blood Pressure,encounter_match,False,older,1,4,4,2,0
+720,Diastolic Blood Pressure,encounter_match,False,unique_latest,1,4,1,1,1
+721,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,2,6,6,1
+722,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,2,2,2,1
+723,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,7,7,1
+724,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,7,7,1
+725,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,4,4,1
+726,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,2,2,2,1
+727,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,2,6,6,1
+728,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,2,1,1,1
+729,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,1,1,1
+730,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,7,7,1
+731,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+732,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,3,7,6,0
+733,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+734,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,3,2,1,0
+735,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,3,7,6,0
+736,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+737,Diastolic Blood Pressure,time_window+encounter_match,True,tied_latest,2,3,4,4,0
+738,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,6,6,1
+739,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+740,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,1,1,1
+741,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,1,1,1
+742,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,3,4,2,0
+743,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,6,6,1
+744,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+745,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,3,6,1,0
+746,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,1,1,1
+747,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+748,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,3,6,4,0
+749,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+750,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+751,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,3,4,1,0
+752,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,3,6,6,1
+753,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,4,7,6,0
+754,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+755,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,4,7,1,0
+756,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,6,1,0
+757,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+758,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,2,1,0
+759,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,2,0
+760,Diastolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,6,6,1
+761,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,4,4,1
+762,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+763,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,6,1,0
+764,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,4,2,1,0
+765,Diastolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,7,7,0
+766,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+767,Diastolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,2,2,1
+768,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,2,1,0
+769,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,4,0
+770,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+771,Diastolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,6,6,1
+772,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+773,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,6,6,1
+774,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+775,Diastolic Blood Pressure,time_window+encounter_match,False,older,2,4,4,2,0
+776,Diastolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,7,7,0
+777,Diastolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,6,6,1
+778,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,1,0
+779,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,6,6,1
+780,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+781,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,4,2,0
+782,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,2,0
+783,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+784,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+785,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+786,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,4,2,1,0
+787,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+788,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,4,7,2,0
+789,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+790,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,4,2,0
+791,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+792,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+793,Diastolic Blood Pressure,time_window+encounter_match,False,tied_latest,2,4,7,7,0
+794,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+795,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+796,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+797,Diastolic Blood Pressure,time_window+encounter_match,True,unique_latest,1,4,4,4,1
+798,Diastolic Blood Pressure,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+799,Diastolic Blood Pressure,time_window+encounter_match,True,older,1,4,6,2,0
+800,Diastolic Blood Pressure,time_window+encounter_match,False,older,1,4,7,1,0
+801,Diastolic Blood Pressure,unit_supported,False,older,1,2,7,2,0
+802,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,2,4,4,1
+803,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,2,2,2,1
+804,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,2,2,2,0
+805,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,2,2,2,1
+806,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,2,2,2,1
+807,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,2,2,2,1
+808,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,2,7,7,0
+809,Diastolic Blood Pressure,unit_supported,True,older,1,3,7,1,0
+810,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,3,7,7,0
+811,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,3,2,2,0
+812,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,3,2,2,1
+813,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,3,4,4,1
+814,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,3,2,2,1
+815,Diastolic Blood Pressure,unit_supported,False,older,1,3,7,2,0
+816,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,3,1,1,1
+817,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,3,4,4,1
+818,Diastolic Blood Pressure,unit_supported,False,older,1,3,6,1,0
+819,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,3,1,1,1
+820,Diastolic Blood Pressure,unit_supported,False,older,1,3,6,4,0
+821,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,3,4,4,1
+822,Diastolic Blood Pressure,unit_supported,False,older,1,3,4,1,0
+823,Diastolic Blood Pressure,unit_supported,False,older,1,3,7,4,0
+824,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,3,2,2,0
+825,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,3,2,2,1
+826,Diastolic Blood Pressure,unit_supported,True,older,1,3,6,1,0
+827,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,3,1,1,1
+828,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,3,1,1,1
+829,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,3,1,1,1
+830,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,3,2,2,1
+831,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,3,6,6,1
+832,Diastolic Blood Pressure,unit_supported,False,older,1,3,6,4,0
+833,Diastolic Blood Pressure,unit_supported,True,older,1,4,6,1,0
+834,Diastolic Blood Pressure,unit_supported,True,older,1,4,4,2,0
+835,Diastolic Blood Pressure,unit_supported,False,older,1,4,7,1,0
+836,Diastolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+837,Diastolic Blood Pressure,unit_supported,True,tied_latest,3,4,1,1,0
+838,Diastolic Blood Pressure,unit_supported,True,older,1,4,4,2,0
+839,Diastolic Blood Pressure,unit_supported,False,older,1,4,2,1,0
+840,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,1,1,0
+841,Diastolic Blood Pressure,unit_supported,True,older,2,4,7,6,0
+842,Diastolic Blood Pressure,unit_supported,False,older,1,4,7,4,0
+843,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,2,2,1
+844,Diastolic Blood Pressure,unit_supported,True,tied_latest,3,4,1,1,0
+845,Diastolic Blood Pressure,unit_supported,True,older,1,4,6,1,0
+846,Diastolic Blood Pressure,unit_supported,True,older,1,4,6,2,0
+847,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,4,1,1,1
+848,Diastolic Blood Pressure,unit_supported,False,older,1,4,2,1,0
+849,Diastolic Blood Pressure,unit_supported,False,older,1,4,4,2,0
+850,Diastolic Blood Pressure,unit_supported,False,older,1,4,6,1,0
+851,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,4,4,4,1
+852,Diastolic Blood Pressure,unit_supported,True,older,1,4,7,2,0
+853,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,4,1,1,1
+854,Diastolic Blood Pressure,unit_supported,False,older,1,4,6,2,0
+855,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,4,1,1,1
+856,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,4,4,4,0
+857,Diastolic Blood Pressure,unit_supported,False,older,1,4,4,1,0
+858,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,4,4,1
+859,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,1,1,1
+860,Diastolic Blood Pressure,unit_supported,False,older,1,4,6,2,0
+861,Diastolic Blood Pressure,unit_supported,True,older,1,4,7,6,0
+862,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,4,1,1,1
+863,Diastolic Blood Pressure,unit_supported,False,older,1,4,4,2,0
+864,Diastolic Blood Pressure,unit_supported,True,older,1,4,7,1,0
+865,Diastolic Blood Pressure,unit_supported,True,older,1,4,6,2,0
+866,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,7,7,1
+867,Diastolic Blood Pressure,unit_supported,False,older,1,4,2,1,0
+868,Diastolic Blood Pressure,unit_supported,True,older,1,4,2,1,0
+869,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,7,7,1
+870,Diastolic Blood Pressure,unit_supported,True,tied_latest,2,4,2,2,1
+871,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,2,2,1
+872,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,4,4,1
+873,Diastolic Blood Pressure,unit_supported,False,unique_latest,1,4,4,4,1
+874,Diastolic Blood Pressure,unit_supported,False,older,1,4,2,1,0
+875,Diastolic Blood Pressure,unit_supported,False,older,1,4,7,1,0
+876,Diastolic Blood Pressure,unit_supported,False,older,1,4,4,2,0
+877,Diastolic Blood Pressure,unit_supported,False,older,1,4,7,1,0
+878,Diastolic Blood Pressure,unit_supported,False,older,1,4,7,6,0
+879,Diastolic Blood Pressure,unit_supported,True,unique_latest,1,4,1,1,1
+880,Diastolic Blood Pressure,unit_supported,False,tied_latest,2,4,4,4,0
+881,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,1,1,1
+882,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,4,4,1
+883,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,7,7,1
+884,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,4,4,1
+885,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,1,1,1
+886,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,4,4,1
+887,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,2,2,1
+888,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,2,2,2,1
+889,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,2,2,1
+890,Diastolic Blood Pressure,time_window+unit_supported,False,older,1,3,6,2,0
+891,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,6,6,1
+892,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+893,Diastolic Blood Pressure,time_window+unit_supported,True,older,1,3,7,1,0
+894,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+895,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+896,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+897,Diastolic Blood Pressure,time_window+unit_supported,False,older,1,3,7,6,0
+898,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,2,2,1
+899,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,7,7,1
+900,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+901,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+902,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+903,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+904,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+905,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+906,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+907,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,2,2,1
+908,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+909,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+910,Diastolic Blood Pressure,time_window+unit_supported,False,older,1,3,4,1,0
+911,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+912,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,3,7,7,1
+913,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+914,Diastolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,2,2,1
+915,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,1,1,0
+916,Diastolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,4,4,0
+917,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+918,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,6,6,0
+919,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+920,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+921,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,2,2,0
+922,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+923,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,2,2,1
+924,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+925,Diastolic Blood Pressure,time_window+unit_supported,True,older,1,4,7,4,0
+926,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+927,Diastolic Blood Pressure,time_window+unit_supported,True,older,1,4,7,2,0
+928,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,7,7,1
+929,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+930,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,2,2,1
+931,Diastolic Blood Pressure,time_window+unit_supported,False,older,1,4,6,1,0
+932,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+933,Diastolic Blood Pressure,time_window+unit_supported,True,older,1,4,4,1,0
+934,Diastolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,2,2,0
+935,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+936,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,1,1,0
+937,Diastolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,1,1,1
+938,Diastolic Blood Pressure,time_window+unit_supported,False,older,1,4,2,1,0
+939,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,1,1,1
+940,Diastolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,2,2,1
+941,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+942,Diastolic Blood Pressure,time_window+unit_supported,False,older,1,4,4,1,0
+943,Diastolic Blood Pressure,time_window+unit_supported,True,older,1,4,6,4,0
+944,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+945,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+946,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+947,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+948,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,2,2,1
+949,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+950,Diastolic Blood Pressure,time_window+unit_supported,True,older,1,4,4,2,0
+951,Diastolic Blood Pressure,time_window+unit_supported,True,older,1,4,6,1,0
+952,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,1,1,0
+953,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+954,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+955,Diastolic Blood Pressure,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+956,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,1,1,1
+957,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+958,Diastolic Blood Pressure,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+959,Diastolic Blood Pressure,time_window+unit_supported,False,tied_latest,2,4,2,2,1
+960,Diastolic Blood Pressure,time_window+unit_supported,True,tied_latest,2,4,4,4,1
+961,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,2,7,4,0
+962,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,2,4,1,0
+963,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,2,6,1,0
+964,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,2,1,1,1
+965,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,2,6,4,0
+966,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,2,1,1,1
+967,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,2,6,6,1
+968,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,2,1,1,1
+969,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+970,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,3,1,1,0
+971,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,7,6,0
+972,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+973,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,7,4,0
+974,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,7,2,0
+975,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,3,4,4,1
+976,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+977,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,3,6,6,0
+978,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,3,1,1,0
+979,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,7,4,0
+980,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,7,6,0
+981,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,3,2,2,1
+982,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+983,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+984,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+985,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+986,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,4,1,0
+987,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,4,1,0
+988,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+989,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,7,1,0
+990,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,3,7,2,0
+991,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,3,6,2,0
+992,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+993,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,7,2,0
+994,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,7,1,0
+995,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,4,2,0
+996,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,7,4,0
+997,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,2,2,1
+998,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,2,2,1
+999,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,2,4,4,2,0
+1000,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1001,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,7,4,0
+1002,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,4,4,4,0
+1003,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,2,0
+1004,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,6,6,1
+1005,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,4,1,0
+1006,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+1007,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,6,6,1
+1008,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,4,1,0
+1009,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,2,4,7,6,0
+1010,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,7,6,0
+1011,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1012,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,2,1,0
+1013,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+1014,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,2,4,2,1,0
+1015,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,6,6,0
+1016,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,1,0
+1017,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,4,0
+1018,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,4,1,0
+1019,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,4,4,1
+1020,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,4,7,7,0
+1021,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,3,4,4,4,0
+1022,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,4,1,0
+1023,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,2,0
+1024,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,4,0
+1025,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,6,2,0
+1026,Diastolic Blood Pressure,encounter_match+unit_supported,False,tied_latest,2,4,2,2,0
+1027,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,2,1,0
+1028,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,3,4,4,4,0
+1029,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+1030,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1031,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,2,4,4,2,0
+1032,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,6,2,0
+1033,Diastolic Blood Pressure,encounter_match+unit_supported,True,tied_latest,2,4,2,2,0
+1034,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1035,Diastolic Blood Pressure,encounter_match+unit_supported,True,older,1,4,2,1,0
+1036,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,1,4,7,4,0
+1037,Diastolic Blood Pressure,encounter_match+unit_supported,False,older,2,4,6,1,0
+1038,Diastolic Blood Pressure,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1039,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1040,Diastolic Blood Pressure,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1041,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,2,4,4,1
+1042,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+1043,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,2,2,1
+1044,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,2,7,7,1
+1045,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+1046,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,4,4,1
+1047,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,2,1,1,1
+1048,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,2,2,2,1
+1049,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1050,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+1051,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+1052,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,2,3,1,1,1
+1053,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1054,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+1055,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,3,6,1,0
+1056,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+1057,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+1058,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1059,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+1060,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,3,6,2,0
+1061,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1062,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1063,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1064,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+1065,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,3,7,6,0
+1066,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+1067,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+1068,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+1069,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+1070,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+1071,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1072,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,3,7,7,1
+1073,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1074,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,2,4,6,6,1
+1075,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1076,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,6,1,0
+1077,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,2,4,7,7,0
+1078,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,6,2,0
+1079,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+1080,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1081,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1082,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1083,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+1084,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,6,1,0
+1085,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1086,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1087,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,3,4,1,1,1
+1088,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1089,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1090,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,2,4,6,4,0
+1091,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,7,4,0
+1092,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,6,6,1
+1093,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1094,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,6,2,0
+1095,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1096,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,2,4,4,4,1
+1097,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,6,4,0
+1098,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,tied_latest,2,4,2,2,1
+1099,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1100,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1101,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,7,1,0
+1102,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,4,1,0
+1103,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,7,7,1
+1104,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,4,1,0
+1105,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,6,1,0
+1106,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1107,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,7,4,0
+1108,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1109,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,tied_latest,2,4,7,7,0
+1110,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,7,1,0
+1111,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1112,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,6,6,1
+1113,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,older,1,4,7,1,0
+1114,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1115,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,6,1,0
+1116,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1117,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,7,1,0
+1118,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,older,1,4,4,1,0
+1119,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1120,Diastolic Blood Pressure,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1121,weight,time_window,True,unique_latest,1,2,6,6,1
+1122,weight,time_window,True,unique_latest,1,2,1,1,1
+1123,weight,time_window,False,unique_latest,1,2,6,6,1
+1124,weight,time_window,True,unique_latest,1,2,1,1,1
+1125,weight,time_window,False,unique_latest,1,2,2,2,1
+1126,weight,time_window,False,unique_latest,1,2,1,1,1
+1127,weight,time_window,False,unique_latest,1,2,6,6,1
+1128,weight,time_window,False,unique_latest,1,2,2,2,1
+1129,weight,time_window,False,unique_latest,1,3,1,1,1
+1130,weight,time_window,True,unique_latest,1,3,1,1,1
+1131,weight,time_window,False,unique_latest,1,3,6,6,1
+1132,weight,time_window,False,older,1,3,2,1,0
+1133,weight,time_window,False,older,1,3,7,6,0
+1134,weight,time_window,True,tied_latest,2,3,2,2,1
+1135,weight,time_window,True,older,1,3,7,6,0
+1136,weight,time_window,False,older,1,3,4,2,0
+1137,weight,time_window,False,unique_latest,1,3,4,4,1
+1138,weight,time_window,False,unique_latest,1,3,4,4,1
+1139,weight,time_window,False,unique_latest,1,3,4,4,1
+1140,weight,time_window,False,unique_latest,1,3,7,7,1
+1141,weight,time_window,False,tied_latest,2,3,7,7,0
+1142,weight,time_window,True,older,1,3,7,6,0
+1143,weight,time_window,True,unique_latest,1,3,7,7,1
+1144,weight,time_window,True,unique_latest,1,3,6,6,1
+1145,weight,time_window,True,unique_latest,1,3,1,1,1
+1146,weight,time_window,True,unique_latest,1,3,1,1,1
+1147,weight,time_window,False,unique_latest,1,3,4,4,1
+1148,weight,time_window,False,older,1,3,4,1,0
+1149,weight,time_window,True,unique_latest,1,3,2,2,1
+1150,weight,time_window,True,unique_latest,1,3,4,4,1
+1151,weight,time_window,False,unique_latest,1,3,4,4,1
+1152,weight,time_window,False,older,1,3,6,1,0
+1153,weight,time_window,False,older,1,4,7,6,0
+1154,weight,time_window,False,unique_latest,1,4,2,2,1
+1155,weight,time_window,False,unique_latest,1,4,2,2,1
+1156,weight,time_window,True,unique_latest,1,4,4,4,1
+1157,weight,time_window,True,older,1,4,7,2,0
+1158,weight,time_window,False,older,1,4,6,1,0
+1159,weight,time_window,True,older,1,4,4,1,0
+1160,weight,time_window,False,unique_latest,1,4,2,2,1
+1161,weight,time_window,True,unique_latest,1,4,6,6,1
+1162,weight,time_window,True,tied_latest,2,4,6,6,0
+1163,weight,time_window,True,unique_latest,1,4,1,1,1
+1164,weight,time_window,True,unique_latest,1,4,1,1,1
+1165,weight,time_window,False,older,1,4,7,1,0
+1166,weight,time_window,False,unique_latest,1,4,1,1,1
+1167,weight,time_window,True,unique_latest,1,4,6,6,1
+1168,weight,time_window,True,unique_latest,1,4,1,1,1
+1169,weight,time_window,False,older,2,4,4,1,0
+1170,weight,time_window,False,older,1,4,6,4,0
+1171,weight,time_window,False,unique_latest,1,4,2,2,1
+1172,weight,time_window,True,older,1,4,7,2,0
+1173,weight,time_window,False,unique_latest,1,4,1,1,1
+1174,weight,time_window,True,older,1,4,4,2,0
+1175,weight,time_window,True,unique_latest,1,4,6,6,1
+1176,weight,time_window,True,unique_latest,1,4,4,4,1
+1177,weight,time_window,True,older,1,4,2,1,0
+1178,weight,time_window,True,unique_latest,1,4,1,1,1
+1179,weight,time_window,False,older,1,4,6,1,0
+1180,weight,time_window,False,unique_latest,1,4,4,4,1
+1181,weight,time_window,False,unique_latest,1,4,2,2,1
+1182,weight,time_window,True,unique_latest,1,4,1,1,1
+1183,weight,time_window,False,tied_latest,2,4,4,4,0
+1184,weight,time_window,False,unique_latest,1,4,1,1,1
+1185,weight,time_window,False,unique_latest,1,4,2,2,1
+1186,weight,time_window,True,tied_latest,2,4,1,1,1
+1187,weight,time_window,True,unique_latest,1,4,1,1,1
+1188,weight,time_window,False,unique_latest,1,4,7,7,1
+1189,weight,time_window,True,tied_latest,2,4,1,1,1
+1190,weight,time_window,False,unique_latest,1,4,2,2,1
+1191,weight,time_window,True,older,1,4,6,4,0
+1192,weight,time_window,True,unique_latest,1,4,1,1,1
+1193,weight,time_window,False,unique_latest,1,4,2,2,1
+1194,weight,time_window,True,older,1,4,2,1,0
+1195,weight,time_window,False,unique_latest,1,4,2,2,1
+1196,weight,time_window,False,tied_latest,2,4,2,2,1
+1197,weight,time_window,True,tied_latest,2,4,1,1,0
+1198,weight,time_window,True,older,1,4,7,6,0
+1199,weight,time_window,False,older,1,4,7,4,0
+1200,weight,time_window,True,tied_latest,2,4,2,2,1
+1201,weight,encounter_match,True,older,1,2,4,2,0
+1202,weight,encounter_match,True,unique_latest,1,2,1,1,1
+1203,weight,encounter_match,False,older,1,2,7,6,0
+1204,weight,encounter_match,True,unique_latest,1,2,4,4,1
+1205,weight,encounter_match,True,tied_latest,2,2,1,1,1
+1206,weight,encounter_match,False,tied_latest,2,2,7,7,0
+1207,weight,encounter_match,True,unique_latest,1,2,4,4,1
+1208,weight,encounter_match,True,unique_latest,1,2,1,1,1
+1209,weight,encounter_match,False,older,1,3,6,1,0
+1210,weight,encounter_match,False,older,1,3,7,2,0
+1211,weight,encounter_match,True,older,1,3,7,1,0
+1212,weight,encounter_match,True,unique_latest,1,3,1,1,1
+1213,weight,encounter_match,True,older,1,3,6,2,0
+1214,weight,encounter_match,True,older,1,3,6,1,0
+1215,weight,encounter_match,False,tied_latest,2,3,4,4,1
+1216,weight,encounter_match,True,tied_latest,2,3,4,4,1
+1217,weight,encounter_match,True,unique_latest,1,3,6,6,1
+1218,weight,encounter_match,False,older,1,3,6,2,0
+1219,weight,encounter_match,False,unique_latest,1,3,4,4,1
+1220,weight,encounter_match,False,older,1,3,4,1,0
+1221,weight,encounter_match,True,unique_latest,1,3,2,2,1
+1222,weight,encounter_match,True,older,1,3,4,1,0
+1223,weight,encounter_match,True,tied_latest,2,3,7,7,0
+1224,weight,encounter_match,False,unique_latest,1,3,2,2,1
+1225,weight,encounter_match,False,older,1,3,7,2,0
+1226,weight,encounter_match,False,older,1,3,7,4,0
+1227,weight,encounter_match,False,tied_latest,2,3,1,1,0
+1228,weight,encounter_match,False,unique_latest,1,3,2,2,1
+1229,weight,encounter_match,False,older,1,3,7,1,0
+1230,weight,encounter_match,False,older,2,3,6,4,0
+1231,weight,encounter_match,False,tied_latest,2,3,6,6,0
+1232,weight,encounter_match,True,older,1,3,6,1,0
+1233,weight,encounter_match,False,older,1,4,2,1,0
+1234,weight,encounter_match,False,unique_latest,1,4,4,4,1
+1235,weight,encounter_match,False,unique_latest,1,4,1,1,1
+1236,weight,encounter_match,False,older,1,4,6,4,0
+1237,weight,encounter_match,False,older,2,4,7,1,0
+1238,weight,encounter_match,False,unique_latest,1,4,1,1,1
+1239,weight,encounter_match,True,tied_latest,2,4,2,2,0
+1240,weight,encounter_match,True,unique_latest,1,4,1,1,1
+1241,weight,encounter_match,True,unique_latest,1,4,2,2,1
+1242,weight,encounter_match,True,unique_latest,1,4,1,1,1
+1243,weight,encounter_match,False,unique_latest,1,4,2,2,1
+1244,weight,encounter_match,False,tied_latest,2,4,7,7,1
+1245,weight,encounter_match,False,older,1,4,6,1,0
+1246,weight,encounter_match,False,unique_latest,1,4,4,4,1
+1247,weight,encounter_match,True,tied_latest,2,4,4,4,1
+1248,weight,encounter_match,True,older,1,4,7,1,0
+1249,weight,encounter_match,True,older,1,4,7,4,0
+1250,weight,encounter_match,False,unique_latest,1,4,1,1,1
+1251,weight,encounter_match,True,older,1,4,6,1,0
+1252,weight,encounter_match,True,tied_latest,2,4,1,1,0
+1253,weight,encounter_match,True,tied_latest,2,4,1,1,1
+1254,weight,encounter_match,False,older,1,4,2,1,0
+1255,weight,encounter_match,True,unique_latest,1,4,1,1,1
+1256,weight,encounter_match,True,older,1,4,2,1,0
+1257,weight,encounter_match,False,older,1,4,6,2,0
+1258,weight,encounter_match,True,older,1,4,2,1,0
+1259,weight,encounter_match,False,older,1,4,7,2,0
+1260,weight,encounter_match,True,unique_latest,1,4,1,1,1
+1261,weight,encounter_match,False,unique_latest,1,4,2,2,1
+1262,weight,encounter_match,False,unique_latest,1,4,1,1,1
+1263,weight,encounter_match,True,older,1,4,4,2,0
+1264,weight,encounter_match,False,tied_latest,2,4,1,1,0
+1265,weight,encounter_match,True,older,2,4,7,1,0
+1266,weight,encounter_match,True,older,2,4,2,1,0
+1267,weight,encounter_match,True,older,1,4,7,1,0
+1268,weight,encounter_match,False,older,1,4,2,1,0
+1269,weight,encounter_match,False,older,2,4,4,1,0
+1270,weight,encounter_match,True,tied_latest,2,4,1,1,1
+1271,weight,encounter_match,False,unique_latest,1,4,1,1,1
+1272,weight,encounter_match,False,older,1,4,7,2,0
+1273,weight,encounter_match,False,older,1,4,4,2,0
+1274,weight,encounter_match,False,older,2,4,6,4,0
+1275,weight,encounter_match,True,older,1,4,6,2,0
+1276,weight,encounter_match,False,tied_latest,2,4,1,1,0
+1277,weight,encounter_match,True,older,1,4,4,1,0
+1278,weight,encounter_match,True,older,1,4,7,6,0
+1279,weight,encounter_match,False,tied_latest,2,4,1,1,0
+1280,weight,encounter_match,False,unique_latest,1,4,4,4,1
+1281,weight,time_window+encounter_match,True,unique_latest,1,2,1,1,1
+1282,weight,time_window+encounter_match,True,unique_latest,1,2,7,7,1
+1283,weight,time_window+encounter_match,False,unique_latest,1,2,2,2,1
+1284,weight,time_window+encounter_match,True,unique_latest,1,2,6,6,1
+1285,weight,time_window+encounter_match,True,unique_latest,1,2,6,6,1
+1286,weight,time_window+encounter_match,False,unique_latest,1,2,6,6,1
+1287,weight,time_window+encounter_match,True,unique_latest,1,2,1,1,1
+1288,weight,time_window+encounter_match,True,unique_latest,1,2,4,4,1
+1289,weight,time_window+encounter_match,False,unique_latest,1,3,7,7,1
+1290,weight,time_window+encounter_match,False,older,1,3,7,6,0
+1291,weight,time_window+encounter_match,False,unique_latest,1,3,7,7,1
+1292,weight,time_window+encounter_match,True,tied_latest,2,3,7,7,0
+1293,weight,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1294,weight,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+1295,weight,time_window+encounter_match,True,unique_latest,1,3,6,6,1
+1296,weight,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1297,weight,time_window+encounter_match,True,unique_latest,1,3,7,7,1
+1298,weight,time_window+encounter_match,False,unique_latest,1,3,1,1,1
+1299,weight,time_window+encounter_match,False,older,1,3,6,2,0
+1300,weight,time_window+encounter_match,True,unique_latest,1,3,4,4,1
+1301,weight,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+1302,weight,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+1303,weight,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+1304,weight,time_window+encounter_match,True,older,1,3,6,2,0
+1305,weight,time_window+encounter_match,True,unique_latest,1,3,1,1,1
+1306,weight,time_window+encounter_match,False,unique_latest,1,3,1,1,1
+1307,weight,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+1308,weight,time_window+encounter_match,True,tied_latest,2,3,6,6,1
+1309,weight,time_window+encounter_match,False,unique_latest,1,3,2,2,1
+1310,weight,time_window+encounter_match,True,tied_latest,2,3,1,1,1
+1311,weight,time_window+encounter_match,False,tied_latest,2,3,7,7,0
+1312,weight,time_window+encounter_match,True,unique_latest,1,3,6,6,1
+1313,weight,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+1314,weight,time_window+encounter_match,False,unique_latest,1,4,6,6,1
+1315,weight,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1316,weight,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+1317,weight,time_window+encounter_match,False,unique_latest,1,4,6,6,1
+1318,weight,time_window+encounter_match,True,older,2,4,4,2,0
+1319,weight,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+1320,weight,time_window+encounter_match,False,older,1,4,2,1,0
+1321,weight,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+1322,weight,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+1323,weight,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1324,weight,time_window+encounter_match,False,older,1,4,6,4,0
+1325,weight,time_window+encounter_match,True,tied_latest,2,4,2,2,0
+1326,weight,time_window+encounter_match,True,older,1,4,7,2,0
+1327,weight,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+1328,weight,time_window+encounter_match,False,older,2,4,6,2,0
+1329,weight,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+1330,weight,time_window+encounter_match,True,older,1,4,7,2,0
+1331,weight,time_window+encounter_match,True,unique_latest,1,4,4,4,1
+1332,weight,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+1333,weight,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1334,weight,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+1335,weight,time_window+encounter_match,False,older,1,4,7,2,0
+1336,weight,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+1337,weight,time_window+encounter_match,True,unique_latest,1,4,6,6,1
+1338,weight,time_window+encounter_match,False,older,1,4,6,1,0
+1339,weight,time_window+encounter_match,False,tied_latest,2,4,7,7,0
+1340,weight,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+1341,weight,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+1342,weight,time_window+encounter_match,True,older,1,4,6,1,0
+1343,weight,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+1344,weight,time_window+encounter_match,True,older,1,4,7,4,0
+1345,weight,time_window+encounter_match,True,older,1,4,7,2,0
+1346,weight,time_window+encounter_match,True,unique_latest,1,4,6,6,1
+1347,weight,time_window+encounter_match,False,older,1,4,7,2,0
+1348,weight,time_window+encounter_match,False,tied_latest,2,4,1,1,1
+1349,weight,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+1350,weight,time_window+encounter_match,False,tied_latest,2,4,1,1,1
+1351,weight,time_window+encounter_match,True,tied_latest,2,4,4,4,0
+1352,weight,time_window+encounter_match,False,older,1,4,7,6,0
+1353,weight,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+1354,weight,time_window+encounter_match,False,older,1,4,7,1,0
+1355,weight,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+1356,weight,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+1357,weight,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+1358,weight,time_window+encounter_match,False,unique_latest,1,4,4,4,1
+1359,weight,time_window+encounter_match,False,tied_latest,2,4,1,1,1
+1360,weight,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1361,weight,unit_supported,False,tied_latest,2,2,4,4,1
+1362,weight,unit_supported,True,unique_latest,1,2,2,2,1
+1363,weight,unit_supported,True,unique_latest,1,2,4,4,1
+1364,weight,unit_supported,True,older,1,2,4,2,0
+1365,weight,unit_supported,False,unique_latest,1,2,1,1,1
+1366,weight,unit_supported,True,unique_latest,1,2,2,2,1
+1367,weight,unit_supported,True,tied_latest,2,2,4,4,1
+1368,weight,unit_supported,True,unique_latest,1,2,6,6,1
+1369,weight,unit_supported,False,older,2,3,7,2,0
+1370,weight,unit_supported,True,older,1,3,7,4,0
+1371,weight,unit_supported,True,tied_latest,2,3,7,7,0
+1372,weight,unit_supported,True,unique_latest,1,3,1,1,1
+1373,weight,unit_supported,False,unique_latest,1,3,1,1,1
+1374,weight,unit_supported,True,tied_latest,2,3,6,6,1
+1375,weight,unit_supported,True,older,1,3,6,2,0
+1376,weight,unit_supported,True,older,1,3,4,1,0
+1377,weight,unit_supported,False,older,1,3,6,1,0
+1378,weight,unit_supported,False,tied_latest,2,3,2,2,0
+1379,weight,unit_supported,False,older,1,3,6,2,0
+1380,weight,unit_supported,False,older,1,3,7,6,0
+1381,weight,unit_supported,False,older,1,3,2,1,0
+1382,weight,unit_supported,False,older,2,3,6,2,0
+1383,weight,unit_supported,True,tied_latest,2,3,4,4,0
+1384,weight,unit_supported,False,unique_latest,1,3,2,2,1
+1385,weight,unit_supported,True,older,1,3,7,2,0
+1386,weight,unit_supported,True,unique_latest,1,3,2,2,1
+1387,weight,unit_supported,False,older,2,3,4,1,0
+1388,weight,unit_supported,True,older,1,3,2,1,0
+1389,weight,unit_supported,True,older,1,3,4,1,0
+1390,weight,unit_supported,False,unique_latest,1,3,2,2,1
+1391,weight,unit_supported,True,older,1,3,6,1,0
+1392,weight,unit_supported,False,older,1,3,7,2,0
+1393,weight,unit_supported,True,unique_latest,1,4,4,4,1
+1394,weight,unit_supported,False,tied_latest,2,4,1,1,0
+1395,weight,unit_supported,False,older,1,4,7,1,0
+1396,weight,unit_supported,True,older,2,4,4,1,0
+1397,weight,unit_supported,True,unique_latest,1,4,4,4,1
+1398,weight,unit_supported,True,unique_latest,1,4,4,4,1
+1399,weight,unit_supported,False,older,1,4,6,2,0
+1400,weight,unit_supported,True,older,2,4,4,2,0
+1401,weight,unit_supported,False,tied_latest,2,4,2,2,1
+1402,weight,unit_supported,True,older,1,4,6,2,0
+1403,weight,unit_supported,True,older,1,4,7,1,0
+1404,weight,unit_supported,False,older,2,4,2,1,0
+1405,weight,unit_supported,True,unique_latest,1,4,4,4,1
+1406,weight,unit_supported,True,unique_latest,1,4,2,2,1
+1407,weight,unit_supported,True,older,3,4,6,2,0
+1408,weight,unit_supported,True,older,1,4,2,1,0
+1409,weight,unit_supported,False,unique_latest,1,4,1,1,1
+1410,weight,unit_supported,False,older,1,4,4,2,0
+1411,weight,unit_supported,False,tied_latest,2,4,4,4,0
+1412,weight,unit_supported,False,tied_latest,2,4,2,2,0
+1413,weight,unit_supported,False,unique_latest,1,4,1,1,1
+1414,weight,unit_supported,False,older,1,4,7,1,0
+1415,weight,unit_supported,True,older,1,4,7,2,0
+1416,weight,unit_supported,True,tied_latest,2,4,2,2,1
+1417,weight,unit_supported,False,older,1,4,7,2,0
+1418,weight,unit_supported,True,older,1,4,7,1,0
+1419,weight,unit_supported,True,unique_latest,1,4,4,4,1
+1420,weight,unit_supported,True,older,1,4,4,1,0
+1421,weight,unit_supported,False,unique_latest,1,4,4,4,1
+1422,weight,unit_supported,False,tied_latest,2,4,1,1,0
+1423,weight,unit_supported,True,tied_latest,2,4,1,1,1
+1424,weight,unit_supported,True,tied_latest,2,4,6,6,0
+1425,weight,unit_supported,False,unique_latest,1,4,2,2,1
+1426,weight,unit_supported,False,older,1,4,4,2,0
+1427,weight,unit_supported,True,older,1,4,2,1,0
+1428,weight,unit_supported,True,unique_latest,1,4,1,1,1
+1429,weight,unit_supported,True,older,1,4,7,4,0
+1430,weight,unit_supported,True,older,1,4,4,1,0
+1431,weight,unit_supported,False,unique_latest,1,4,1,1,1
+1432,weight,unit_supported,True,older,1,4,7,1,0
+1433,weight,unit_supported,True,tied_latest,2,4,2,2,1
+1434,weight,unit_supported,True,unique_latest,1,4,4,4,1
+1435,weight,unit_supported,False,older,1,4,7,6,0
+1436,weight,unit_supported,False,older,1,4,6,1,0
+1437,weight,unit_supported,True,tied_latest,2,4,1,1,0
+1438,weight,unit_supported,False,tied_latest,2,4,4,4,1
+1439,weight,unit_supported,True,unique_latest,1,4,1,1,1
+1440,weight,unit_supported,False,tied_latest,2,4,4,4,0
+1441,weight,time_window+unit_supported,True,unique_latest,1,2,7,7,1
+1442,weight,time_window+unit_supported,False,unique_latest,1,2,1,1,1
+1443,weight,time_window+unit_supported,False,unique_latest,1,2,4,4,1
+1444,weight,time_window+unit_supported,True,unique_latest,1,2,2,2,1
+1445,weight,time_window+unit_supported,False,unique_latest,1,2,7,7,1
+1446,weight,time_window+unit_supported,True,unique_latest,1,2,7,7,1
+1447,weight,time_window+unit_supported,True,unique_latest,1,2,4,4,1
+1448,weight,time_window+unit_supported,True,unique_latest,1,2,6,6,1
+1449,weight,time_window+unit_supported,False,unique_latest,1,3,7,7,1
+1450,weight,time_window+unit_supported,False,unique_latest,1,3,7,7,1
+1451,weight,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+1452,weight,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+1453,weight,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+1454,weight,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+1455,weight,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+1456,weight,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+1457,weight,time_window+unit_supported,False,unique_latest,1,3,7,7,1
+1458,weight,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+1459,weight,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+1460,weight,time_window+unit_supported,True,unique_latest,1,3,2,2,1
+1461,weight,time_window+unit_supported,False,unique_latest,1,3,4,4,1
+1462,weight,time_window+unit_supported,False,older,1,3,6,4,0
+1463,weight,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+1464,weight,time_window+unit_supported,False,tied_latest,2,3,7,7,0
+1465,weight,time_window+unit_supported,False,older,1,3,7,2,0
+1466,weight,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+1467,weight,time_window+unit_supported,True,unique_latest,1,3,4,4,1
+1468,weight,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+1469,weight,time_window+unit_supported,False,older,1,3,6,4,0
+1470,weight,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+1471,weight,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+1472,weight,time_window+unit_supported,True,unique_latest,1,3,7,7,1
+1473,weight,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+1474,weight,time_window+unit_supported,True,older,1,4,7,4,0
+1475,weight,time_window+unit_supported,True,tied_latest,2,4,2,2,0
+1476,weight,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+1477,weight,time_window+unit_supported,False,older,1,4,4,1,0
+1478,weight,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+1479,weight,time_window+unit_supported,False,older,1,4,7,2,0
+1480,weight,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+1481,weight,time_window+unit_supported,True,older,1,4,7,2,0
+1482,weight,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+1483,weight,time_window+unit_supported,True,tied_latest,2,4,7,7,1
+1484,weight,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+1485,weight,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+1486,weight,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+1487,weight,time_window+unit_supported,False,tied_latest,2,4,6,6,1
+1488,weight,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+1489,weight,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+1490,weight,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+1491,weight,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+1492,weight,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+1493,weight,time_window+unit_supported,False,tied_latest,2,4,1,1,0
+1494,weight,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+1495,weight,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+1496,weight,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+1497,weight,time_window+unit_supported,True,older,1,4,7,1,0
+1498,weight,time_window+unit_supported,False,older,2,4,6,2,0
+1499,weight,time_window+unit_supported,False,tied_latest,2,4,1,1,1
+1500,weight,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+1501,weight,time_window+unit_supported,False,tied_latest,2,4,2,2,0
+1502,weight,time_window+unit_supported,True,unique_latest,1,4,6,6,1
+1503,weight,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+1504,weight,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+1505,weight,time_window+unit_supported,True,older,1,4,7,6,0
+1506,weight,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+1507,weight,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+1508,weight,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+1509,weight,time_window+unit_supported,True,unique_latest,1,4,2,2,1
+1510,weight,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+1511,weight,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+1512,weight,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+1513,weight,time_window+unit_supported,True,unique_latest,1,4,2,2,1
+1514,weight,time_window+unit_supported,True,unique_latest,1,4,6,6,1
+1515,weight,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+1516,weight,time_window+unit_supported,False,older,1,4,2,1,0
+1517,weight,time_window+unit_supported,True,unique_latest,1,4,6,6,1
+1518,weight,time_window+unit_supported,False,older,1,4,6,1,0
+1519,weight,time_window+unit_supported,False,older,1,4,4,1,0
+1520,weight,time_window+unit_supported,False,older,1,4,6,1,0
+1521,weight,encounter_match+unit_supported,True,unique_latest,1,2,4,4,1
+1522,weight,encounter_match+unit_supported,True,older,1,2,7,6,0
+1523,weight,encounter_match+unit_supported,True,tied_latest,2,2,1,1,0
+1524,weight,encounter_match+unit_supported,True,unique_latest,1,2,1,1,1
+1525,weight,encounter_match+unit_supported,True,tied_latest,2,2,2,2,0
+1526,weight,encounter_match+unit_supported,False,tied_latest,2,2,1,1,0
+1527,weight,encounter_match+unit_supported,False,tied_latest,2,2,6,6,1
+1528,weight,encounter_match+unit_supported,True,unique_latest,1,2,4,4,1
+1529,weight,encounter_match+unit_supported,False,tied_latest,2,3,4,4,0
+1530,weight,encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1531,weight,encounter_match+unit_supported,False,tied_latest,2,3,4,4,1
+1532,weight,encounter_match+unit_supported,True,tied_latest,2,3,7,7,1
+1533,weight,encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+1534,weight,encounter_match+unit_supported,False,tied_latest,2,3,4,4,1
+1535,weight,encounter_match+unit_supported,True,older,1,3,6,1,0
+1536,weight,encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1537,weight,encounter_match+unit_supported,True,older,1,3,4,1,0
+1538,weight,encounter_match+unit_supported,True,older,1,3,2,1,0
+1539,weight,encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+1540,weight,encounter_match+unit_supported,True,tied_latest,2,3,6,6,0
+1541,weight,encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1542,weight,encounter_match+unit_supported,False,older,1,3,7,1,0
+1543,weight,encounter_match+unit_supported,False,older,1,3,2,1,0
+1544,weight,encounter_match+unit_supported,False,older,1,3,7,1,0
+1545,weight,encounter_match+unit_supported,True,older,1,3,7,4,0
+1546,weight,encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1547,weight,encounter_match+unit_supported,True,older,2,3,6,2,0
+1548,weight,encounter_match+unit_supported,False,older,1,3,4,2,0
+1549,weight,encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+1550,weight,encounter_match+unit_supported,False,older,1,3,4,2,0
+1551,weight,encounter_match+unit_supported,False,older,1,3,4,2,0
+1552,weight,encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+1553,weight,encounter_match+unit_supported,True,older,1,4,4,1,0
+1554,weight,encounter_match+unit_supported,False,older,1,4,7,1,0
+1555,weight,encounter_match+unit_supported,False,older,1,4,6,4,0
+1556,weight,encounter_match+unit_supported,True,older,2,4,2,1,0
+1557,weight,encounter_match+unit_supported,False,tied_latest,2,4,1,1,0
+1558,weight,encounter_match+unit_supported,False,older,1,4,6,2,0
+1559,weight,encounter_match+unit_supported,False,older,1,4,2,1,0
+1560,weight,encounter_match+unit_supported,True,older,1,4,4,2,0
+1561,weight,encounter_match+unit_supported,False,older,1,4,6,1,0
+1562,weight,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1563,weight,encounter_match+unit_supported,False,older,1,4,4,2,0
+1564,weight,encounter_match+unit_supported,False,older,1,4,7,2,0
+1565,weight,encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1566,weight,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1567,weight,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1568,weight,encounter_match+unit_supported,True,older,1,4,6,2,0
+1569,weight,encounter_match+unit_supported,False,older,1,4,4,2,0
+1570,weight,encounter_match+unit_supported,True,older,1,4,7,2,0
+1571,weight,encounter_match+unit_supported,True,older,1,4,6,4,0
+1572,weight,encounter_match+unit_supported,False,older,1,4,6,1,0
+1573,weight,encounter_match+unit_supported,True,older,1,4,6,2,0
+1574,weight,encounter_match+unit_supported,False,older,1,4,2,1,0
+1575,weight,encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1576,weight,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1577,weight,encounter_match+unit_supported,True,tied_latest,2,4,4,4,1
+1578,weight,encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1579,weight,encounter_match+unit_supported,False,older,1,4,7,1,0
+1580,weight,encounter_match+unit_supported,True,tied_latest,2,4,6,6,0
+1581,weight,encounter_match+unit_supported,True,older,1,4,4,2,0
+1582,weight,encounter_match+unit_supported,True,older,1,4,4,1,0
+1583,weight,encounter_match+unit_supported,False,older,1,4,7,2,0
+1584,weight,encounter_match+unit_supported,False,older,1,4,7,6,0
+1585,weight,encounter_match+unit_supported,False,tied_latest,2,4,2,2,0
+1586,weight,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1587,weight,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1588,weight,encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1589,weight,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1590,weight,encounter_match+unit_supported,True,older,2,4,6,1,0
+1591,weight,encounter_match+unit_supported,False,tied_latest,2,4,6,6,1
+1592,weight,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1593,weight,encounter_match+unit_supported,False,older,3,4,4,1,0
+1594,weight,encounter_match+unit_supported,True,older,1,4,7,1,0
+1595,weight,encounter_match+unit_supported,True,older,1,4,7,4,0
+1596,weight,encounter_match+unit_supported,True,older,2,4,7,6,0
+1597,weight,encounter_match+unit_supported,False,tied_latest,2,4,6,6,1
+1598,weight,encounter_match+unit_supported,False,older,1,4,7,6,0
+1599,weight,encounter_match+unit_supported,False,older,1,4,7,2,0
+1600,weight,encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+1601,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,2,4,4,1
+1602,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,2,2,2,1
+1603,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,2,1,1,1
+1604,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,2,1,1,1
+1605,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,2,1,1,1
+1606,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,2,2,2,1
+1607,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,2,7,7,1
+1608,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,2,7,7,1
+1609,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+1610,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1611,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+1612,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+1613,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+1614,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1615,weight,time_window+encounter_match+unit_supported,True,tied_latest,2,3,6,6,0
+1616,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+1617,weight,time_window+encounter_match+unit_supported,False,tied_latest,2,3,1,1,1
+1618,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+1619,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1620,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,7,7,1
+1621,weight,time_window+encounter_match+unit_supported,True,tied_latest,2,3,4,4,1
+1622,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+1623,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+1624,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+1625,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+1626,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+1627,weight,time_window+encounter_match+unit_supported,True,tied_latest,2,3,6,6,1
+1628,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,7,7,1
+1629,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1630,weight,time_window+encounter_match+unit_supported,True,older,1,3,4,2,0
+1631,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+1632,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+1633,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,7,7,1
+1634,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1635,weight,time_window+encounter_match+unit_supported,True,tied_latest,2,4,7,7,1
+1636,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1637,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1638,weight,time_window+encounter_match+unit_supported,False,tied_latest,2,4,6,6,1
+1639,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1640,weight,time_window+encounter_match+unit_supported,True,older,1,4,4,1,0
+1641,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1642,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1643,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1644,weight,time_window+encounter_match+unit_supported,True,tied_latest,2,4,1,1,0
+1645,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1646,weight,time_window+encounter_match+unit_supported,False,older,1,4,6,1,0
+1647,weight,time_window+encounter_match+unit_supported,True,older,1,4,7,1,0
+1648,weight,time_window+encounter_match+unit_supported,True,older,1,4,7,1,0
+1649,weight,time_window+encounter_match+unit_supported,True,older,1,4,4,2,0
+1650,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,7,7,1
+1651,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1652,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1653,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,7,7,1
+1654,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1655,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+1656,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,7,7,1
+1657,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1658,weight,time_window+encounter_match+unit_supported,True,tied_latest,2,4,4,4,1
+1659,weight,time_window+encounter_match+unit_supported,False,tied_latest,2,4,1,1,1
+1660,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,6,6,1
+1661,weight,time_window+encounter_match+unit_supported,True,older,1,4,6,1,0
+1662,weight,time_window+encounter_match+unit_supported,False,older,1,4,7,6,0
+1663,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+1664,weight,time_window+encounter_match+unit_supported,True,tied_latest,2,4,2,2,1
+1665,weight,time_window+encounter_match+unit_supported,True,older,1,4,2,1,0
+1666,weight,time_window+encounter_match+unit_supported,False,tied_latest,2,4,4,4,0
+1667,weight,time_window+encounter_match+unit_supported,False,older,1,4,6,2,0
+1668,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1669,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1670,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1671,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1672,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+1673,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1674,weight,time_window+encounter_match+unit_supported,True,older,1,4,6,4,0
+1675,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+1676,weight,time_window+encounter_match+unit_supported,True,older,1,4,7,1,0
+1677,weight,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+1678,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+1679,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+1680,weight,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+1681,height,time_window,False,unique_latest,1,2,1,1,1
+1682,height,time_window,False,unique_latest,1,2,1,1,1
+1683,height,time_window,False,unique_latest,1,2,7,7,1
+1684,height,time_window,True,unique_latest,1,2,2,2,1
+1685,height,time_window,False,unique_latest,1,2,7,7,1
+1686,height,time_window,True,unique_latest,1,2,6,6,1
+1687,height,time_window,False,unique_latest,1,2,6,6,1
+1688,height,time_window,False,unique_latest,1,2,4,4,1
+1689,height,time_window,True,unique_latest,1,3,2,2,1
+1690,height,time_window,True,unique_latest,1,3,4,4,1
+1691,height,time_window,True,unique_latest,1,3,2,2,1
+1692,height,time_window,False,unique_latest,1,3,6,6,1
+1693,height,time_window,True,unique_latest,1,3,4,4,1
+1694,height,time_window,False,unique_latest,1,3,4,4,1
+1695,height,time_window,True,older,1,3,2,1,0
+1696,height,time_window,True,unique_latest,1,3,1,1,1
+1697,height,time_window,False,older,1,3,4,2,0
+1698,height,time_window,False,unique_latest,1,3,2,2,1
+1699,height,time_window,True,unique_latest,1,3,2,2,1
+1700,height,time_window,False,unique_latest,1,3,1,1,1
+1701,height,time_window,True,unique_latest,1,3,1,1,1
+1702,height,time_window,True,unique_latest,1,3,1,1,1
+1703,height,time_window,False,older,1,3,2,1,0
+1704,height,time_window,False,unique_latest,1,3,4,4,1
+1705,height,time_window,True,unique_latest,1,3,1,1,1
+1706,height,time_window,False,unique_latest,1,3,7,7,1
+1707,height,time_window,True,tied_latest,2,3,1,1,1
+1708,height,time_window,True,unique_latest,1,3,6,6,1
+1709,height,time_window,True,tied_latest,2,3,4,4,1
+1710,height,time_window,True,unique_latest,1,3,2,2,1
+1711,height,time_window,False,older,1,3,6,2,0
+1712,height,time_window,False,unique_latest,1,3,1,1,1
+1713,height,time_window,True,older,1,4,2,1,0
+1714,height,time_window,False,older,1,4,6,2,0
+1715,height,time_window,True,unique_latest,1,4,2,2,1
+1716,height,time_window,False,unique_latest,1,4,2,2,1
+1717,height,time_window,False,unique_latest,1,4,1,1,1
+1718,height,time_window,True,unique_latest,1,4,7,7,1
+1719,height,time_window,False,older,1,4,7,4,0
+1720,height,time_window,True,tied_latest,2,4,1,1,1
+1721,height,time_window,False,unique_latest,1,4,6,6,1
+1722,height,time_window,True,older,1,4,7,1,0
+1723,height,time_window,False,unique_latest,1,4,1,1,1
+1724,height,time_window,True,older,1,4,2,1,0
+1725,height,time_window,False,unique_latest,1,4,1,1,1
+1726,height,time_window,True,tied_latest,2,4,2,2,1
+1727,height,time_window,True,unique_latest,1,4,7,7,1
+1728,height,time_window,False,unique_latest,1,4,6,6,1
+1729,height,time_window,False,tied_latest,2,4,4,4,0
+1730,height,time_window,False,unique_latest,1,4,2,2,1
+1731,height,time_window,False,unique_latest,1,4,6,6,1
+1732,height,time_window,True,unique_latest,1,4,7,7,1
+1733,height,time_window,True,unique_latest,1,4,6,6,1
+1734,height,time_window,False,unique_latest,1,4,2,2,1
+1735,height,time_window,False,older,1,4,7,4,0
+1736,height,time_window,False,unique_latest,1,4,6,6,1
+1737,height,time_window,True,unique_latest,1,4,7,7,1
+1738,height,time_window,True,older,1,4,4,2,0
+1739,height,time_window,True,unique_latest,1,4,7,7,1
+1740,height,time_window,True,older,1,4,4,1,0
+1741,height,time_window,False,unique_latest,1,4,6,6,1
+1742,height,time_window,True,unique_latest,1,4,6,6,1
+1743,height,time_window,False,unique_latest,1,4,2,2,1
+1744,height,time_window,False,unique_latest,1,4,1,1,1
+1745,height,time_window,True,unique_latest,1,4,1,1,1
+1746,height,time_window,False,unique_latest,1,4,2,2,1
+1747,height,time_window,False,unique_latest,1,4,2,2,1
+1748,height,time_window,True,tied_latest,2,4,6,6,1
+1749,height,time_window,True,older,1,4,6,1,0
+1750,height,time_window,False,unique_latest,1,4,2,2,1
+1751,height,time_window,False,unique_latest,1,4,2,2,1
+1752,height,time_window,True,unique_latest,1,4,1,1,1
+1753,height,time_window,True,older,1,4,6,4,0
+1754,height,time_window,True,unique_latest,1,4,1,1,1
+1755,height,time_window,True,unique_latest,1,4,6,6,1
+1756,height,time_window,True,older,1,4,7,1,0
+1757,height,time_window,True,unique_latest,1,4,7,7,1
+1758,height,time_window,False,unique_latest,1,4,4,4,1
+1759,height,time_window,False,unique_latest,1,4,4,4,1
+1760,height,time_window,False,tied_latest,2,4,2,2,0
+1761,height,encounter_match,False,older,1,2,2,1,0
+1762,height,encounter_match,False,older,1,2,7,2,0
+1763,height,encounter_match,False,unique_latest,1,2,2,2,1
+1764,height,encounter_match,True,unique_latest,1,2,1,1,1
+1765,height,encounter_match,False,older,1,2,7,4,0
+1766,height,encounter_match,True,older,1,2,6,4,0
+1767,height,encounter_match,True,unique_latest,1,2,2,2,1
+1768,height,encounter_match,True,older,1,2,6,4,0
+1769,height,encounter_match,False,unique_latest,1,3,4,4,1
+1770,height,encounter_match,True,tied_latest,2,3,2,2,0
+1771,height,encounter_match,True,older,2,3,6,4,0
+1772,height,encounter_match,False,older,1,3,6,1,0
+1773,height,encounter_match,True,unique_latest,1,3,2,2,1
+1774,height,encounter_match,True,older,1,3,6,4,0
+1775,height,encounter_match,True,unique_latest,1,3,1,1,1
+1776,height,encounter_match,True,unique_latest,1,3,2,2,1
+1777,height,encounter_match,True,older,1,3,7,4,0
+1778,height,encounter_match,False,unique_latest,1,3,1,1,1
+1779,height,encounter_match,False,older,1,3,7,4,0
+1780,height,encounter_match,False,older,1,3,6,1,0
+1781,height,encounter_match,False,tied_latest,2,3,6,6,1
+1782,height,encounter_match,False,unique_latest,1,3,2,2,1
+1783,height,encounter_match,True,older,1,3,6,1,0
+1784,height,encounter_match,True,unique_latest,1,3,2,2,1
+1785,height,encounter_match,False,older,1,3,6,2,0
+1786,height,encounter_match,True,tied_latest,2,3,7,7,0
+1787,height,encounter_match,True,unique_latest,1,3,4,4,1
+1788,height,encounter_match,False,older,1,3,6,2,0
+1789,height,encounter_match,False,older,1,3,2,1,0
+1790,height,encounter_match,True,older,1,3,4,2,0
+1791,height,encounter_match,True,unique_latest,1,3,4,4,1
+1792,height,encounter_match,False,unique_latest,1,3,1,1,1
+1793,height,encounter_match,False,tied_latest,3,4,2,2,0
+1794,height,encounter_match,True,older,1,4,6,1,0
+1795,height,encounter_match,True,unique_latest,1,4,1,1,1
+1796,height,encounter_match,False,older,1,4,6,1,0
+1797,height,encounter_match,True,older,1,4,7,1,0
+1798,height,encounter_match,True,tied_latest,2,4,1,1,0
+1799,height,encounter_match,False,older,1,4,6,4,0
+1800,height,encounter_match,False,older,1,4,4,1,0
+1801,height,encounter_match,False,unique_latest,1,4,2,2,1
+1802,height,encounter_match,True,unique_latest,1,4,1,1,1
+1803,height,encounter_match,True,older,1,4,7,2,0
+1804,height,encounter_match,True,tied_latest,2,4,2,2,0
+1805,height,encounter_match,True,older,1,4,7,1,0
+1806,height,encounter_match,True,tied_latest,2,4,7,7,0
+1807,height,encounter_match,True,older,1,4,4,1,0
+1808,height,encounter_match,True,older,1,4,2,1,0
+1809,height,encounter_match,False,unique_latest,1,4,1,1,1
+1810,height,encounter_match,False,older,2,4,7,6,0
+1811,height,encounter_match,True,tied_latest,2,4,2,2,1
+1812,height,encounter_match,True,unique_latest,1,4,1,1,1
+1813,height,encounter_match,True,older,2,4,4,2,0
+1814,height,encounter_match,True,older,2,4,7,2,0
+1815,height,encounter_match,True,tied_latest,2,4,4,4,1
+1816,height,encounter_match,False,older,1,4,6,2,0
+1817,height,encounter_match,False,older,1,4,7,1,0
+1818,height,encounter_match,True,tied_latest,2,4,1,1,1
+1819,height,encounter_match,True,tied_latest,2,4,2,2,1
+1820,height,encounter_match,False,unique_latest,1,4,1,1,1
+1821,height,encounter_match,False,older,1,4,7,2,0
+1822,height,encounter_match,False,tied_latest,2,4,1,1,1
+1823,height,encounter_match,False,older,1,4,4,1,0
+1824,height,encounter_match,True,older,1,4,4,2,0
+1825,height,encounter_match,False,tied_latest,2,4,4,4,1
+1826,height,encounter_match,True,unique_latest,1,4,1,1,1
+1827,height,encounter_match,False,older,1,4,7,2,0
+1828,height,encounter_match,False,older,1,4,4,1,0
+1829,height,encounter_match,False,unique_latest,1,4,2,2,1
+1830,height,encounter_match,False,tied_latest,2,4,4,4,0
+1831,height,encounter_match,False,older,1,4,6,1,0
+1832,height,encounter_match,True,tied_latest,3,4,7,7,0
+1833,height,encounter_match,False,unique_latest,1,4,1,1,1
+1834,height,encounter_match,True,older,1,4,7,1,0
+1835,height,encounter_match,False,unique_latest,1,4,1,1,1
+1836,height,encounter_match,False,tied_latest,2,4,1,1,1
+1837,height,encounter_match,False,older,1,4,6,2,0
+1838,height,encounter_match,False,unique_latest,1,4,1,1,1
+1839,height,encounter_match,False,unique_latest,1,4,4,4,1
+1840,height,encounter_match,False,older,1,4,6,2,0
+1841,height,time_window+encounter_match,False,unique_latest,1,2,4,4,1
+1842,height,time_window+encounter_match,False,unique_latest,1,2,6,6,1
+1843,height,time_window+encounter_match,False,unique_latest,1,2,7,7,1
+1844,height,time_window+encounter_match,True,unique_latest,1,2,1,1,1
+1845,height,time_window+encounter_match,False,unique_latest,1,2,1,1,1
+1846,height,time_window+encounter_match,False,unique_latest,1,2,1,1,1
+1847,height,time_window+encounter_match,True,unique_latest,1,2,1,1,1
+1848,height,time_window+encounter_match,True,unique_latest,1,2,4,4,1
+1849,height,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1850,height,time_window+encounter_match,False,tied_latest,2,3,2,2,0
+1851,height,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+1852,height,time_window+encounter_match,True,tied_latest,2,3,7,7,1
+1853,height,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1854,height,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+1855,height,time_window+encounter_match,False,unique_latest,1,3,7,7,1
+1856,height,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1857,height,time_window+encounter_match,True,tied_latest,2,3,7,7,0
+1858,height,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1859,height,time_window+encounter_match,True,unique_latest,1,3,4,4,1
+1860,height,time_window+encounter_match,True,unique_latest,1,3,7,7,1
+1861,height,time_window+encounter_match,False,unique_latest,1,3,1,1,1
+1862,height,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+1863,height,time_window+encounter_match,True,older,1,3,7,2,0
+1864,height,time_window+encounter_match,False,unique_latest,1,3,1,1,1
+1865,height,time_window+encounter_match,False,unique_latest,1,3,6,6,1
+1866,height,time_window+encounter_match,False,unique_latest,1,3,2,2,1
+1867,height,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1868,height,time_window+encounter_match,False,unique_latest,1,3,4,4,1
+1869,height,time_window+encounter_match,True,unique_latest,1,3,6,6,1
+1870,height,time_window+encounter_match,False,tied_latest,2,3,4,4,0
+1871,height,time_window+encounter_match,True,older,1,3,2,1,0
+1872,height,time_window+encounter_match,True,unique_latest,1,3,2,2,1
+1873,height,time_window+encounter_match,False,unique_latest,1,4,7,7,1
+1874,height,time_window+encounter_match,True,older,1,4,7,4,0
+1875,height,time_window+encounter_match,False,older,1,4,4,1,0
+1876,height,time_window+encounter_match,True,older,1,4,6,1,0
+1877,height,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+1878,height,time_window+encounter_match,False,older,1,4,2,1,0
+1879,height,time_window+encounter_match,True,tied_latest,2,4,2,2,0
+1880,height,time_window+encounter_match,True,older,1,4,4,2,0
+1881,height,time_window+encounter_match,True,older,1,4,7,2,0
+1882,height,time_window+encounter_match,False,older,1,4,7,4,0
+1883,height,time_window+encounter_match,True,older,1,4,7,6,0
+1884,height,time_window+encounter_match,False,tied_latest,2,4,6,6,1
+1885,height,time_window+encounter_match,True,older,1,4,4,2,0
+1886,height,time_window+encounter_match,True,older,1,4,7,1,0
+1887,height,time_window+encounter_match,False,older,1,4,7,4,0
+1888,height,time_window+encounter_match,True,older,1,4,4,1,0
+1889,height,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+1890,height,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+1891,height,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+1892,height,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1893,height,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1894,height,time_window+encounter_match,True,older,1,4,4,1,0
+1895,height,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1896,height,time_window+encounter_match,True,older,1,4,4,1,0
+1897,height,time_window+encounter_match,False,older,1,4,4,1,0
+1898,height,time_window+encounter_match,False,older,1,4,7,1,0
+1899,height,time_window+encounter_match,False,older,2,4,7,2,0
+1900,height,time_window+encounter_match,False,unique_latest,1,4,2,2,1
+1901,height,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+1902,height,time_window+encounter_match,True,tied_latest,2,4,2,2,1
+1903,height,time_window+encounter_match,False,tied_latest,2,4,7,7,0
+1904,height,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1905,height,time_window+encounter_match,False,unique_latest,1,4,6,6,1
+1906,height,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+1907,height,time_window+encounter_match,True,unique_latest,1,4,7,7,1
+1908,height,time_window+encounter_match,False,older,1,4,4,2,0
+1909,height,time_window+encounter_match,True,older,1,4,7,6,0
+1910,height,time_window+encounter_match,False,older,2,4,7,1,0
+1911,height,time_window+encounter_match,True,older,1,4,7,6,0
+1912,height,time_window+encounter_match,True,unique_latest,1,4,1,1,1
+1913,height,time_window+encounter_match,False,unique_latest,1,4,1,1,1
+1914,height,time_window+encounter_match,True,unique_latest,1,4,6,6,1
+1915,height,time_window+encounter_match,True,tied_latest,2,4,6,6,0
+1916,height,time_window+encounter_match,True,unique_latest,1,4,2,2,1
+1917,height,time_window+encounter_match,False,older,1,4,7,6,0
+1918,height,time_window+encounter_match,False,tied_latest,2,4,6,6,1
+1919,height,time_window+encounter_match,True,unique_latest,1,4,4,4,1
+1920,height,time_window+encounter_match,True,older,1,4,7,1,0
+1921,height,unit_supported,False,unique_latest,1,2,1,1,1
+1922,height,unit_supported,False,unique_latest,1,2,1,1,1
+1923,height,unit_supported,False,tied_latest,2,2,1,1,0
+1924,height,unit_supported,False,tied_latest,2,2,4,4,0
+1925,height,unit_supported,False,tied_latest,2,2,6,6,1
+1926,height,unit_supported,False,older,1,2,6,4,0
+1927,height,unit_supported,True,older,1,2,2,1,0
+1928,height,unit_supported,True,older,1,2,7,4,0
+1929,height,unit_supported,True,unique_latest,1,3,4,4,1
+1930,height,unit_supported,True,tied_latest,2,3,6,6,0
+1931,height,unit_supported,False,unique_latest,1,3,2,2,1
+1932,height,unit_supported,True,unique_latest,1,3,2,2,1
+1933,height,unit_supported,False,older,1,3,6,2,0
+1934,height,unit_supported,False,older,1,3,7,4,0
+1935,height,unit_supported,True,unique_latest,1,3,2,2,1
+1936,height,unit_supported,True,older,1,3,4,2,0
+1937,height,unit_supported,True,older,1,3,6,1,0
+1938,height,unit_supported,True,unique_latest,1,3,2,2,1
+1939,height,unit_supported,False,unique_latest,1,3,4,4,1
+1940,height,unit_supported,True,unique_latest,1,3,1,1,1
+1941,height,unit_supported,False,older,1,3,6,2,0
+1942,height,unit_supported,True,unique_latest,1,3,4,4,1
+1943,height,unit_supported,True,tied_latest,2,3,2,2,1
+1944,height,unit_supported,False,older,1,3,6,2,0
+1945,height,unit_supported,True,older,1,3,7,4,0
+1946,height,unit_supported,True,tied_latest,2,3,4,4,1
+1947,height,unit_supported,False,older,1,3,7,4,0
+1948,height,unit_supported,False,unique_latest,1,3,2,2,1
+1949,height,unit_supported,True,tied_latest,2,3,2,2,0
+1950,height,unit_supported,False,older,1,3,7,2,0
+1951,height,unit_supported,True,unique_latest,1,3,4,4,1
+1952,height,unit_supported,True,older,1,3,4,1,0
+1953,height,unit_supported,True,tied_latest,2,4,2,2,1
+1954,height,unit_supported,False,unique_latest,1,4,2,2,1
+1955,height,unit_supported,True,unique_latest,1,4,1,1,1
+1956,height,unit_supported,True,tied_latest,2,4,1,1,0
+1957,height,unit_supported,False,older,1,4,4,1,0
+1958,height,unit_supported,True,older,1,4,6,2,0
+1959,height,unit_supported,True,unique_latest,1,4,4,4,1
+1960,height,unit_supported,True,older,1,4,6,4,0
+1961,height,unit_supported,False,older,1,4,6,2,0
+1962,height,unit_supported,False,older,1,4,2,1,0
+1963,height,unit_supported,False,older,1,4,4,1,0
+1964,height,unit_supported,True,older,1,4,4,1,0
+1965,height,unit_supported,False,unique_latest,1,4,4,4,1
+1966,height,unit_supported,False,unique_latest,1,4,4,4,1
+1967,height,unit_supported,False,older,1,4,4,1,0
+1968,height,unit_supported,False,older,1,4,4,2,0
+1969,height,unit_supported,True,unique_latest,1,4,6,6,1
+1970,height,unit_supported,True,unique_latest,1,4,2,2,1
+1971,height,unit_supported,False,older,1,4,6,1,0
+1972,height,unit_supported,False,tied_latest,2,4,1,1,0
+1973,height,unit_supported,False,older,1,4,7,1,0
+1974,height,unit_supported,False,tied_latest,2,4,2,2,1
+1975,height,unit_supported,False,older,1,4,6,4,0
+1976,height,unit_supported,True,older,1,4,4,1,0
+1977,height,unit_supported,False,unique_latest,1,4,4,4,1
+1978,height,unit_supported,True,older,1,4,6,1,0
+1979,height,unit_supported,False,older,1,4,4,1,0
+1980,height,unit_supported,False,older,1,4,6,1,0
+1981,height,unit_supported,True,older,1,4,7,1,0
+1982,height,unit_supported,True,older,1,4,4,2,0
+1983,height,unit_supported,False,tied_latest,2,4,2,2,1
+1984,height,unit_supported,False,older,1,4,6,2,0
+1985,height,unit_supported,False,older,1,4,6,4,0
+1986,height,unit_supported,False,unique_latest,1,4,6,6,1
+1987,height,unit_supported,True,tied_latest,2,4,4,4,0
+1988,height,unit_supported,True,older,1,4,6,2,0
+1989,height,unit_supported,True,older,1,4,7,1,0
+1990,height,unit_supported,False,unique_latest,1,4,6,6,1
+1991,height,unit_supported,False,unique_latest,1,4,1,1,1
+1992,height,unit_supported,True,tied_latest,2,4,2,2,1
+1993,height,unit_supported,False,unique_latest,1,4,2,2,1
+1994,height,unit_supported,True,older,2,4,7,1,0
+1995,height,unit_supported,False,older,1,4,6,4,0
+1996,height,unit_supported,True,older,1,4,7,1,0
+1997,height,unit_supported,True,older,2,4,7,2,0
+1998,height,unit_supported,False,older,1,4,4,2,0
+1999,height,unit_supported,True,older,2,4,6,2,0
+2000,height,unit_supported,False,older,1,4,7,1,0
+2001,height,time_window+unit_supported,False,unique_latest,1,2,6,6,1
+2002,height,time_window+unit_supported,True,unique_latest,1,2,2,2,1
+2003,height,time_window+unit_supported,True,unique_latest,1,2,7,7,1
+2004,height,time_window+unit_supported,True,unique_latest,1,2,2,2,1
+2005,height,time_window+unit_supported,False,unique_latest,1,2,2,2,1
+2006,height,time_window+unit_supported,True,unique_latest,1,2,6,6,1
+2007,height,time_window+unit_supported,False,unique_latest,1,2,7,7,1
+2008,height,time_window+unit_supported,True,unique_latest,1,2,1,1,1
+2009,height,time_window+unit_supported,False,unique_latest,1,3,6,6,1
+2010,height,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+2011,height,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+2012,height,time_window+unit_supported,True,unique_latest,1,3,7,7,1
+2013,height,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+2014,height,time_window+unit_supported,True,older,1,3,2,1,0
+2015,height,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+2016,height,time_window+unit_supported,True,older,1,3,4,2,0
+2017,height,time_window+unit_supported,True,older,1,3,4,1,0
+2018,height,time_window+unit_supported,True,unique_latest,1,3,6,6,1
+2019,height,time_window+unit_supported,True,unique_latest,1,3,7,7,1
+2020,height,time_window+unit_supported,False,unique_latest,1,3,1,1,1
+2021,height,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+2022,height,time_window+unit_supported,False,unique_latest,1,3,7,7,1
+2023,height,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+2024,height,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+2025,height,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+2026,height,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+2027,height,time_window+unit_supported,True,unique_latest,1,3,2,2,1
+2028,height,time_window+unit_supported,True,older,1,3,7,1,0
+2029,height,time_window+unit_supported,False,unique_latest,1,3,4,4,1
+2030,height,time_window+unit_supported,False,unique_latest,1,3,7,7,1
+2031,height,time_window+unit_supported,True,unique_latest,1,3,1,1,1
+2032,height,time_window+unit_supported,False,unique_latest,1,3,2,2,1
+2033,height,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+2034,height,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+2035,height,time_window+unit_supported,True,unique_latest,1,4,6,6,1
+2036,height,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+2037,height,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+2038,height,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+2039,height,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+2040,height,time_window+unit_supported,False,older,1,4,6,1,0
+2041,height,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+2042,height,time_window+unit_supported,False,older,1,4,6,4,0
+2043,height,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+2044,height,time_window+unit_supported,False,older,1,4,2,1,0
+2045,height,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+2046,height,time_window+unit_supported,True,older,1,4,6,2,0
+2047,height,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+2048,height,time_window+unit_supported,True,unique_latest,1,4,6,6,1
+2049,height,time_window+unit_supported,True,older,1,4,7,4,0
+2050,height,time_window+unit_supported,True,older,1,4,7,6,0
+2051,height,time_window+unit_supported,True,older,1,4,7,1,0
+2052,height,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+2053,height,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+2054,height,time_window+unit_supported,True,unique_latest,1,4,7,7,1
+2055,height,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+2056,height,time_window+unit_supported,True,older,1,4,4,2,0
+2057,height,time_window+unit_supported,True,unique_latest,1,4,2,2,1
+2058,height,time_window+unit_supported,True,older,1,4,4,2,0
+2059,height,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+2060,height,time_window+unit_supported,False,tied_latest,3,4,2,2,0
+2061,height,time_window+unit_supported,True,tied_latest,2,4,4,4,1
+2062,height,time_window+unit_supported,True,older,1,4,6,2,0
+2063,height,time_window+unit_supported,True,older,1,4,4,2,0
+2064,height,time_window+unit_supported,False,unique_latest,1,4,7,7,1
+2065,height,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+2066,height,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+2067,height,time_window+unit_supported,True,older,2,4,7,4,0
+2068,height,time_window+unit_supported,True,unique_latest,1,4,4,4,1
+2069,height,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+2070,height,time_window+unit_supported,False,tied_latest,2,4,4,4,0
+2071,height,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+2072,height,time_window+unit_supported,False,unique_latest,1,4,4,4,1
+2073,height,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+2074,height,time_window+unit_supported,False,unique_latest,1,4,6,6,1
+2075,height,time_window+unit_supported,True,older,1,4,6,1,0
+2076,height,time_window+unit_supported,True,unique_latest,1,4,7,7,1
+2077,height,time_window+unit_supported,False,unique_latest,1,4,2,2,1
+2078,height,time_window+unit_supported,False,unique_latest,1,4,1,1,1
+2079,height,time_window+unit_supported,True,unique_latest,1,4,1,1,1
+2080,height,time_window+unit_supported,False,older,1,4,6,2,0
+2081,height,encounter_match+unit_supported,True,unique_latest,1,2,6,6,1
+2082,height,encounter_match+unit_supported,False,older,1,2,4,2,0
+2083,height,encounter_match+unit_supported,False,unique_latest,1,2,1,1,1
+2084,height,encounter_match+unit_supported,True,unique_latest,1,2,4,4,1
+2085,height,encounter_match+unit_supported,False,unique_latest,1,2,4,4,1
+2086,height,encounter_match+unit_supported,True,older,1,2,4,2,0
+2087,height,encounter_match+unit_supported,True,older,1,2,2,1,0
+2088,height,encounter_match+unit_supported,False,tied_latest,2,2,6,6,1
+2089,height,encounter_match+unit_supported,True,older,1,3,7,2,0
+2090,height,encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+2091,height,encounter_match+unit_supported,True,older,1,3,7,2,0
+2092,height,encounter_match+unit_supported,False,older,1,3,6,1,0
+2093,height,encounter_match+unit_supported,True,tied_latest,2,3,2,2,0
+2094,height,encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+2095,height,encounter_match+unit_supported,False,older,1,3,6,2,0
+2096,height,encounter_match+unit_supported,False,tied_latest,2,3,2,2,0
+2097,height,encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+2098,height,encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+2099,height,encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+2100,height,encounter_match+unit_supported,True,older,1,3,7,4,0
+2101,height,encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+2102,height,encounter_match+unit_supported,True,tied_latest,2,3,6,6,1
+2103,height,encounter_match+unit_supported,False,older,1,3,7,1,0
+2104,height,encounter_match+unit_supported,True,older,1,3,7,2,0
+2105,height,encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+2106,height,encounter_match+unit_supported,True,older,1,3,6,2,0
+2107,height,encounter_match+unit_supported,True,older,1,3,7,2,0
+2108,height,encounter_match+unit_supported,False,older,1,3,4,1,0
+2109,height,encounter_match+unit_supported,True,tied_latest,2,3,6,6,0
+2110,height,encounter_match+unit_supported,True,tied_latest,2,3,4,4,1
+2111,height,encounter_match+unit_supported,True,older,1,3,4,1,0
+2112,height,encounter_match+unit_supported,True,tied_latest,2,3,1,1,0
+2113,height,encounter_match+unit_supported,False,tied_latest,2,4,4,4,0
+2114,height,encounter_match+unit_supported,True,older,1,4,7,6,0
+2115,height,encounter_match+unit_supported,True,older,1,4,6,1,0
+2116,height,encounter_match+unit_supported,False,tied_latest,2,4,7,7,1
+2117,height,encounter_match+unit_supported,True,older,1,4,6,4,0
+2118,height,encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+2119,height,encounter_match+unit_supported,False,older,1,4,4,2,0
+2120,height,encounter_match+unit_supported,True,older,1,4,7,1,0
+2121,height,encounter_match+unit_supported,True,tied_latest,2,4,1,1,0
+2122,height,encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+2123,height,encounter_match+unit_supported,False,tied_latest,2,4,7,7,0
+2124,height,encounter_match+unit_supported,True,older,1,4,2,1,0
+2125,height,encounter_match+unit_supported,True,older,1,4,2,1,0
+2126,height,encounter_match+unit_supported,True,older,2,4,4,1,0
+2127,height,encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2128,height,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2129,height,encounter_match+unit_supported,False,unique_latest,1,4,6,6,1
+2130,height,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2131,height,encounter_match+unit_supported,True,older,1,4,6,2,0
+2132,height,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2133,height,encounter_match+unit_supported,False,older,1,4,6,4,0
+2134,height,encounter_match+unit_supported,False,older,1,4,4,1,0
+2135,height,encounter_match+unit_supported,True,older,1,4,6,1,0
+2136,height,encounter_match+unit_supported,True,older,1,4,6,4,0
+2137,height,encounter_match+unit_supported,True,older,1,4,4,2,0
+2138,height,encounter_match+unit_supported,False,tied_latest,2,4,1,1,0
+2139,height,encounter_match+unit_supported,True,tied_latest,2,4,1,1,1
+2140,height,encounter_match+unit_supported,True,older,1,4,4,1,0
+2141,height,encounter_match+unit_supported,False,older,1,4,7,2,0
+2142,height,encounter_match+unit_supported,True,older,1,4,2,1,0
+2143,height,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2144,height,encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2145,height,encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+2146,height,encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2147,height,encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2148,height,encounter_match+unit_supported,False,older,1,4,6,1,0
+2149,height,encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2150,height,encounter_match+unit_supported,True,older,1,4,7,1,0
+2151,height,encounter_match+unit_supported,True,older,2,4,4,2,0
+2152,height,encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2153,height,encounter_match+unit_supported,False,older,1,4,4,2,0
+2154,height,encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+2155,height,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2156,height,encounter_match+unit_supported,False,unique_latest,1,4,6,6,1
+2157,height,encounter_match+unit_supported,False,older,1,4,6,1,0
+2158,height,encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2159,height,encounter_match+unit_supported,True,older,1,4,6,4,0
+2160,height,encounter_match+unit_supported,False,older,1,4,6,1,0
+2161,height,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+2162,height,time_window+encounter_match+unit_supported,True,unique_latest,1,2,2,2,1
+2163,height,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+2164,height,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+2165,height,time_window+encounter_match+unit_supported,True,unique_latest,1,2,1,1,1
+2166,height,time_window+encounter_match+unit_supported,True,unique_latest,1,2,2,2,1
+2167,height,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+2168,height,time_window+encounter_match+unit_supported,False,unique_latest,1,2,6,6,1
+2169,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+2170,height,time_window+encounter_match+unit_supported,True,older,1,3,6,1,0
+2171,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+2172,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,6,6,1
+2173,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+2174,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+2175,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,4,4,1
+2176,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,7,7,1
+2177,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,7,7,1
+2178,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+2179,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+2180,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,2,2,1
+2181,height,time_window+encounter_match+unit_supported,True,tied_latest,2,3,6,6,0
+2182,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+2183,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,6,6,1
+2184,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+2185,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+2186,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+2187,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,1,1,1
+2188,height,time_window+encounter_match+unit_supported,False,unique_latest,1,3,1,1,1
+2189,height,time_window+encounter_match+unit_supported,False,older,1,3,2,1,0
+2190,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,2,2,1
+2191,height,time_window+encounter_match+unit_supported,True,unique_latest,1,3,4,4,1
+2192,height,time_window+encounter_match+unit_supported,True,tied_latest,2,3,4,4,1
+2193,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2194,height,time_window+encounter_match+unit_supported,False,older,2,4,6,1,0
+2195,height,time_window+encounter_match+unit_supported,False,older,1,4,2,1,0
+2196,height,time_window+encounter_match+unit_supported,True,older,1,4,2,1,0
+2197,height,time_window+encounter_match+unit_supported,True,older,1,4,6,1,0
+2198,height,time_window+encounter_match+unit_supported,True,tied_latest,2,4,2,2,0
+2199,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+2200,height,time_window+encounter_match+unit_supported,True,older,1,4,7,6,0
+2201,height,time_window+encounter_match+unit_supported,False,tied_latest,2,4,6,6,0
+2202,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,7,7,1
+2203,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2204,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2205,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+2206,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2207,height,time_window+encounter_match+unit_supported,True,tied_latest,2,4,1,1,1
+2208,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,6,6,1
+2209,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+2210,height,time_window+encounter_match+unit_supported,True,older,1,4,7,4,0
+2211,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2212,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,4,4,1
+2213,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2214,height,time_window+encounter_match+unit_supported,True,older,2,4,4,2,0
+2215,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+2216,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2217,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2218,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2219,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,7,7,1
+2220,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2221,height,time_window+encounter_match+unit_supported,False,tied_latest,2,4,6,6,0
+2222,height,time_window+encounter_match+unit_supported,True,tied_latest,2,4,1,1,1
+2223,height,time_window+encounter_match+unit_supported,True,tied_latest,2,4,1,1,1
+2224,height,time_window+encounter_match+unit_supported,True,tied_latest,2,4,6,6,0
+2225,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,6,6,1
+2226,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2227,height,time_window+encounter_match+unit_supported,True,tied_latest,2,4,4,4,1
+2228,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,1,1,1
+2229,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,7,7,1
+2230,height,time_window+encounter_match+unit_supported,False,older,1,4,2,1,0
+2231,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,2,2,1
+2232,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,6,6,1
+2233,height,time_window+encounter_match+unit_supported,False,tied_latest,2,4,7,7,1
+2234,height,time_window+encounter_match+unit_supported,False,older,1,4,4,2,0
+2235,height,time_window+encounter_match+unit_supported,False,older,1,4,6,1,0
+2236,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2237,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,1,1,1
+2238,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1
+2239,height,time_window+encounter_match+unit_supported,False,unique_latest,1,4,4,4,1
+2240,height,time_window+encounter_match+unit_supported,True,unique_latest,1,4,2,2,1

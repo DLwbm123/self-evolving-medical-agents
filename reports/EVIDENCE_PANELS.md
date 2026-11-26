@@ -95,3 +95,9 @@ for world, key in read_evidence_panel("fixtures/evidence-v2/pointer.jsonl.gz"):
 在独立的上游工作副本中应用 [注册补丁](../benchmarks/integration/register.patch)，将医学仓库根目录和上游仓库根目录加入 PYTHONPATH。trainer 的 `env.env_name` 选择对应接口，`+env.medical.fixtures` 指向已解压代码仓库中的分片目录。FHIR 验证另设 `+env.medical.upstream`、`+env.medical.fhir_base` 和可选的 `+env.medical.gated=true`。同一训练任务的多个 rollout 使用独立状态。验证默认重复固定的首个批次；全量评测须随每条数据传入 `env_kwargs.case_index` 并枚举各批次，避免重复首批。FHIR 使用最多 8 轮，需给包含函数清单和工具结果的观察预留 token 长度。
 
 远程 CPU 验收使用上游原生 TrajectoryCollector、真实 tokenizer 和脚本动作。两个计算 episode 均在 6 步完成。两个虚构 FHIR 查询 episode 经过环回 HTTP GET 并由官方 task1 评分器判为成功。官方 task5 评分器也在虚构病例上执行了自己的查询，空提交在读取门控下被拒绝，agent 亲自发出匹配查询后同一提交通过。本次没有使用模型策略或完整 FHIR 服务评测官方 300 题。[接口](../medical/verl_env.py) · [验收入口](../benchmarks/integration/check_rollout.py)
+
+### 日期面板的焦点字段分层
+
+按指定坏记录是否带有 time_window 缺陷分组。在 1,280 个包含该缺陷的世界中，合格证据在 853 个世界中唯一最新，148 个世界中并列最新，279 个世界中严格早于最新记录。按显示顺序处理同日并列，“选最新”分别命中 853/853、77/148 和 0/279，共 930/1,280。其余 960 个世界中命中 388/960。这里使用冻结的 age 面板，每个世界只计焦点字段一次。
+
+后续分别报告三组的 BIND 准确率、坏绑定后的准确重绑率与各自分母，并以 case 对齐 IID 和不同策略。279 个严格非最新世界最能区别“选最新”与正确选择，其逐世界均匀机会水平为 27.0%。在这些世界答对仍可能依赖单位或就诊号；本分层本身不足以单独证明学会了第 7 天的边界。模型预测尚待 SFT。冻结数据保持原样。[分层计数](AGE_RECENCY.csv) · [逐世界索引](AGE_RECENCY_CASES.csv) · [复算脚本](../benchmarks/stratify_recency.py)
