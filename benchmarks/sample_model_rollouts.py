@@ -66,20 +66,29 @@ class Rollout:
     verdicts: list[dict] = field(default_factory=list)
 
 
-def action_menu(world, state):
+def visible_state(world, state, hide_budget):
+    key = observation(world, state)
+    if hide_budget:
+        fields = json.loads(key)
+        del fields["remaining"]
+        return json.dumps(fields, sort_keys=True, separators=(",", ":"))
+    return key
+
+
+def action_menu(world, state, *, budget_independent=False):
     fields = FIELDS[world.calculator]
     commands = [f"QUERY {field}" for field in fields]
     commands.extend(f"BIND {field} {evidence}" for field in fields for evidence in state.seen)
     commands.append("CALCULATE")
     if state.calculated is not None:
         commands.append(f"FINISH {state.calculated}")
-    Random("0|" + observation(world, state)).shuffle(commands)
+    Random("0|" + visible_state(world, state, budget_independent)).shuffle(commands)
     return commands
 
 
-def state_prompt(world, state):
+def state_prompt(world, state, hide_budget=False):
     fields = ", ".join(FIELDS[world.calculator])
-    return f"Task: calculate {LABELS[world.calculator]}. Fields: {fields}\nState: {observation(world, state)}"
+    return f"Task: calculate {LABELS[world.calculator]}. Fields: {fields}\nState: {visible_state(world, state, hide_budget)}"
 
 
 def with_menu(prompt, commands):
@@ -89,7 +98,7 @@ def with_menu(prompt, commands):
     )
 
 
-def collect(rollouts, cases, infer, use_menu=False):
+def collect(rollouts, cases, infer, use_menu=False, *, hide_budget=False, independent_menu=False):
     for _ in range(9):
         waiting = [row for row in rollouts if not row.state.done]
         if not waiting:
@@ -100,9 +109,9 @@ def collect(rollouts, cases, infer, use_menu=False):
             menus = []
             for row in batch:
                 world = cases[row.instance][0]
-                prompts.append(state_prompt(world, row.state))
+                prompts.append(state_prompt(world, row.state, hide_budget))
                 if use_menu:
-                    menus.append(action_menu(world, row.state))
+                    menus.append(action_menu(world, row.state, budget_independent=independent_menu or hide_budget))
             for row, (text, tokens) in zip(batch, infer(prompts, menus), strict=True):
                 world = cases[row.instance][0]
                 key = observation(world, row.state)
@@ -117,7 +126,7 @@ def collect(rollouts, cases, infer, use_menu=False):
     assert all(row.state.done for row in rollouts)
 
 
-def teacher_examples(world, recovery=None):
+def teacher_examples(world, recovery=None, *, hide_budget=False, independent_menu=False):
     state = State(world.budget)
     commands = [command for pointer, field, _ in world.facts
                 for command in (f"QUERY {field}", f"BIND {field} {pointer}")]
@@ -131,13 +140,13 @@ def teacher_examples(world, recovery=None):
             state, _, _ = step(world, state, parse_action(mistake))
         if command == "FINISH":
             command = f"FINISH {state.calculated}"
-        menu = action_menu(world, state)
-        yield with_menu(state_prompt(world, state), menu), menu.index(command)
+        menu = action_menu(world, state, budget_independent=independent_menu or hide_budget)
+        yield with_menu(state_prompt(world, state, hide_budget), menu), menu.index(command)
         state, _, _ = step(world, state, parse_action(command))
     assert state.done and state.submitted is not None
 
 
-def synthetic_cases(holdout_seed, recovery_warmup):
+def synthetic_cases(holdout_seed, recovery_warmup, *, budget_mode="fixed", independent_menu=False):
     """Independent simulator values. No benchmark records are loaded."""
     rng = Random(2)
     cases = {}
@@ -145,6 +154,8 @@ def synthetic_cases(holdout_seed, recovery_warmup):
     holdout = Random(holdout_seed)
     ranges = {"5": (range(92, 182), range(54, 91)), "6": (range(46, 125), range(144, 200))}
     for key, label in LABELS.items():
+        budgets = [7, 8, 9, 10] * 4
+        Random("budget|" + key).shuffle(budgets)
         left, right = ranges[key]
         values = [(x, y) for x in left for y in right]
         pilot = rng.sample(values, 20)
@@ -162,7 +173,10 @@ def synthetic_cases(holdout_seed, recovery_warmup):
             world = World(key, facts)
             if index < 16:
                 recovery = index // 2 % 3 if recovery_warmup and index % 2 else None
-                examples.extend(teacher_examples(world, recovery))
+                if budget_mode == "random":
+                    world = World(key, facts, budgets[index])
+                examples.extend(teacher_examples(world, recovery, hide_budget=budget_mode == "hidden",
+                                                 independent_menu=independent_menu))
             else:
                 answer = (x + 2 * y) / 3 if key == "5" else x / (y * y)
                 tolerance = Decimal("0.01")
