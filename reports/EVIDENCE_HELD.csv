@@ -1,0 +1,721 @@
+seed,equal_value,kind,case,qualified,target,prediction,correct
+0,False,stale,1000,True,CALCULATE,CALCULATE,1
+0,False,stale,1000,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1001,True,CALCULATE,CALCULATE,1
+0,False,stale,1001,False,BIND weight e1,BIND weight e1,1
+0,False,stale,1002,True,CALCULATE,CALCULATE,1
+0,False,stale,1002,False,BIND weight e3,BIND weight e3,1
+0,False,stale,1003,True,CALCULATE,CALCULATE,1
+0,False,stale,1003,False,BIND weight e1,BIND weight e1,1
+0,False,stale,1004,True,CALCULATE,CALCULATE,1
+0,False,stale,1004,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1005,True,CALCULATE,CALCULATE,1
+0,False,stale,1005,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1006,True,CALCULATE,CALCULATE,1
+0,False,stale,1006,False,BIND weight e3,BIND weight e3,1
+0,False,stale,1007,True,CALCULATE,CALCULATE,1
+0,False,stale,1007,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1008,True,CALCULATE,CALCULATE,1
+0,False,stale,1008,False,BIND weight e3,BIND weight e3,1
+0,False,stale,1009,True,CALCULATE,CALCULATE,1
+0,False,stale,1009,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1010,True,CALCULATE,CALCULATE,1
+0,False,stale,1010,False,BIND weight e1,BIND weight e1,1
+0,False,stale,1011,True,CALCULATE,CALCULATE,1
+0,False,stale,1011,False,BIND weight e1,BIND weight e1,1
+0,False,stale,1012,True,CALCULATE,CALCULATE,1
+0,False,stale,1012,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1013,True,CALCULATE,CALCULATE,1
+0,False,stale,1013,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1014,True,CALCULATE,CALCULATE,1
+0,False,stale,1014,False,BIND weight e1,BIND weight e1,1
+0,False,stale,1015,True,CALCULATE,CALCULATE,1
+0,False,stale,1015,False,BIND weight e1,BIND weight e1,1
+0,False,stale,1016,True,CALCULATE,CALCULATE,1
+0,False,stale,1016,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1017,True,CALCULATE,CALCULATE,1
+0,False,stale,1017,False,BIND weight e2,BIND weight e2,1
+0,False,stale,1018,True,CALCULATE,CALCULATE,1
+0,False,stale,1018,False,BIND weight e1,BIND weight e1,1
+0,False,stale,1019,True,CALCULATE,CALCULATE,1
+0,False,stale,1019,False,BIND weight e2,BIND weight e2,1
+0,False,wrong_encounter,1000,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1000,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,False,wrong_encounter,1001,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1001,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1002,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1002,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,False,wrong_encounter,1003,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1003,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1004,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1004,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,wrong_encounter,1005,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1005,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,wrong_encounter,1006,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1006,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,False,wrong_encounter,1007,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1007,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,wrong_encounter,1008,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1008,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,False,wrong_encounter,1009,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1009,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,wrong_encounter,1010,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1010,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1011,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1011,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1012,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1012,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,wrong_encounter,1013,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1013,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,wrong_encounter,1014,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1014,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1015,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1015,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1016,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1016,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,wrong_encounter,1017,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1017,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1018,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1018,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,False,wrong_encounter,1019,True,CALCULATE,CALCULATE,1
+0,False,wrong_encounter,1019,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,False,ambiguous_unit,1000,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1000,False,BIND weight e1,BIND weight e1,1
+0,False,ambiguous_unit,1001,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1001,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1002,True,CALCULATE,"BIND value=""74""",0
+0,False,ambiguous_unit,1002,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1003,True,CALCULATE,BIND weight e3,0
+0,False,ambiguous_unit,1003,False,BIND weight e1,CALCULATE,0
+0,False,ambiguous_unit,1004,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1004,False,BIND weight e2,BIND weight e2,1
+0,False,ambiguous_unit,1005,True,CALCULATE,BIND weight e3,0
+0,False,ambiguous_unit,1005,False,BIND weight e1,CALCULATE,0
+0,False,ambiguous_unit,1006,True,CALCULATE,BIND value to weight,0
+0,False,ambiguous_unit,1006,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1007,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1007,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1008,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1008,False,BIND weight e2,BIND weight e2,1
+0,False,ambiguous_unit,1009,True,CALCULATE,BIND weight e3,0
+0,False,ambiguous_unit,1009,False,BIND weight e1,CALCULATE,0
+0,False,ambiguous_unit,1010,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1010,False,BIND weight e2,BIND weight e2,1
+0,False,ambiguous_unit,1011,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1011,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1012,True,CALCULATE,BIND value to weight,0
+0,False,ambiguous_unit,1012,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1013,True,CALCULATE,BIND value to weight,0
+0,False,ambiguous_unit,1013,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1014,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1014,False,BIND weight e3,BIND weight e3,1
+0,False,ambiguous_unit,1015,True,CALCULATE,BIND weight e3,0
+0,False,ambiguous_unit,1015,False,BIND weight e1,CALCULATE,0
+0,False,ambiguous_unit,1016,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1016,False,BIND weight e2,BIND weight e2,1
+0,False,ambiguous_unit,1017,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1017,False,BIND weight e1,BIND weight e1,1
+0,False,ambiguous_unit,1018,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1018,False,BIND weight e2,BIND weight e2,1
+0,False,ambiguous_unit,1019,True,CALCULATE,CALCULATE,1
+0,False,ambiguous_unit,1019,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1000,True,CALCULATE,CALCULATE,1
+0,True,stale,1000,False,BIND weight e1,BIND weight e1,1
+0,True,stale,1001,True,CALCULATE,CALCULATE,1
+0,True,stale,1001,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1002,True,CALCULATE,CALCULATE,1
+0,True,stale,1002,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1003,True,CALCULATE,BIND weight e1,0
+0,True,stale,1003,False,BIND weight e1,BIND weight e1,1
+0,True,stale,1004,True,CALCULATE,CALCULATE,1
+0,True,stale,1004,False,BIND weight e2,BIND weight e2,1
+0,True,stale,1005,True,CALCULATE,CALCULATE,1
+0,True,stale,1005,False,BIND weight e1,BIND weight e1,1
+0,True,stale,1006,True,CALCULATE,CALCULATE,1
+0,True,stale,1006,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1007,True,CALCULATE,CALCULATE,1
+0,True,stale,1007,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1008,True,CALCULATE,CALCULATE,1
+0,True,stale,1008,False,BIND weight e2,BIND weight e2,1
+0,True,stale,1009,True,CALCULATE,CALCULATE,1
+0,True,stale,1009,False,BIND weight e1,BIND weight e1,1
+0,True,stale,1010,True,CALCULATE,CALCULATE,1
+0,True,stale,1010,False,BIND weight e2,BIND weight e2,1
+0,True,stale,1011,True,CALCULATE,CALCULATE,1
+0,True,stale,1011,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1012,True,CALCULATE,CALCULATE,1
+0,True,stale,1012,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1013,True,CALCULATE,CALCULATE,1
+0,True,stale,1013,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1014,True,CALCULATE,CALCULATE,1
+0,True,stale,1014,False,BIND weight e3,BIND weight e3,1
+0,True,stale,1015,True,CALCULATE,CALCULATE,1
+0,True,stale,1015,False,BIND weight e1,BIND weight e1,1
+0,True,stale,1016,True,CALCULATE,CALCULATE,1
+0,True,stale,1016,False,BIND weight e2,BIND weight e2,1
+0,True,stale,1017,True,CALCULATE,CALCULATE,1
+0,True,stale,1017,False,BIND weight e1,BIND weight e1,1
+0,True,stale,1018,True,CALCULATE,CALCULATE,1
+0,True,stale,1018,False,BIND weight e2,BIND weight e2,1
+0,True,stale,1019,True,CALCULATE,CALCULATE,1
+0,True,stale,1019,False,BIND weight e3,BIND weight e3,1
+0,True,wrong_encounter,1000,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1000,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,True,wrong_encounter,1001,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1001,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1002,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1002,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1003,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1003,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,True,wrong_encounter,1004,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1004,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1005,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1005,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,True,wrong_encounter,1006,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1006,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1007,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1007,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,True,wrong_encounter,1008,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1008,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,True,wrong_encounter,1009,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1009,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,True,wrong_encounter,1010,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1010,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1011,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1011,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1012,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1012,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1013,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1013,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,True,wrong_encounter,1014,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1014,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1015,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1015,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+0,True,wrong_encounter,1016,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1016,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+0,True,wrong_encounter,1017,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1017,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1018,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1018,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,wrong_encounter,1019,True,CALCULATE,CALCULATE,1
+0,True,wrong_encounter,1019,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+0,True,ambiguous_unit,1000,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1000,False,BIND weight e1,BIND weight e1,1
+0,True,ambiguous_unit,1001,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1001,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1002,True,CALCULATE,"BIND value=""74""",0
+0,True,ambiguous_unit,1002,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1003,True,CALCULATE,BIND weight e3,0
+0,True,ambiguous_unit,1003,False,BIND weight e1,CALCULATE,0
+0,True,ambiguous_unit,1004,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1004,False,BIND weight e2,BIND weight e2,1
+0,True,ambiguous_unit,1005,True,CALCULATE,BIND weight e3,0
+0,True,ambiguous_unit,1005,False,BIND weight e1,CALCULATE,0
+0,True,ambiguous_unit,1006,True,CALCULATE,BIND value to weight,0
+0,True,ambiguous_unit,1006,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1007,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1007,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1008,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1008,False,BIND weight e2,BIND weight e2,1
+0,True,ambiguous_unit,1009,True,CALCULATE,BIND weight e3,0
+0,True,ambiguous_unit,1009,False,BIND weight e1,CALCULATE,0
+0,True,ambiguous_unit,1010,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1010,False,BIND weight e2,BIND weight e2,1
+0,True,ambiguous_unit,1011,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1011,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1012,True,CALCULATE,BIND value to weight,0
+0,True,ambiguous_unit,1012,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1013,True,CALCULATE,"BIND value=""92""",0
+0,True,ambiguous_unit,1013,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1014,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1014,False,BIND weight e3,BIND weight e3,1
+0,True,ambiguous_unit,1015,True,CALCULATE,BIND weight e3,0
+0,True,ambiguous_unit,1015,False,BIND weight e1,CALCULATE,0
+0,True,ambiguous_unit,1016,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1016,False,BIND weight e2,BIND weight e2,1
+0,True,ambiguous_unit,1017,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1017,False,BIND weight e1,BIND weight e1,1
+0,True,ambiguous_unit,1018,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1018,False,BIND weight e2,BIND weight e2,1
+0,True,ambiguous_unit,1019,True,CALCULATE,CALCULATE,1
+0,True,ambiguous_unit,1019,False,BIND weight e3,BIND weight e3,1
+1,False,stale,1000,True,CALCULATE,CALCULATE,1
+1,False,stale,1000,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1001,True,CALCULATE,CALCULATE,1
+1,False,stale,1001,False,BIND weight e1,BIND weight e1,1
+1,False,stale,1002,True,CALCULATE,CALCULATE,1
+1,False,stale,1002,False,BIND weight e3,BIND weight e3,1
+1,False,stale,1003,True,CALCULATE,CALCULATE,1
+1,False,stale,1003,False,BIND weight e1,BIND weight e1,1
+1,False,stale,1004,True,CALCULATE,CALCULATE,1
+1,False,stale,1004,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1005,True,CALCULATE,CALCULATE,1
+1,False,stale,1005,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1006,True,CALCULATE,CALCULATE,1
+1,False,stale,1006,False,BIND weight e3,BIND weight e3,1
+1,False,stale,1007,True,CALCULATE,CALCULATE,1
+1,False,stale,1007,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1008,True,CALCULATE,CALCULATE,1
+1,False,stale,1008,False,BIND weight e3,BIND weight e3,1
+1,False,stale,1009,True,CALCULATE,CALCULATE,1
+1,False,stale,1009,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1010,True,CALCULATE,CALCULATE,1
+1,False,stale,1010,False,BIND weight e1,BIND weight e1,1
+1,False,stale,1011,True,CALCULATE,CALCULATE,1
+1,False,stale,1011,False,BIND weight e1,BIND weight e1,1
+1,False,stale,1012,True,CALCULATE,CALCULATE,1
+1,False,stale,1012,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1013,True,CALCULATE,CALCULATE,1
+1,False,stale,1013,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1014,True,CALCULATE,CALCULATE,1
+1,False,stale,1014,False,BIND weight e1,BIND weight e1,1
+1,False,stale,1015,True,CALCULATE,CALCULATE,1
+1,False,stale,1015,False,BIND weight e1,BIND weight e1,1
+1,False,stale,1016,True,CALCULATE,CALCULATE,1
+1,False,stale,1016,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1017,True,CALCULATE,CALCULATE,1
+1,False,stale,1017,False,BIND weight e2,BIND weight e2,1
+1,False,stale,1018,True,CALCULATE,CALCULATE,1
+1,False,stale,1018,False,BIND weight e1,BIND weight e1,1
+1,False,stale,1019,True,CALCULATE,CALCULATE,1
+1,False,stale,1019,False,BIND weight e2,BIND weight e2,1
+1,False,wrong_encounter,1000,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1000,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,False,wrong_encounter,1001,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1001,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1002,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1002,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,False,wrong_encounter,1003,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1003,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1004,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1004,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,wrong_encounter,1005,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1005,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,wrong_encounter,1006,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1006,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,False,wrong_encounter,1007,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1007,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,wrong_encounter,1008,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1008,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,False,wrong_encounter,1009,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1009,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,wrong_encounter,1010,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1010,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1011,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1011,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1012,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1012,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,wrong_encounter,1013,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1013,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,wrong_encounter,1014,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1014,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1015,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1015,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1016,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1016,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,wrong_encounter,1017,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1017,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1018,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1018,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,False,wrong_encounter,1019,True,CALCULATE,CALCULATE,1
+1,False,wrong_encounter,1019,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,False,ambiguous_unit,1000,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1000,False,BIND weight e1,BIND weight e1,1
+1,False,ambiguous_unit,1001,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1001,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1002,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1002,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1003,True,CALCULATE,BIND weight e3,0
+1,False,ambiguous_unit,1003,False,BIND weight e1,CALCULATE,0
+1,False,ambiguous_unit,1004,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1004,False,BIND weight e2,BIND weight e2,1
+1,False,ambiguous_unit,1005,True,CALCULATE,BIND weight e3,0
+1,False,ambiguous_unit,1005,False,BIND weight e1,CALCULATE,0
+1,False,ambiguous_unit,1006,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1006,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1007,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1007,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1008,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1008,False,BIND weight e2,BIND weight e2,1
+1,False,ambiguous_unit,1009,True,CALCULATE,BIND weight e3,0
+1,False,ambiguous_unit,1009,False,BIND weight e1,CALCULATE,0
+1,False,ambiguous_unit,1010,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1010,False,BIND weight e2,BIND weight e2,1
+1,False,ambiguous_unit,1011,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1011,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1012,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1012,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1013,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1013,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1014,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1014,False,BIND weight e3,BIND weight e3,1
+1,False,ambiguous_unit,1015,True,CALCULATE,BIND weight e3,0
+1,False,ambiguous_unit,1015,False,BIND weight e1,CALCULATE,0
+1,False,ambiguous_unit,1016,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1016,False,BIND weight e2,BIND weight e2,1
+1,False,ambiguous_unit,1017,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1017,False,BIND weight e1,BIND weight e1,1
+1,False,ambiguous_unit,1018,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1018,False,BIND weight e2,BIND weight e2,1
+1,False,ambiguous_unit,1019,True,CALCULATE,CALCULATE,1
+1,False,ambiguous_unit,1019,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1000,True,CALCULATE,CALCULATE,1
+1,True,stale,1000,False,BIND weight e1,BIND weight e1,1
+1,True,stale,1001,True,CALCULATE,CALCULATE,1
+1,True,stale,1001,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1002,True,CALCULATE,CALCULATE,1
+1,True,stale,1002,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1003,True,CALCULATE,CALCULATE,1
+1,True,stale,1003,False,BIND weight e1,BIND weight e1,1
+1,True,stale,1004,True,CALCULATE,CALCULATE,1
+1,True,stale,1004,False,BIND weight e2,BIND weight e2,1
+1,True,stale,1005,True,CALCULATE,CALCULATE,1
+1,True,stale,1005,False,BIND weight e1,BIND weight e1,1
+1,True,stale,1006,True,CALCULATE,CALCULATE,1
+1,True,stale,1006,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1007,True,CALCULATE,CALCULATE,1
+1,True,stale,1007,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1008,True,CALCULATE,CALCULATE,1
+1,True,stale,1008,False,BIND weight e2,BIND weight e2,1
+1,True,stale,1009,True,CALCULATE,CALCULATE,1
+1,True,stale,1009,False,BIND weight e1,BIND weight e1,1
+1,True,stale,1010,True,CALCULATE,CALCULATE,1
+1,True,stale,1010,False,BIND weight e2,BIND weight e2,1
+1,True,stale,1011,True,CALCULATE,CALCULATE,1
+1,True,stale,1011,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1012,True,CALCULATE,CALCULATE,1
+1,True,stale,1012,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1013,True,CALCULATE,CALCULATE,1
+1,True,stale,1013,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1014,True,CALCULATE,CALCULATE,1
+1,True,stale,1014,False,BIND weight e3,BIND weight e3,1
+1,True,stale,1015,True,CALCULATE,CALCULATE,1
+1,True,stale,1015,False,BIND weight e1,BIND weight e1,1
+1,True,stale,1016,True,CALCULATE,CALCULATE,1
+1,True,stale,1016,False,BIND weight e2,BIND weight e2,1
+1,True,stale,1017,True,CALCULATE,CALCULATE,1
+1,True,stale,1017,False,BIND weight e1,BIND weight e1,1
+1,True,stale,1018,True,CALCULATE,CALCULATE,1
+1,True,stale,1018,False,BIND weight e2,BIND weight e2,1
+1,True,stale,1019,True,CALCULATE,CALCULATE,1
+1,True,stale,1019,False,BIND weight e3,BIND weight e3,1
+1,True,wrong_encounter,1000,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1000,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,True,wrong_encounter,1001,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1001,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1002,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1002,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1003,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1003,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,True,wrong_encounter,1004,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1004,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1005,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1005,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,True,wrong_encounter,1006,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1006,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1007,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1007,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,True,wrong_encounter,1008,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1008,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,True,wrong_encounter,1009,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1009,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,True,wrong_encounter,1010,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1010,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1011,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1011,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1012,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1012,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1013,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1013,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,True,wrong_encounter,1014,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1014,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1015,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1015,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+1,True,wrong_encounter,1016,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1016,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+1,True,wrong_encounter,1017,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1017,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1018,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1018,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,wrong_encounter,1019,True,CALCULATE,CALCULATE,1
+1,True,wrong_encounter,1019,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+1,True,ambiguous_unit,1000,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1000,False,BIND weight e1,BIND weight e1,1
+1,True,ambiguous_unit,1001,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1001,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1002,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1002,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1003,True,CALCULATE,BIND weight e3,0
+1,True,ambiguous_unit,1003,False,BIND weight e1,CALCULATE,0
+1,True,ambiguous_unit,1004,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1004,False,BIND weight e2,BIND weight e2,1
+1,True,ambiguous_unit,1005,True,CALCULATE,BIND weight e3,0
+1,True,ambiguous_unit,1005,False,BIND weight e1,CALCULATE,0
+1,True,ambiguous_unit,1006,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1006,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1007,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1007,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1008,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1008,False,BIND weight e2,BIND weight e2,1
+1,True,ambiguous_unit,1009,True,CALCULATE,BIND weight e3,0
+1,True,ambiguous_unit,1009,False,BIND weight e1,CALCULATE,0
+1,True,ambiguous_unit,1010,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1010,False,BIND weight e2,BIND weight e2,1
+1,True,ambiguous_unit,1011,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1011,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1012,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1012,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1013,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1013,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1014,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1014,False,BIND weight e3,BIND weight e3,1
+1,True,ambiguous_unit,1015,True,CALCULATE,BIND weight e3,0
+1,True,ambiguous_unit,1015,False,BIND weight e1,CALCULATE,0
+1,True,ambiguous_unit,1016,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1016,False,BIND weight e2,BIND weight e2,1
+1,True,ambiguous_unit,1017,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1017,False,BIND weight e1,BIND weight e1,1
+1,True,ambiguous_unit,1018,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1018,False,BIND weight e2,BIND weight e2,1
+1,True,ambiguous_unit,1019,True,CALCULATE,CALCULATE,1
+1,True,ambiguous_unit,1019,False,BIND weight e3,BIND weight e3,1
+2,False,stale,1000,True,CALCULATE,CALCULATE,1
+2,False,stale,1000,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1001,True,CALCULATE,CALCULATE,1
+2,False,stale,1001,False,BIND weight e1,BIND weight e1,1
+2,False,stale,1002,True,CALCULATE,CALCULATE,1
+2,False,stale,1002,False,BIND weight e3,BIND weight e3,1
+2,False,stale,1003,True,CALCULATE,CALCULATE,1
+2,False,stale,1003,False,BIND weight e1,BIND weight e1,1
+2,False,stale,1004,True,CALCULATE,CALCULATE,1
+2,False,stale,1004,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1005,True,CALCULATE,CALCULATE,1
+2,False,stale,1005,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1006,True,CALCULATE,CALCULATE,1
+2,False,stale,1006,False,BIND weight e3,BIND weight e3,1
+2,False,stale,1007,True,CALCULATE,CALCULATE,1
+2,False,stale,1007,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1008,True,CALCULATE,CALCULATE,1
+2,False,stale,1008,False,BIND weight e3,BIND weight e3,1
+2,False,stale,1009,True,CALCULATE,CALCULATE,1
+2,False,stale,1009,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1010,True,CALCULATE,CALCULATE,1
+2,False,stale,1010,False,BIND weight e1,BIND weight e1,1
+2,False,stale,1011,True,CALCULATE,CALCULATE,1
+2,False,stale,1011,False,BIND weight e1,BIND weight e1,1
+2,False,stale,1012,True,CALCULATE,CALCULATE,1
+2,False,stale,1012,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1013,True,CALCULATE,CALCULATE,1
+2,False,stale,1013,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1014,True,CALCULATE,CALCULATE,1
+2,False,stale,1014,False,BIND weight e1,BIND weight e1,1
+2,False,stale,1015,True,CALCULATE,CALCULATE,1
+2,False,stale,1015,False,BIND weight e1,BIND weight e1,1
+2,False,stale,1016,True,CALCULATE,CALCULATE,1
+2,False,stale,1016,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1017,True,CALCULATE,CALCULATE,1
+2,False,stale,1017,False,BIND weight e2,BIND weight e2,1
+2,False,stale,1018,True,CALCULATE,CALCULATE,1
+2,False,stale,1018,False,BIND weight e1,BIND weight e1,1
+2,False,stale,1019,True,CALCULATE,CALCULATE,1
+2,False,stale,1019,False,BIND weight e2,BIND weight e2,1
+2,False,wrong_encounter,1000,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1000,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,False,wrong_encounter,1001,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1001,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1002,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1002,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,False,wrong_encounter,1003,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1003,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1004,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1004,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,wrong_encounter,1005,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1005,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,wrong_encounter,1006,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1006,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,False,wrong_encounter,1007,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1007,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,wrong_encounter,1008,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1008,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,False,wrong_encounter,1009,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1009,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,wrong_encounter,1010,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1010,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1011,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1011,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1012,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1012,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,wrong_encounter,1013,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1013,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,wrong_encounter,1014,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1014,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1015,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1015,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1016,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1016,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,wrong_encounter,1017,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1017,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1018,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1018,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,False,wrong_encounter,1019,True,CALCULATE,CALCULATE,1
+2,False,wrong_encounter,1019,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,False,ambiguous_unit,1000,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1000,False,BIND weight e1,BIND weight e1,1
+2,False,ambiguous_unit,1001,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1001,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1002,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1002,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1003,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1003,False,BIND weight e1,BIND weight e1,1
+2,False,ambiguous_unit,1004,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1004,False,BIND weight e2,BIND weight e2,1
+2,False,ambiguous_unit,1005,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1005,False,BIND weight e1,BIND weight e1,1
+2,False,ambiguous_unit,1006,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1006,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1007,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1007,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1008,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1008,False,BIND weight e2,BIND weight e2,1
+2,False,ambiguous_unit,1009,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1009,False,BIND weight e1,BIND weight e1,1
+2,False,ambiguous_unit,1010,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1010,False,BIND weight e2,BIND weight e2,1
+2,False,ambiguous_unit,1011,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1011,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1012,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1012,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1013,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1013,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1014,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1014,False,BIND weight e3,BIND weight e3,1
+2,False,ambiguous_unit,1015,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1015,False,BIND weight e1,BIND weight e1,1
+2,False,ambiguous_unit,1016,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1016,False,BIND weight e2,BIND weight e2,1
+2,False,ambiguous_unit,1017,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1017,False,BIND weight e1,BIND weight e1,1
+2,False,ambiguous_unit,1018,True,CALCULATE,BIND weight e3,0
+2,False,ambiguous_unit,1018,False,BIND weight e2,BIND weight e2,1
+2,False,ambiguous_unit,1019,True,CALCULATE,CALCULATE,1
+2,False,ambiguous_unit,1019,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1000,True,CALCULATE,CALCULATE,1
+2,True,stale,1000,False,BIND weight e1,BIND weight e1,1
+2,True,stale,1001,True,CALCULATE,CALCULATE,1
+2,True,stale,1001,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1002,True,CALCULATE,CALCULATE,1
+2,True,stale,1002,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1003,True,CALCULATE,CALCULATE,1
+2,True,stale,1003,False,BIND weight e1,BIND weight e1,1
+2,True,stale,1004,True,CALCULATE,CALCULATE,1
+2,True,stale,1004,False,BIND weight e2,BIND weight e2,1
+2,True,stale,1005,True,CALCULATE,CALCULATE,1
+2,True,stale,1005,False,BIND weight e1,BIND weight e1,1
+2,True,stale,1006,True,CALCULATE,CALCULATE,1
+2,True,stale,1006,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1007,True,CALCULATE,CALCULATE,1
+2,True,stale,1007,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1008,True,CALCULATE,CALCULATE,1
+2,True,stale,1008,False,BIND weight e2,BIND weight e2,1
+2,True,stale,1009,True,CALCULATE,CALCULATE,1
+2,True,stale,1009,False,BIND weight e1,BIND weight e1,1
+2,True,stale,1010,True,CALCULATE,CALCULATE,1
+2,True,stale,1010,False,BIND weight e2,BIND weight e2,1
+2,True,stale,1011,True,CALCULATE,CALCULATE,1
+2,True,stale,1011,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1012,True,CALCULATE,CALCULATE,1
+2,True,stale,1012,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1013,True,CALCULATE,CALCULATE,1
+2,True,stale,1013,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1014,True,CALCULATE,CALCULATE,1
+2,True,stale,1014,False,BIND weight e3,BIND weight e3,1
+2,True,stale,1015,True,CALCULATE,CALCULATE,1
+2,True,stale,1015,False,BIND weight e1,BIND weight e1,1
+2,True,stale,1016,True,CALCULATE,CALCULATE,1
+2,True,stale,1016,False,BIND weight e2,BIND weight e2,1
+2,True,stale,1017,True,CALCULATE,CALCULATE,1
+2,True,stale,1017,False,BIND weight e1,BIND weight e1,1
+2,True,stale,1018,True,CALCULATE,CALCULATE,1
+2,True,stale,1018,False,BIND weight e2,BIND weight e2,1
+2,True,stale,1019,True,CALCULATE,CALCULATE,1
+2,True,stale,1019,False,BIND weight e3,BIND weight e3,1
+2,True,wrong_encounter,1000,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1000,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,True,wrong_encounter,1001,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1001,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1002,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1002,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1003,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1003,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,True,wrong_encounter,1004,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1004,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1005,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1005,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,True,wrong_encounter,1006,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1006,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1007,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1007,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,True,wrong_encounter,1008,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1008,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,True,wrong_encounter,1009,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1009,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,True,wrong_encounter,1010,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1010,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1011,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1011,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1012,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1012,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1013,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1013,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,True,wrong_encounter,1014,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1014,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1015,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1015,False,BIND Systolic Blood Pressure e1,BIND Systolic Blood Pressure e1,1
+2,True,wrong_encounter,1016,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1016,False,BIND Systolic Blood Pressure e2,BIND Systolic Blood Pressure e2,1
+2,True,wrong_encounter,1017,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1017,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1018,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1018,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,wrong_encounter,1019,True,CALCULATE,CALCULATE,1
+2,True,wrong_encounter,1019,False,BIND Systolic Blood Pressure e3,BIND Systolic Blood Pressure e3,1
+2,True,ambiguous_unit,1000,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1000,False,BIND weight e1,BIND weight e1,1
+2,True,ambiguous_unit,1001,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1001,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1002,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1002,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1003,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1003,False,BIND weight e1,BIND weight e1,1
+2,True,ambiguous_unit,1004,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1004,False,BIND weight e2,BIND weight e2,1
+2,True,ambiguous_unit,1005,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1005,False,BIND weight e1,BIND weight e1,1
+2,True,ambiguous_unit,1006,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1006,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1007,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1007,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1008,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1008,False,BIND weight e2,BIND weight e2,1
+2,True,ambiguous_unit,1009,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1009,False,BIND weight e1,BIND weight e1,1
+2,True,ambiguous_unit,1010,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1010,False,BIND weight e2,BIND weight e2,1
+2,True,ambiguous_unit,1011,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1011,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1012,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1012,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1013,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1013,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1014,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1014,False,BIND weight e3,BIND weight e3,1
+2,True,ambiguous_unit,1015,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1015,False,BIND weight e1,BIND weight e1,1
+2,True,ambiguous_unit,1016,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1016,False,BIND weight e2,BIND weight e2,1
+2,True,ambiguous_unit,1017,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1017,False,BIND weight e1,BIND weight e1,1
+2,True,ambiguous_unit,1018,True,CALCULATE,BIND weight e3,0
+2,True,ambiguous_unit,1018,False,BIND weight e2,BIND weight e2,1
+2,True,ambiguous_unit,1019,True,CALCULATE,CALCULATE,1
+2,True,ambiguous_unit,1019,False,BIND weight e3,BIND weight e3,1
